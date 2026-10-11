@@ -1,10 +1,10 @@
 # Map to the 104-page preprint
 
-The authority for this package is [`paper/main_preprint.pdf`](../paper/main_preprint.pdf),
+The authority for this package is the [preprint on Optimization Online](https://optimization-online.org/?p=37002),
 *Differentiating Through Moving Recourse: Feasible Policy Optimization and
 Finite-Sample Certification for Multistage Stochastic Programs*, by Lanran
 Fang, Hyuk Park, and Grani A. Hanasusanto. Its SHA-256 and the corresponding
-TeX source SHA-256 are recorded in `paper/provenance.json`.
+TeX source SHA-256 are recorded in `artifact/preprint_provenance.json`.
 
 The internal names `algorithm1`, `A1`, and `regularized_a1_v2` refer to the
 method called **FeasPG** in the preprint. They are retained for compatibility
@@ -32,12 +32,12 @@ from the research directory are excluded.
 
 Run `python -m artifact.reproduce_figures` from the repository root. It rebuilds
 Figures 2--7 from archived measurements and recomputes the certificate summary
-over all 200 repetitions. Figure 1 is a conceptual TikZ diagram; its source is
-copied into the output directory, rather than treated as experiment data.
+over all 200 repetitions. Figure 1 is a conceptual diagram in the linked
+paper. Generated figures are saved locally under the ignored `outputs/` directory.
 
 | Figure | Topic | Portable drawing module / data |
 |---|---|---|
-| 1 | Two-stage policy and moving recourse | `paper/figures/figure01.tex`, extracted from the exact preprint TeX |
+| 1 | Two-stage policy and moving recourse | Conceptual diagram in the linked paper |
 | 2 | Cost FD, regularized FD, horizon amplification | `artifact/plot_gradient_mechanism.py`; `reference_results/iclr_algorithm1_experiments/outputs/formal_protocol_v1/01_mechanisms/` and `auxiliary_gradient_v1/diagnostics/finite_difference.csv` |
 | 3 | Constructed zero-gradient initialization, first 300 of 500 updates | `artifact/plot_plateau.py`; `projection_plateau_v1/report/all_validation_histories.csv` |
 | 4 | Controlled sample-path budget | `artifact/plot_preprint_budget.py`; `reference_results/paper/controlled_budget_only_data.csv` |
@@ -47,9 +47,8 @@ copied into the output directory, rather than treated as experiment data.
 
 Paths in the last column without a leading `reference_results/` are relative
 to `reference_results/iclr_algorithm1_experiments/outputs/`.
-The PDFs actually embedded in the supplied preprint are kept unchanged in
-`paper/figures/`. Rebuilt plots have the same numerical data; PDF byte identity
-is not expected because metadata, fonts, and backend versions can differ.
+The linked paper provides the published figures. Plotting scripts rebuild
+experimental plots from numerical records; generated images are excluded from Git.
 
 The 5,000-path SDDP points in Figure 5 are retained from the published CSV and
 the archived budget report. The preprint describes them as a subsequent
@@ -57,11 +56,9 @@ extension. They are not newly generated baseline runs during packaging.
 
 ## Tables and appendices
 
-Verbatim TeX snapshots of all 14 tables are in `paper/tables/table01.tex` through
-`table14.tex`. These are the manuscript's printed values, not independently
-recomputed estimates. Table 1 also has a numerical CSV-to-Markdown/TeX rebuild
-in `artifact/reproduce_figures.py`. The following map identifies the records
-and training drivers for the other tables.
+The linked paper provides all 14 tables. Table 1 has a numerical
+CSV-to-Markdown/TeX rebuild in `artifact/reproduce_figures.py`. The following
+map identifies the records and training drivers for the other tables.
 
 | Table / appendix | Experiment and source |
 |---|---|

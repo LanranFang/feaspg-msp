@@ -4,8 +4,9 @@ Code and numerical artifacts for **Differentiating Through Moving Recourse:
 Feasible Policy Optimization and Finite-Sample Certification for Multistage
 Stochastic Programs**, by **Lanran Fang, Hyuk Park, and Grani A. Hanasusanto**.
 
-This repository is aligned with the supplied **104-page preprint** in
-[`paper/main_preprint.pdf`](paper/main_preprint.pdf). It includes projected
+Paper: [Optimization Online](https://optimization-online.org/?p=37002).
+
+This repository is aligned with the supplied **104-page preprint**. It includes projected
 policy optimization, moving-recourse gradients, proposal-distance
 regularization, synthetic hydro benchmarks, ONS/CAMELS-BR case studies,
 and finite-sample policy certificates.
@@ -23,9 +24,9 @@ python -m artifact.reproduce_figures
 ```
 
 The last command rebuilds **Figures 2--7 and Table 1** from saved numerical
-records in `outputs/paper/`. Figure 1 is a conceptual diagram: its TikZ source
-is copied to the output directory. Original preprint figure PDFs and verbatim
-TeX snapshots of all **14 tables** are retained under `paper/`.
+records in the ignored local directory `outputs/paper/`. Figure 1 is a
+conceptual diagram in the linked paper. The paper and exported figure files
+are excluded from Git and release archives.
 See [`docs/PAPER_MAP.md`](docs/PAPER_MAP.md) for the exact paper-to-code map.
 
 Plotting does not train models. To check short training runs and evaluate
@@ -73,7 +74,6 @@ Refitting and continuous optimization audits have additional solver requirements
 | `inputs/` | Configurations, seeds, input recipes, and fingerprints |
 | `reference_results/` | Archived numerical summaries and certificate reports |
 | `reference_checkpoints/` | Selected FeasPG parameters and per-path costs |
-| `paper/` | Exact supplied PDF, embedded figure PDFs, table/diagram source snapshots, provenance |
 | `docs/` | Paper map and historical validation record |
 
 The internal names `A1`, `algorithm1`, and `regularized_a1_v2` refer to FeasPG.

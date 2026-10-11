@@ -13,3 +13,16 @@ efficiency_switching_hydro/outputs/
 algorithm1_gradient_study/outputs/
 algorithm1_full_comparison/outputs/
 real_data_hydro_experiments/outputs/
+
+# Manuscripts and exported figures stay local
+/paper/
+*.eps
+*.gif
+*.jpeg
+*.jpg
+*.pdf
+*.png
+*.svg
+*.tif
+*.tiff
+*.webp

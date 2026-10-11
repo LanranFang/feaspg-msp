@@ -15,7 +15,7 @@ performed today.
 | Independent certificate replay | Repetition 0, all **90** settings; fresh calibration/evaluation paths; maximum certificate difference **7.11e-15** |
 | Paper figures and main table | Figures 2--7 and Table 1 rebuilt; certificate means **39.5354024** and **13.2534751** |
 | Preprint alignment | FD errors match printed values; all five hydrology budget series include 5,000 paths and match archived reports exactly; 500-update startup histories have five seeds per arm |
-| Source fidelity | Training/model/certificate Python files are byte-identical to the inherited portable artifact; all six embedded experimental figure PDFs and 14 extracted table blocks match their manuscript sources |
+| Source fidelity | Training/model/certificate Python files are byte-identical to the inherited portable artifact |
 | Relocation | Clean distributed files copied to a temporary directory; inherited PYTHONPATH removed; all six research package imports resolve locally; figure build succeeds; controlled matched MLP N_fit=100 replay has zero per-path discrepancy |
 | Documentation | English Markdown only; current internal documentation links resolve |
 | Release integrity | Distributed-file SHA-256 manifest and ZIP CRC verified after assembly |
@@ -36,10 +36,16 @@ The supplied data are prepared ONS/CAMELS-BR models and historical evaluation
 arrays. Full upstream downloads and raw-data preprocessing were not repeated;
 see `DATA.md`.
 
-Table 1 is rebuilt from saved numerical records. Tables 1--14 are also supplied
-as verbatim TeX snapshots; copying those snapshots does not independently
-recompute each table. Figure 1 is a conceptual TikZ source snapshot.
+Table 1 is rebuilt from saved numerical records. The linked paper contains
+all 14 tables and the conceptual Figure 1; these manuscript assets are
+excluded from the code distribution.
 
 The inner DP and verified optimum interval apply to the specific small
 certificate benchmarks. They do not establish global optimality of policies
 in the larger nonlinear control experiments.
+
+## Code-only distribution check
+
+After excluding the manuscript and exported images, the plotting entry point
+is checked without the local `paper/` directory. Source checksums and both
+release ZIPs are refreshed. Figures generated during verification remain local.

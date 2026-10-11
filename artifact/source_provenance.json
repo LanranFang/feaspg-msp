@@ -3,7 +3,7 @@
     "file": "README.md",
     "source": "README.md",
     "source_sha256": "8b90c7d3c88720d821fc997a4a55c4175af2e7809a353fe1402d48ff433cc1d5",
-    "packaged_sha256": "b92fd5076515373cc6ec9690689e4d97bc9581c1beb38c7187ccced07d968fa7"
+    "packaged_sha256": "653e557ebe91bd4d06e626dda0af62f4e6272bb3b375495e1a39b773f567cfe5"
   },
   {
     "file": "algorithm1_full_comparison/__init__.py",
@@ -501,55 +501,6 @@
     "source": "iclr_algorithm1_experiments/outputs/regularized_a1_v2/protocol.json",
     "source_sha256": "261d384ddd7ef2dae6e9b1346a6c956c1d02ad9f3ebcc9937abf1bc6d811f50f",
     "packaged_sha256": "261d384ddd7ef2dae6e9b1346a6c956c1d02ad9f3ebcc9937abf1bc6d811f50f"
-  },
-  {
-    "file": "paper/figures/certificate_hydro.pdf",
-    "source": "overleaf_iclr2027/extend_version/figures/certificate_hydro.pdf",
-    "source_sha256": "c2dc73a9037b6abc359d8d6ea1d6bca3fa40afd3f1ea98ae211c991386aa5e37",
-    "packaging_change": "Unchanged source snapshot.",
-    "packaged_sha256": "c2dc73a9037b6abc359d8d6ea1d6bca3fa40afd3f1ea98ae211c991386aa5e37"
-  },
-  {
-    "file": "paper/figures/controlled_budget_latency.pdf",
-    "source": "overleaf_iclr2027/extend_version/figures/controlled_budget_latency.pdf",
-    "source_sha256": "3caa91cc2585a2be673c1212822ed3eff7f1051df048b446277390576e684716",
-    "packaging_change": "Unchanged source snapshot.",
-    "packaged_sha256": "3caa91cc2585a2be673c1212822ed3eff7f1051df048b446277390576e684716"
-  },
-  {
-    "file": "paper/figures/controlled_budget_preprint.pdf",
-    "source": "overleaf_iclr2027/extend_version/figures/controlled_budget_preprint.pdf",
-    "source_sha256": "940c72dbd38867300d1f1e00dee7150e8d21ffe4521ec790d5c524704063efd7",
-    "packaging_change": "Unchanged source snapshot.",
-    "packaged_sha256": "940c72dbd38867300d1f1e00dee7150e8d21ffe4521ec790d5c524704063efd7"
-  },
-  {
-    "file": "paper/figures/gradient_mechanism.pdf",
-    "source": "overleaf_iclr2027/extend_version/figures/gradient_mechanism.pdf",
-    "source_sha256": "ea2cd27daf3f8b62304afe2c29bd51ff3460fc87852e1a4963c691fd986ac35a",
-    "packaging_change": "Unchanged source snapshot.",
-    "packaged_sha256": "ea2cd27daf3f8b62304afe2c29bd51ff3460fc87852e1a4963c691fd986ac35a"
-  },
-  {
-    "file": "paper/figures/proposal_distance_mechanism.pdf",
-    "source": "overleaf_iclr2027/extend_version/figures/proposal_distance_mechanism.pdf",
-    "source_sha256": "64eb988a5b193320d88733e0071a9407e10f923e7ab6b1ca03078c0f640c5c37",
-    "packaging_change": "Unchanged source snapshot.",
-    "packaged_sha256": "64eb988a5b193320d88733e0071a9407e10f923e7ab6b1ca03078c0f640c5c37"
-  },
-  {
-    "file": "paper/figures/real_hydrology_preprint.pdf",
-    "source": "overleaf_iclr2027/extend_version/figures/real_hydrology_preprint.pdf",
-    "source_sha256": "589e3235f201ab7749e1e538875a634d2451852813c2581e839f465f554b034c",
-    "packaging_change": "Unchanged source snapshot.",
-    "packaged_sha256": "589e3235f201ab7749e1e538875a634d2451852813c2581e839f465f554b034c"
-  },
-  {
-    "file": "paper/main_preprint.pdf",
-    "source": "overleaf_iclr2027/extend_version/main_preprint.pdf",
-    "source_sha256": "58d75cfdf04a48558cf89ba9e26ec7504ceff4cb03fa3215752fb87ab08a3b30",
-    "packaging_change": "Unchanged source snapshot.",
-    "packaged_sha256": "58d75cfdf04a48558cf89ba9e26ec7504ceff4cb03fa3215752fb87ab08a3b30"
   },
   {
     "file": "real_data_hydro_experiments/data/processed/camels_br_12/audit/basin_benchmark_audit.csv",

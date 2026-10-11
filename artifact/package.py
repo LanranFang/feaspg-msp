@@ -9,6 +9,10 @@ from . import ROOT
 
 def distributed(path):
     rel = path.relative_to(ROOT)
+    if rel.parts[0] == 'paper' or path.suffix.lower() in (
+        '.pdf', '.png', '.jpg', '.jpeg', '.svg', '.eps', '.webp', '.gif', '.tif', '.tiff'
+    ):
+        return False
     if not path.is_file() or any(p in rel.parts for p in (
         '__pycache__', '.pytest_cache', '.git', '.venv', 'node_modules'
     )):
@@ -43,7 +47,7 @@ def main():
     archive.parent.mkdir(parents=True, exist_ok=True)
     provenance = ROOT / 'artifact/source_provenance.json'
     old = {r['file']: r for r in json.loads(provenance.read_text())}
-    exports = json.loads((ROOT / 'paper/provenance.json').read_text())['new_exports']
+    exports = json.loads((ROOT / 'artifact/preprint_provenance.json').read_text())['new_exports']
     for entry in exports:
         old[entry['destination']] = {
             'file': entry['destination'], 'source': entry['source'],

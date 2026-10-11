@@ -1,8 +1,6 @@
 """Rebuild preprint Figures 2--7 and Table 1 from frozen experiment records."""
 import argparse
 import json
-import hashlib
-import shutil
 import matplotlib.pyplot as plt
 import pandas as pd
 from . import ROOT
@@ -57,23 +55,16 @@ def main():
     tex.extend([r'\hline',r'\end{tabular}'])
     (dest/'table1.md').write_text('\n'.join(lines)+'\n')
     (dest/'table1.tex').write_text('\n'.join(tex)+'\n')
-    # These are explicit source snapshots, not newly estimated table values.
-    snapshots = dest/'paper_table_snapshots'
-    snapshots.mkdir(exist_ok=True)
-    for path in (ROOT/'paper/tables').glob('table*.tex'):
-        shutil.copy2(path, snapshots/path.name)
-    shutil.copy2(ROOT/'paper/figures/figure01.tex', dest/'figure01.tex')
     focus=summary[(summary.checkpoint==400)&(summary.generator=='pwl')&(summary.n_calibration==32768)]
     report={'certificate_repetitions_per_setting':200,
             'original_certificate_mean':float(focus[focus.variant=='original'].certificate_mean.iloc[0]),
             'tightened_certificate_mean':float(focus[focus.variant=='tightened'].certificate_mean.iloc[0]),
             'source':'frozen experiment records; no retraining in this command',
-            'paper_pdf_sha256': hashlib.sha256((ROOT/'paper/main_preprint.pdf').read_bytes()).hexdigest(),
-            'figure_map': {'1':'figure01.tex (TikZ source snapshot)',
-                           '2':'gradient_mechanism.pdf', '3':'proposal_distance_mechanism.pdf',
+            'paper_url': 'https://optimization-online.org/?p=37002',
+            'figure_map': {'2':'gradient_mechanism.pdf', '3':'proposal_distance_mechanism.pdf',
                            '4':'controlled_budget_preprint.pdf', '5':'real_hydrology_preprint.pdf',
                            '6':'certificate_hydro.pdf', '7':'controlled_budget_latency.pdf'},
-            'tables': 'Table 1 rebuilt from numerical records; Tables 1--14 also retained as verbatim TeX source snapshots'}
+            'tables': 'Table 1 rebuilt from numerical records; other tables are documented in docs/PAPER_MAP.md'}
     (dest/'rebuild_report.json').write_text(json.dumps(report,indent=2)+'\n')
     print('\n'.join(lines))
     print(json.dumps(report,indent=2))

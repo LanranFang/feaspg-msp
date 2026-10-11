@@ -45,11 +45,16 @@ distributed input specifications use JSON and numerical NPZ files.
   Drawing computations are retained from their research scripts; input/output
   paths now resolve inside this repository.
 - Retained the 5,000-path hydrology extension in the current published CSV.
-- Added unchanged PDFs of all embedded experimental figures, Figure 1's TikZ
-  source, and verbatim snapshots of all 14 tables. Table 1 is additionally rebuilt
-  from numerical records; other table snapshots are explicitly labeled.
+- Added a numerical rebuild of Table 1 and the full figure/table-to-code map.
 - Replaced anonymous front-page text and old figure numbering with English
   preprint documentation. Historical validation remains dated and separate.
 
-`paper/provenance.json` identifies the new exports and their source checksums.
+`artifact/preprint_provenance.json` identifies the new exports and their source checksums.
 `artifact/source_provenance.json` records the inherited portability changes.
+
+## Code-only GitHub distribution
+
+The paper, diagram/table source snapshots, and exported images are excluded
+from Git and release archives. README and citation metadata link to
+https://optimization-online.org/?p=37002. Plotting reads numerical records
+and writes figures locally; it does not require a bundled manuscript.

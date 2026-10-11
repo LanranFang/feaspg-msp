@@ -12,41 +12,6 @@
   "base_artifact": "iclr2027_code_submission",
   "new_exports": [
     {
-      "source": "overleaf_iclr2027/extend_version/main_preprint.pdf",
-      "destination": "paper/main_preprint.pdf",
-      "sha256": "58d75cfdf04a48558cf89ba9e26ec7504ceff4cb03fa3215752fb87ab08a3b30"
-    },
-    {
-      "source": "overleaf_iclr2027/extend_version/figures/gradient_mechanism.pdf",
-      "destination": "paper/figures/gradient_mechanism.pdf",
-      "sha256": "ea2cd27daf3f8b62304afe2c29bd51ff3460fc87852e1a4963c691fd986ac35a"
-    },
-    {
-      "source": "overleaf_iclr2027/extend_version/figures/proposal_distance_mechanism.pdf",
-      "destination": "paper/figures/proposal_distance_mechanism.pdf",
-      "sha256": "64eb988a5b193320d88733e0071a9407e10f923e7ab6b1ca03078c0f640c5c37"
-    },
-    {
-      "source": "overleaf_iclr2027/extend_version/figures/controlled_budget_preprint.pdf",
-      "destination": "paper/figures/controlled_budget_preprint.pdf",
-      "sha256": "940c72dbd38867300d1f1e00dee7150e8d21ffe4521ec790d5c524704063efd7"
-    },
-    {
-      "source": "overleaf_iclr2027/extend_version/figures/real_hydrology_preprint.pdf",
-      "destination": "paper/figures/real_hydrology_preprint.pdf",
-      "sha256": "589e3235f201ab7749e1e538875a634d2451852813c2581e839f465f554b034c"
-    },
-    {
-      "source": "overleaf_iclr2027/extend_version/figures/certificate_hydro.pdf",
-      "destination": "paper/figures/certificate_hydro.pdf",
-      "sha256": "c2dc73a9037b6abc359d8d6ea1d6bca3fa40afd3f1ea98ae211c991386aa5e37"
-    },
-    {
-      "source": "overleaf_iclr2027/extend_version/figures/controlled_budget_latency.pdf",
-      "destination": "paper/figures/controlled_budget_latency.pdf",
-      "sha256": "3caa91cc2585a2be673c1212822ed3eff7f1051df048b446277390576e684716"
-    },
-    {
       "source": "overleaf_iclr2027/extend_version/figures/real_hydrology_preprint_data.csv",
       "destination": "reference_results/paper/real_hydrology_preprint_data.csv",
       "sha256": "b25044eb1d65ca0646689bcd65290a6a53b57651ff3380883c15a93cbf976f82"
@@ -92,5 +57,7 @@
     }
   ],
   "tables": 14,
-  "figures": 7
+  "figures": 7,
+  "paper_url": "https://optimization-online.org/?p=37002",
+  "paper_included_in_upload": false
 }

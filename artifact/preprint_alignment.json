@@ -13,8 +13,8 @@
   "hydrology_csv_matches_archived_budget_report": true,
   "plateau_full_training_updates": 500,
   "plateau_seeds_per_arm": 5,
-  "verbatim_table_snapshots": 14,
   "research_python_sources_unchanged_from_portable_base": true,
   "exact_paper_pdf_sha256": "58d75cfdf04a48558cf89ba9e26ec7504ceff4cb03fa3215752fb87ab08a3b30",
-  "embedded_figure_pdfs_unchanged": 6
+  "paper_url": "https://optimization-online.org/?p=37002",
+  "paper_assets_included_in_upload": false
 }

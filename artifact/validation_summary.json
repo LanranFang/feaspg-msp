@@ -49,9 +49,8 @@
     "original_certificate_mean": 39.535402403547295,
     "tightened_certificate_mean": 13.253475107333411,
     "source": "frozen experiment records; no retraining in this command",
-    "paper_pdf_sha256": "58d75cfdf04a48558cf89ba9e26ec7504ceff4cb03fa3215752fb87ab08a3b30",
+    "paper_url": "https://optimization-online.org/?p=37002",
     "figure_map": {
-      "1": "figure01.tex (TikZ source snapshot)",
       "2": "gradient_mechanism.pdf",
       "3": "proposal_distance_mechanism.pdf",
       "4": "controlled_budget_preprint.pdf",
@@ -59,7 +58,7 @@
       "6": "certificate_hydro.pdf",
       "7": "controlled_budget_latency.pdf"
     },
-    "tables": "Table 1 rebuilt from numerical records; Tables 1--14 also retained as verbatim TeX source snapshots"
+    "tables": "Table 1 rebuilt from numerical records; other tables are documented in docs/PAPER_MAP.md"
   },
   "relocation": {
     "inherited_pythonpath_removed": true,
@@ -70,5 +69,9 @@
     "maximum_per_path_cost_error": 0.0
   },
   "full_multi_seed_training_rerun": false,
-  "full_raw_data_preprocessing_rerun": false
+  "full_raw_data_preprocessing_rerun": false,
+  "code_only_distribution": {
+    "manuscript_assets_included": false,
+    "rebuild_without_paper_directory": true
+  }
 }
