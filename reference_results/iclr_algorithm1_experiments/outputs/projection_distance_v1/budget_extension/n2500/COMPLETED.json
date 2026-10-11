@@ -1,0 +1,8 @@
+{
+  "n_candidates": 15,
+  "n_selected": 5,
+  "n_baseline_training_runs": 0,
+  "arm": "decay",
+  "n_fit": 2500,
+  "wall_seconds_this_invocation": 421.29353559180163
+}

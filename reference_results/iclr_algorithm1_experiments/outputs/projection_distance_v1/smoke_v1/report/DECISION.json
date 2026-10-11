@@ -1,0 +1,22 @@
+{
+  "selected_positive_arm": "tenth",
+  "selection_source": "SELECTION.json, frozen before test generation/access",
+  "validation_mean_delta": -0.90380859375,
+  "test_mean_delta": -0.857818603515625,
+  "test_seed_ci95": [
+    null,
+    null
+  ],
+  "test_improved_seed_count": 1,
+  "n_training_seeds": 1,
+  "extension_criterion_met": true,
+  "extend_displayed_mlp_budgets": false,
+  "remaining_displayed_budgets": [
+    8
+  ],
+  "rule": "Both validation mean and test mean must improve over zero for the already validation-selected positive arm; no alternative arm may be chosen using test results.",
+  "seed_ci_includes_zero": null,
+  "uncertainty": "Approximate unadjusted Student-t 95% interval across paired training-seed means conditional on the fixed test set; does not remove validation-arm selection uncertainty or combine finite test-path uncertainty.",
+  "smoke": true,
+  "action": "Retain the current main results; report the auxiliary-loss mechanism and ablation separately."
+}

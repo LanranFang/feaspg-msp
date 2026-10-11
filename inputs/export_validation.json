@@ -1,0 +1,746 @@
+{
+  "all_original_array_fields_match": true,
+  "bundles": [
+    {
+      "bundle": "camels_br_12_n1000",
+      "datasets": {
+        "fit": {
+          "inflow": "4d5e2fc3bef64160bee90d20cdda03a63735b050132667fd1d4cab3eb64cdb15",
+          "hydrology_state": "5bb5ad0fd040715cb753aa69576826cd28f52b75f9dd637e2927d68add3c7d88",
+          "hydrology_regime": "7509223f90fc6c8bb895132a9b5ce4a39721f877dbf2bf7e0a3d41594cc72bd1",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "15bc76a1b680cac53c251815aa41253faa0b0edca744992c18b555e4e52b7000"
+        },
+        "validation": {
+          "inflow": "ed6f60e943048f429ed322d044a21cf52f57c745f42617bc62c0fb3525297961",
+          "hydrology_state": "75074e5086399709a80a5481c1d9a192dab8da005f9cdc749952ffa6f8224a36",
+          "hydrology_regime": "24624c7f49c7b1afd3ac4d43831080e1e216a2c1b72a48c152b2ef0c27842889",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fa8186bd18f03c410bbcb9df88097c6c259b660d4052b95e0904b2f69ea0cbdd"
+        },
+        "test": {
+          "inflow": "94fad3cd9c2b84b8d7501acc53867ce5627089e483e8462a5bfc07b0f65e8411",
+          "hydrology_state": "559a472cca8316d776d50d9c3162460315164e8a018ff21dc3821956e24568c5",
+          "hydrology_regime": "351f44fee34a9a6fe704c9103102c2284f4e64e993884e9e91e6820de7f0feb1",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fde78d06224bfb2f5fae86bda87b1e68e1a4b3531bc8b53343a3b9a8d9c31666"
+        },
+        "historical": {
+          "inflow": "c3d419f5467b56d96f6fb00a6b1c152a7462fc14325c5e124151f57df60401bc",
+          "hydrology_state": "99e9e59e53d61220dce84f3e3b2bf73982ce005c18a18a7b04b79bcc005c7777",
+          "hydrology_regime": "e11b02b900d20f31d4ae2aab8edc52dda7271ec424c719dd799e9f39db7cb31f",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "ce8fe80c1ebde8c57af386138fcb0240568dff64839d498e1ddf55e760fd2145"
+        }
+      }
+    },
+    {
+      "bundle": "camels_br_12_n250",
+      "datasets": {
+        "fit": {
+          "inflow": "592e10a960787ef1a80cffe5b9230b8776a616c8d77e1379d62039c61d6fa3c4",
+          "hydrology_state": "377adedf5096720de893904db16d4eedee3647f743b283e31e79f14e19fe23b4",
+          "hydrology_regime": "f9ca53dcebf0a51ee49cb4d50ab56495bcd8e8ad0cf5763a166498c5e5d6fab4",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "bda12145834fb6ccc7ecb204519c5d79cd945d53e2c339d1400516bec3bea4ef"
+        },
+        "validation": {
+          "inflow": "ed6f60e943048f429ed322d044a21cf52f57c745f42617bc62c0fb3525297961",
+          "hydrology_state": "75074e5086399709a80a5481c1d9a192dab8da005f9cdc749952ffa6f8224a36",
+          "hydrology_regime": "24624c7f49c7b1afd3ac4d43831080e1e216a2c1b72a48c152b2ef0c27842889",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fa8186bd18f03c410bbcb9df88097c6c259b660d4052b95e0904b2f69ea0cbdd"
+        },
+        "test": {
+          "inflow": "94fad3cd9c2b84b8d7501acc53867ce5627089e483e8462a5bfc07b0f65e8411",
+          "hydrology_state": "559a472cca8316d776d50d9c3162460315164e8a018ff21dc3821956e24568c5",
+          "hydrology_regime": "351f44fee34a9a6fe704c9103102c2284f4e64e993884e9e91e6820de7f0feb1",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fde78d06224bfb2f5fae86bda87b1e68e1a4b3531bc8b53343a3b9a8d9c31666"
+        },
+        "historical": {
+          "inflow": "c3d419f5467b56d96f6fb00a6b1c152a7462fc14325c5e124151f57df60401bc",
+          "hydrology_state": "99e9e59e53d61220dce84f3e3b2bf73982ce005c18a18a7b04b79bcc005c7777",
+          "hydrology_regime": "e11b02b900d20f31d4ae2aab8edc52dda7271ec424c719dd799e9f39db7cb31f",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "ce8fe80c1ebde8c57af386138fcb0240568dff64839d498e1ddf55e760fd2145"
+        }
+      }
+    },
+    {
+      "bundle": "camels_br_12_n2500",
+      "datasets": {
+        "fit": {
+          "inflow": "7c58e8b230f363c548f35f4be495c764cabce241d97eac3c56e8fa95dcb136af",
+          "hydrology_state": "9ab9100901f6672ec2690efc5c595f83c0900aed925ef7fbaa5410b3d98496a1",
+          "hydrology_regime": "1832bee9d0ba439ccc8d900f4eec1d8a9e6487e875f24608a467f645dc01195c",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "77e1c258d581b600d6eeb1ed353bd7fb86cb055f14ab2957e42330810549ed53"
+        },
+        "validation": {
+          "inflow": "ed6f60e943048f429ed322d044a21cf52f57c745f42617bc62c0fb3525297961",
+          "hydrology_state": "75074e5086399709a80a5481c1d9a192dab8da005f9cdc749952ffa6f8224a36",
+          "hydrology_regime": "24624c7f49c7b1afd3ac4d43831080e1e216a2c1b72a48c152b2ef0c27842889",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fa8186bd18f03c410bbcb9df88097c6c259b660d4052b95e0904b2f69ea0cbdd"
+        },
+        "test": {
+          "inflow": "94fad3cd9c2b84b8d7501acc53867ce5627089e483e8462a5bfc07b0f65e8411",
+          "hydrology_state": "559a472cca8316d776d50d9c3162460315164e8a018ff21dc3821956e24568c5",
+          "hydrology_regime": "351f44fee34a9a6fe704c9103102c2284f4e64e993884e9e91e6820de7f0feb1",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fde78d06224bfb2f5fae86bda87b1e68e1a4b3531bc8b53343a3b9a8d9c31666"
+        },
+        "historical": {
+          "inflow": "c3d419f5467b56d96f6fb00a6b1c152a7462fc14325c5e124151f57df60401bc",
+          "hydrology_state": "99e9e59e53d61220dce84f3e3b2bf73982ce005c18a18a7b04b79bcc005c7777",
+          "hydrology_regime": "e11b02b900d20f31d4ae2aab8edc52dda7271ec424c719dd799e9f39db7cb31f",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "ce8fe80c1ebde8c57af386138fcb0240568dff64839d498e1ddf55e760fd2145"
+        }
+      }
+    },
+    {
+      "bundle": "camels_br_12_n500",
+      "datasets": {
+        "fit": {
+          "inflow": "2c2a8db4bcb43c96335b1e95cb109d18d855118513b75dec37c0340810afe1ba",
+          "hydrology_state": "ef6239fc91da92b06bfffd4520ebc1af3dc9a0e89c087587239177d6e4adcd94",
+          "hydrology_regime": "8916c0a43a719539264687555c3d02713dd06d1313c56126e97c2cca3de140eb",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "ec78065c15ab8f87ea6a49e3160bd8928625e8d196f8e895e6866c0229290cff"
+        },
+        "validation": {
+          "inflow": "ed6f60e943048f429ed322d044a21cf52f57c745f42617bc62c0fb3525297961",
+          "hydrology_state": "75074e5086399709a80a5481c1d9a192dab8da005f9cdc749952ffa6f8224a36",
+          "hydrology_regime": "24624c7f49c7b1afd3ac4d43831080e1e216a2c1b72a48c152b2ef0c27842889",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fa8186bd18f03c410bbcb9df88097c6c259b660d4052b95e0904b2f69ea0cbdd"
+        },
+        "test": {
+          "inflow": "94fad3cd9c2b84b8d7501acc53867ce5627089e483e8462a5bfc07b0f65e8411",
+          "hydrology_state": "559a472cca8316d776d50d9c3162460315164e8a018ff21dc3821956e24568c5",
+          "hydrology_regime": "351f44fee34a9a6fe704c9103102c2284f4e64e993884e9e91e6820de7f0feb1",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fde78d06224bfb2f5fae86bda87b1e68e1a4b3531bc8b53343a3b9a8d9c31666"
+        },
+        "historical": {
+          "inflow": "c3d419f5467b56d96f6fb00a6b1c152a7462fc14325c5e124151f57df60401bc",
+          "hydrology_state": "99e9e59e53d61220dce84f3e3b2bf73982ce005c18a18a7b04b79bcc005c7777",
+          "hydrology_regime": "e11b02b900d20f31d4ae2aab8edc52dda7271ec424c719dd799e9f39db7cb31f",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "ce8fe80c1ebde8c57af386138fcb0240568dff64839d498e1ddf55e760fd2145"
+        }
+      }
+    },
+    {
+      "bundle": "camels_br_12_n5000",
+      "datasets": {
+        "fit": {
+          "inflow": "fb2e69ae3ac655a8303087c4168e3ae583f3a836c27a2d76ed32e51b0e493d84",
+          "hydrology_state": "063acfd089d11f3a791bd61657701c571fecc0f3b8e0f457a805f17a9f377747",
+          "hydrology_regime": "5da27d843c5dd020e4b9876005ff52b372a4667242bf94b7001c1d90f95a5cb4",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "640492af1abcbd73c7f4b239ab631a4498ba5224c8827ee9abc5d728d405283d"
+        },
+        "validation": {
+          "inflow": "ed6f60e943048f429ed322d044a21cf52f57c745f42617bc62c0fb3525297961",
+          "hydrology_state": "75074e5086399709a80a5481c1d9a192dab8da005f9cdc749952ffa6f8224a36",
+          "hydrology_regime": "24624c7f49c7b1afd3ac4d43831080e1e216a2c1b72a48c152b2ef0c27842889",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fa8186bd18f03c410bbcb9df88097c6c259b660d4052b95e0904b2f69ea0cbdd"
+        },
+        "test": {
+          "inflow": "94fad3cd9c2b84b8d7501acc53867ce5627089e483e8462a5bfc07b0f65e8411",
+          "hydrology_state": "559a472cca8316d776d50d9c3162460315164e8a018ff21dc3821956e24568c5",
+          "hydrology_regime": "351f44fee34a9a6fe704c9103102c2284f4e64e993884e9e91e6820de7f0feb1",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "fde78d06224bfb2f5fae86bda87b1e68e1a4b3531bc8b53343a3b9a8d9c31666"
+        },
+        "historical": {
+          "inflow": "c3d419f5467b56d96f6fb00a6b1c152a7462fc14325c5e124151f57df60401bc",
+          "hydrology_state": "99e9e59e53d61220dce84f3e3b2bf73982ce005c18a18a7b04b79bcc005c7777",
+          "hydrology_regime": "e11b02b900d20f31d4ae2aab8edc52dda7271ec424c719dd799e9f39db7cb31f",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "ce8fe80c1ebde8c57af386138fcb0240568dff64839d498e1ddf55e760fd2145"
+        }
+      }
+    },
+    {
+      "bundle": "channel_n1000",
+      "datasets": {
+        "fit": {
+          "factors": "0850e56218f6936958c2c33e5294df21ec45888fa9cfbebfb10836522ed95404",
+          "idiosyncratic": "2ab71618122ad91557d4e3947f2c8a77ae26c4f04b37cf269ab7b31d738a5ea2",
+          "demand_noise": "adb76bec5d9e36dab216277fba826d604e715a7989725fc91736ca77465e7ca0",
+          "inflow": "a45ffa03f263269ccb44b496474d4afed1c953c25b218252efd8153bca3dc81d",
+          "demand": "610a6d73123414864ea1da6ed99a5a0c638c663e0f52c3801f55107f1be19580",
+          "price": "34127d96b70821159e156a6b6c0a8f4940a32d4b2ccaab49b6acb126567ebf33"
+        },
+        "validation": {
+          "factors": "0ec58b613b61d2e41878a718b86d19d442fec6672ca45ac4de8337a20fb4733a",
+          "idiosyncratic": "92c3114ca83d6759bb3037c8716ee4a50fa7b8d001800bcd88d1dc5695bbaa8c",
+          "demand_noise": "59e8c5cb74957766f74d82de6b130f940197640d1c301f2cd894e227d1857078",
+          "inflow": "05944d1ca22e860de1c5d32361f6aeffcef8c30b0498774fe62bccf528d22963",
+          "demand": "9bac7bfb8853fd8378338d1a393610860b26542c7519b7a4ee3f4fb20eb221a4",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "c416037100469f21d7167ade45d1b6a7dc3f6cb2f70232668117bb9bea041947",
+          "idiosyncratic": "428a8abada5c06b43e679632e9282728f8b032b8c839d8d45759a479f9ae3d6c",
+          "demand_noise": "009f4b5edcdc0d8fef1f4b1c0a0fb063694a1df1f247fa7c91e503eefef5274f",
+          "inflow": "a5b51894a83fc5bcb007f5d008c0c0f916170e1133d1d9fc38426e5069596a68",
+          "demand": "d8de80297dad4b9ad1915791f753cb41d38a44d63500c1a54cadb9d417d2ced8",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "controlled_n100",
+      "datasets": {
+        "fit": {
+          "factors": "a3ec824eee158def7d6b31ae60e709a7ab410648231aafb3c1fb1523f8ad8a48",
+          "idiosyncratic": "198331af8c2c5424d6845e1a015912986390de9867c9f30d0e1a99a98d90b905",
+          "demand_noise": "5b9170331e38464d57e910c28d7060e04cbb169a46a77d5b5491699cc101d4c5",
+          "inflow": "73b4a5c9cc3e419bbe514f96497b5696f810fd7eec3c9e980e309487281b342d",
+          "demand": "339ee5ee8d993500818dbdfb6d5ad454326c8c6e83221c35c4d27a7af5cf35fb",
+          "price": "cc6643c3049eef06f5c11ea9c7800ec606f229739ba50ba5fd9eca10f050d767"
+        },
+        "validation": {
+          "factors": "dc9032cb5addd8737f5f912eba1ff1e37c4acf9467663834f7a664dc844121ef",
+          "idiosyncratic": "f7157cb0c87a447ed3461c2c3377fb679b495fdc72081e9fe2da6a46d3e744b5",
+          "demand_noise": "0e8c952cb9a9e3a35eb6ed21b1515551024f3493bc2577104813552a12abf2d1",
+          "inflow": "aafd922c2d7774024665287d98dee5249f938863da5396c861ba01f7356fb561",
+          "demand": "584204e46d75d3a749f3272a8ee79d6f7e59949bdf453807e34c7379a7954270",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "2c835f3b1a60919bcc9ffadbe2f0c5745d1e07196a78aa21789b56abcdf6e76e",
+          "idiosyncratic": "b5dac9d741666a0b3ac8085c2616e8cac3a11a7ee82edc310e22c44e61b2ecca",
+          "demand_noise": "4e17b69dfe15d31415cd35fe123e068648f5fe7466e13802b1b32a073305537c",
+          "inflow": "584f06f8f0ccc3568bb60912600f9bd92b3849e5f49883fd955d44b0f5d7802a",
+          "demand": "2e3b9399f7e4d25c30c4eb2bdc087a9b122cfb5e5a54bcd711e50cc05b05e94a",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "controlled_n1000",
+      "datasets": {
+        "fit": {
+          "factors": "0fd363511bdfcfefd40871568509e794a2572a62a0c2e2321481d03779001eb0",
+          "idiosyncratic": "f8a42c4d14d29433f0e4c66a02494bf2a5a7f838d1265bbf5a46e2c3f55281dd",
+          "demand_noise": "b295c1656fe63de5a7bdb49c755a7e90b6be1a5dd35fee92e45ed861c6793046",
+          "inflow": "b70e3dfc864d60b0925b804ea06da3beee41f93b273bbf076acaff76200704a1",
+          "demand": "e1ae373920c19f714dd09de6353c0621c9cc0996c3c4d68766ab014a33128663",
+          "price": "34127d96b70821159e156a6b6c0a8f4940a32d4b2ccaab49b6acb126567ebf33"
+        },
+        "validation": {
+          "factors": "dc9032cb5addd8737f5f912eba1ff1e37c4acf9467663834f7a664dc844121ef",
+          "idiosyncratic": "f7157cb0c87a447ed3461c2c3377fb679b495fdc72081e9fe2da6a46d3e744b5",
+          "demand_noise": "0e8c952cb9a9e3a35eb6ed21b1515551024f3493bc2577104813552a12abf2d1",
+          "inflow": "aafd922c2d7774024665287d98dee5249f938863da5396c861ba01f7356fb561",
+          "demand": "584204e46d75d3a749f3272a8ee79d6f7e59949bdf453807e34c7379a7954270",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "2c835f3b1a60919bcc9ffadbe2f0c5745d1e07196a78aa21789b56abcdf6e76e",
+          "idiosyncratic": "b5dac9d741666a0b3ac8085c2616e8cac3a11a7ee82edc310e22c44e61b2ecca",
+          "demand_noise": "4e17b69dfe15d31415cd35fe123e068648f5fe7466e13802b1b32a073305537c",
+          "inflow": "584f06f8f0ccc3568bb60912600f9bd92b3849e5f49883fd955d44b0f5d7802a",
+          "demand": "2e3b9399f7e4d25c30c4eb2bdc087a9b122cfb5e5a54bcd711e50cc05b05e94a",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "controlled_n250",
+      "datasets": {
+        "fit": {
+          "factors": "5c952843d014518c03bf6d8b20de6c61c2f6b4765404644034756cb07b557e5b",
+          "idiosyncratic": "e89bedff83cba976784fddce5b844d312fcf6a632d993b0615285cc8aca8edd8",
+          "demand_noise": "b456440c1ca0b07d8011b27ff2baabd6c9c621a344e1c94bb946fbe94a12adc6",
+          "inflow": "bca0adfc8b44a8431fa5b51176ededfcb710c2381e37f0572475a53d9f49701b",
+          "demand": "8fe77b230511added1e9875804518b450d163e623160ea6f1b052970e09accfb",
+          "price": "84ee77408d2a8bc0e0144c4c525aa97a262cfef42bb9c2b1d2921a584d0b24f8"
+        },
+        "validation": {
+          "factors": "dc9032cb5addd8737f5f912eba1ff1e37c4acf9467663834f7a664dc844121ef",
+          "idiosyncratic": "f7157cb0c87a447ed3461c2c3377fb679b495fdc72081e9fe2da6a46d3e744b5",
+          "demand_noise": "0e8c952cb9a9e3a35eb6ed21b1515551024f3493bc2577104813552a12abf2d1",
+          "inflow": "aafd922c2d7774024665287d98dee5249f938863da5396c861ba01f7356fb561",
+          "demand": "584204e46d75d3a749f3272a8ee79d6f7e59949bdf453807e34c7379a7954270",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "2c835f3b1a60919bcc9ffadbe2f0c5745d1e07196a78aa21789b56abcdf6e76e",
+          "idiosyncratic": "b5dac9d741666a0b3ac8085c2616e8cac3a11a7ee82edc310e22c44e61b2ecca",
+          "demand_noise": "4e17b69dfe15d31415cd35fe123e068648f5fe7466e13802b1b32a073305537c",
+          "inflow": "584f06f8f0ccc3568bb60912600f9bd92b3849e5f49883fd955d44b0f5d7802a",
+          "demand": "2e3b9399f7e4d25c30c4eb2bdc087a9b122cfb5e5a54bcd711e50cc05b05e94a",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "controlled_n2500",
+      "datasets": {
+        "fit": {
+          "factors": "77fdc9099006a1f7e1f01a66977e6155b69ffb79166318e3c6f06b5cb98b841a",
+          "idiosyncratic": "b0ab2df8af05201730be91db5a9f6b6780f1f3c39f9b7cdce09f7a90fca275c3",
+          "demand_noise": "0803211cf87b9d61d33148c8a6e814a67dd048b99a49a18c7f9148459dcc940a",
+          "inflow": "ac7d2c22a797692c1b5a372f3052d62937638c8ffd21b20b0a549c444caaadcf",
+          "demand": "b810ea6c666827c85ecd330c23bbb1c4f275f1b86c4963d9706e672f7808bc2a",
+          "price": "486dc98e249cdaa77a87d5e1250706acf1e8483430f23fd0ae3154b8aa249367"
+        },
+        "validation": {
+          "factors": "dc9032cb5addd8737f5f912eba1ff1e37c4acf9467663834f7a664dc844121ef",
+          "idiosyncratic": "f7157cb0c87a447ed3461c2c3377fb679b495fdc72081e9fe2da6a46d3e744b5",
+          "demand_noise": "0e8c952cb9a9e3a35eb6ed21b1515551024f3493bc2577104813552a12abf2d1",
+          "inflow": "aafd922c2d7774024665287d98dee5249f938863da5396c861ba01f7356fb561",
+          "demand": "584204e46d75d3a749f3272a8ee79d6f7e59949bdf453807e34c7379a7954270",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "2c835f3b1a60919bcc9ffadbe2f0c5745d1e07196a78aa21789b56abcdf6e76e",
+          "idiosyncratic": "b5dac9d741666a0b3ac8085c2616e8cac3a11a7ee82edc310e22c44e61b2ecca",
+          "demand_noise": "4e17b69dfe15d31415cd35fe123e068648f5fe7466e13802b1b32a073305537c",
+          "inflow": "584f06f8f0ccc3568bb60912600f9bd92b3849e5f49883fd955d44b0f5d7802a",
+          "demand": "2e3b9399f7e4d25c30c4eb2bdc087a9b122cfb5e5a54bcd711e50cc05b05e94a",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "controlled_n500",
+      "datasets": {
+        "fit": {
+          "factors": "c2952d7842d15207a36aa3222c537ba233c23542f3ab266ab438821dd8b72c71",
+          "idiosyncratic": "079e552d1d259be310a4128b2ecebffdbeb24057d9eafa8024e6ceb66ce4a21e",
+          "demand_noise": "04bbfeb7afd9073aa9147dcb06d175fdfb9cd91d934abad6f68b8f87b7784c31",
+          "inflow": "c440b4ede1bc61c266deed7f2818de6173ccc4f7ed3da9bff4c20ab166fcbb5f",
+          "demand": "1eb8ee657f7f6b5fb8d395b5fce5a52d0615bbffa94543464d7206d67f02c70a",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "validation": {
+          "factors": "dc9032cb5addd8737f5f912eba1ff1e37c4acf9467663834f7a664dc844121ef",
+          "idiosyncratic": "f7157cb0c87a447ed3461c2c3377fb679b495fdc72081e9fe2da6a46d3e744b5",
+          "demand_noise": "0e8c952cb9a9e3a35eb6ed21b1515551024f3493bc2577104813552a12abf2d1",
+          "inflow": "aafd922c2d7774024665287d98dee5249f938863da5396c861ba01f7356fb561",
+          "demand": "584204e46d75d3a749f3272a8ee79d6f7e59949bdf453807e34c7379a7954270",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "2c835f3b1a60919bcc9ffadbe2f0c5745d1e07196a78aa21789b56abcdf6e76e",
+          "idiosyncratic": "b5dac9d741666a0b3ac8085c2616e8cac3a11a7ee82edc310e22c44e61b2ecca",
+          "demand_noise": "4e17b69dfe15d31415cd35fe123e068648f5fe7466e13802b1b32a073305537c",
+          "inflow": "584f06f8f0ccc3568bb60912600f9bd92b3849e5f49883fd955d44b0f5d7802a",
+          "demand": "2e3b9399f7e4d25c30c4eb2bdc087a9b122cfb5e5a54bcd711e50cc05b05e94a",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "full_comparison_n1000",
+      "datasets": {
+        "fit": {
+          "factors": "7088e322a894912be7741135c442caa9ced29952fcc5be6709e1c7e3735534b5",
+          "idiosyncratic": "fdfbc88a7f96d66f4b311f1f2327fdacc21c1c81ac7fd263df6ec5b068a7667e",
+          "demand_noise": "6d2b4fa77fadeff84a5d852f540b11ab81fb5594923996af91761f5391f1c77e",
+          "inflow": "28b7a0f52c271ef6595c5737673658b4ec7c5e89b2bc551860a5728275b23d07",
+          "demand": "75e581e0c18d7610b56c357ed27c90b482e1683df0cdf1ce3f0fb60dfcbeaa0d",
+          "price": "34127d96b70821159e156a6b6c0a8f4940a32d4b2ccaab49b6acb126567ebf33"
+        },
+        "validation": {
+          "factors": "8eac4dbd13e1ea10e609f92065ebf62fc6b040365ac55cb1433691a3f294bd71",
+          "idiosyncratic": "1c1ec111c2fb894a7148fde2366f0938b0a36aa71e2cbdc6f569717a322deda8",
+          "demand_noise": "d2617508d4ffaffc06f91bbf70ae3da62ccc4052d02f74724e1c00c78fbc58a3",
+          "inflow": "15c17ae15ad9c2dfc3743aa2c2b9b8319fffbb37590d3eb58511fb277e02d8f8",
+          "demand": "531a4a9ad914c09a8af18a5a09fe0f07ff43317a9c006dbae93e55ffea76f151",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "e45d6949adc0a94aaab405e41db334f8af00eab3dadeb762d4058118962a43cc",
+          "idiosyncratic": "f93834a179686a9424e2e8f2b18e52d7371503ff557a320087546e26e20862a4",
+          "demand_noise": "887a443730bfeb8b7f3cd3600dcaba2d9e9ab93bcf08bfcec12ea91af6183876",
+          "inflow": "dc825d868972e286b8ac3680013d487d03b0c060785aa3c57eae1f1196da0ac0",
+          "demand": "69c7dc8354807f7e2c30213ab800a826ba979e25cf7b0ef7b5e8d57427c71cb8",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "ons_subsystems_n1000",
+      "datasets": {
+        "fit": {
+          "inflow": "d5c70814f462a20b3c42b43b8fa7ae40faa848209d2053c68948ca0ba7f6101a",
+          "hydrology_state": "60ef66a921991f82f9decc873d7ce8b36c9e7f787ac0fe212123fa9ecb724d05",
+          "hydrology_regime": "b061826b5dc25934c2d2a088dde4fcc053b7796ba0f01e25c513a46b1b19db3d",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "e62067aea2965e9c0d4155971efc9d51b28e4fcda4946d6a0c8de722268d347f"
+        },
+        "validation": {
+          "inflow": "7540e0c0178a91334ff200a027ca779496e9475faa0ffd43bcd2c08bf5cff88b",
+          "hydrology_state": "cee539eb234d3c9247ce072253fa7d6c80d5a3910340828c8334d10830a2908f",
+          "hydrology_regime": "4b21b7f889cdee664d98fedf1678a931dd4187bd5c67a7be657a421300e7dc01",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "9bc494af4e010d3ae012cbf17d23fba814e7fe576d08ea233e4b9a3cf256ee40"
+        },
+        "test": {
+          "inflow": "dd6e376d7fca577bc9db68b9e077590a463f0daa7350c643cb04c2add762500c",
+          "hydrology_state": "9644e1ca63c5e617972357d167bac8c36369e86a49e81f14a14c0635d25459c4",
+          "hydrology_regime": "78b3b9ba7bc360e7796914dbf29ab897e8709a8d13ca399fdb64f7cb179ad248",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "e851c5c4db566852137802d27be930819237bb0843b427ead624910c832820ed"
+        },
+        "historical": {
+          "inflow": "b3d13c03b26761f998b3a6532f56822a9b0b3f0d5653b2f3c0f2a7deee6ddb03",
+          "hydrology_state": "d8b689fe74efe47b4329af57c98cce3ce5d6feda08c493dce2dad3e79eb48aac",
+          "hydrology_regime": "a365efe02cea2697d07c6a36ad634e21be5ca6bff4bca8acca24173e3646bf40",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "demand": "222374f4af15c96580f0dbc1978ef554524ed2a2f216fe10c4cfd8a72fc4e5e0",
+          "source_path_id": "21691fde83c4cdee420840411eee4f24703ccb8358f475699a52ee437221ed38"
+        }
+      }
+    },
+    {
+      "bundle": "ons_subsystems_n250",
+      "datasets": {
+        "fit": {
+          "inflow": "dda5eb15a2109569262cdecb65f5079140c7196f3660a50b59027bfb6fa2f8ae",
+          "hydrology_state": "24b3c4d80c04868061430d74aaa50516f0910d713ca1c2fe7dd36152871be190",
+          "hydrology_regime": "a4353609074569e155606795c7cb43110a9ff69b295f3492dfeda5b94b967436",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "31df1fda2350cccb9744b11be5ca2f4dd93b04f645340a1c6715be12e8a4c9e4"
+        },
+        "validation": {
+          "inflow": "7540e0c0178a91334ff200a027ca779496e9475faa0ffd43bcd2c08bf5cff88b",
+          "hydrology_state": "cee539eb234d3c9247ce072253fa7d6c80d5a3910340828c8334d10830a2908f",
+          "hydrology_regime": "4b21b7f889cdee664d98fedf1678a931dd4187bd5c67a7be657a421300e7dc01",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "9bc494af4e010d3ae012cbf17d23fba814e7fe576d08ea233e4b9a3cf256ee40"
+        },
+        "test": {
+          "inflow": "dd6e376d7fca577bc9db68b9e077590a463f0daa7350c643cb04c2add762500c",
+          "hydrology_state": "9644e1ca63c5e617972357d167bac8c36369e86a49e81f14a14c0635d25459c4",
+          "hydrology_regime": "78b3b9ba7bc360e7796914dbf29ab897e8709a8d13ca399fdb64f7cb179ad248",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "e851c5c4db566852137802d27be930819237bb0843b427ead624910c832820ed"
+        },
+        "historical": {
+          "inflow": "b3d13c03b26761f998b3a6532f56822a9b0b3f0d5653b2f3c0f2a7deee6ddb03",
+          "hydrology_state": "d8b689fe74efe47b4329af57c98cce3ce5d6feda08c493dce2dad3e79eb48aac",
+          "hydrology_regime": "a365efe02cea2697d07c6a36ad634e21be5ca6bff4bca8acca24173e3646bf40",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "demand": "222374f4af15c96580f0dbc1978ef554524ed2a2f216fe10c4cfd8a72fc4e5e0",
+          "source_path_id": "21691fde83c4cdee420840411eee4f24703ccb8358f475699a52ee437221ed38"
+        }
+      }
+    },
+    {
+      "bundle": "ons_subsystems_n2500",
+      "datasets": {
+        "fit": {
+          "inflow": "25c7f0676108fc8937bb71e354cd46c15e965e8fb75a576d51aec06b8d74e2e0",
+          "hydrology_state": "4f7c97f64425819814145fe5cd47742d9e3cfeb0fcfe13d110b6913447ab8525",
+          "hydrology_regime": "bf44789de48ac6106325c54f4eeb48cdf80789c64ec1cc512e5f82fb82f94364",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "7ddae989001da920c51eece2722c8027c81579ca9f8c5bcc403621705ec863c5"
+        },
+        "validation": {
+          "inflow": "7540e0c0178a91334ff200a027ca779496e9475faa0ffd43bcd2c08bf5cff88b",
+          "hydrology_state": "cee539eb234d3c9247ce072253fa7d6c80d5a3910340828c8334d10830a2908f",
+          "hydrology_regime": "4b21b7f889cdee664d98fedf1678a931dd4187bd5c67a7be657a421300e7dc01",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "9bc494af4e010d3ae012cbf17d23fba814e7fe576d08ea233e4b9a3cf256ee40"
+        },
+        "test": {
+          "inflow": "dd6e376d7fca577bc9db68b9e077590a463f0daa7350c643cb04c2add762500c",
+          "hydrology_state": "9644e1ca63c5e617972357d167bac8c36369e86a49e81f14a14c0635d25459c4",
+          "hydrology_regime": "78b3b9ba7bc360e7796914dbf29ab897e8709a8d13ca399fdb64f7cb179ad248",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "e851c5c4db566852137802d27be930819237bb0843b427ead624910c832820ed"
+        },
+        "historical": {
+          "inflow": "b3d13c03b26761f998b3a6532f56822a9b0b3f0d5653b2f3c0f2a7deee6ddb03",
+          "hydrology_state": "d8b689fe74efe47b4329af57c98cce3ce5d6feda08c493dce2dad3e79eb48aac",
+          "hydrology_regime": "a365efe02cea2697d07c6a36ad634e21be5ca6bff4bca8acca24173e3646bf40",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "demand": "222374f4af15c96580f0dbc1978ef554524ed2a2f216fe10c4cfd8a72fc4e5e0",
+          "source_path_id": "21691fde83c4cdee420840411eee4f24703ccb8358f475699a52ee437221ed38"
+        }
+      }
+    },
+    {
+      "bundle": "ons_subsystems_n500",
+      "datasets": {
+        "fit": {
+          "inflow": "415743e8035b546af4c79e1547c80fe1b4deb749fe47d503d61a61e8084caa51",
+          "hydrology_state": "7b361dded5bd05d4e416a357acb2a9c68d126355722e3e633c2de3fbff4874d6",
+          "hydrology_regime": "a828f304bf4a4ab2c58aba66a8846234e16f04e3eeee7497da0f80fbd92f8a57",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "3109de5c5dd816dab5b903fc5bfbf649be668353fd024e6fb6e89e335d1d4c0e"
+        },
+        "validation": {
+          "inflow": "7540e0c0178a91334ff200a027ca779496e9475faa0ffd43bcd2c08bf5cff88b",
+          "hydrology_state": "cee539eb234d3c9247ce072253fa7d6c80d5a3910340828c8334d10830a2908f",
+          "hydrology_regime": "4b21b7f889cdee664d98fedf1678a931dd4187bd5c67a7be657a421300e7dc01",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "9bc494af4e010d3ae012cbf17d23fba814e7fe576d08ea233e4b9a3cf256ee40"
+        },
+        "test": {
+          "inflow": "dd6e376d7fca577bc9db68b9e077590a463f0daa7350c643cb04c2add762500c",
+          "hydrology_state": "9644e1ca63c5e617972357d167bac8c36369e86a49e81f14a14c0635d25459c4",
+          "hydrology_regime": "78b3b9ba7bc360e7796914dbf29ab897e8709a8d13ca399fdb64f7cb179ad248",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "e851c5c4db566852137802d27be930819237bb0843b427ead624910c832820ed"
+        },
+        "historical": {
+          "inflow": "b3d13c03b26761f998b3a6532f56822a9b0b3f0d5653b2f3c0f2a7deee6ddb03",
+          "hydrology_state": "d8b689fe74efe47b4329af57c98cce3ce5d6feda08c493dce2dad3e79eb48aac",
+          "hydrology_regime": "a365efe02cea2697d07c6a36ad634e21be5ca6bff4bca8acca24173e3646bf40",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "demand": "222374f4af15c96580f0dbc1978ef554524ed2a2f216fe10c4cfd8a72fc4e5e0",
+          "source_path_id": "21691fde83c4cdee420840411eee4f24703ccb8358f475699a52ee437221ed38"
+        }
+      }
+    },
+    {
+      "bundle": "ons_subsystems_n5000",
+      "datasets": {
+        "fit": {
+          "inflow": "8f3b2ecccd540a31e2cd3b6f5bfdb29e52ca534839d0ed3495eb95bd102ff854",
+          "hydrology_state": "37f01634bedbf3726f4cfe1b634a153d7edd9d281ac70b8a33fecae8013e9922",
+          "hydrology_regime": "567717056ce2cb14df701416885f9b9fd2bdf619b9085f0d4d004b0f2d74d0c5",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "bad074023386e7cad94b0920c4656b8f07c26b30b0efee0b4f4a69afa4e9ee8b"
+        },
+        "validation": {
+          "inflow": "7540e0c0178a91334ff200a027ca779496e9475faa0ffd43bcd2c08bf5cff88b",
+          "hydrology_state": "cee539eb234d3c9247ce072253fa7d6c80d5a3910340828c8334d10830a2908f",
+          "hydrology_regime": "4b21b7f889cdee664d98fedf1678a931dd4187bd5c67a7be657a421300e7dc01",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "9bc494af4e010d3ae012cbf17d23fba814e7fe576d08ea233e4b9a3cf256ee40"
+        },
+        "test": {
+          "inflow": "dd6e376d7fca577bc9db68b9e077590a463f0daa7350c643cb04c2add762500c",
+          "hydrology_state": "9644e1ca63c5e617972357d167bac8c36369e86a49e81f14a14c0635d25459c4",
+          "hydrology_regime": "78b3b9ba7bc360e7796914dbf29ab897e8709a8d13ca399fdb64f7cb179ad248",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "source_path_id": "e851c5c4db566852137802d27be930819237bb0843b427ead624910c832820ed"
+        },
+        "historical": {
+          "inflow": "b3d13c03b26761f998b3a6532f56822a9b0b3f0d5653b2f3c0f2a7deee6ddb03",
+          "hydrology_state": "d8b689fe74efe47b4329af57c98cce3ce5d6feda08c493dce2dad3e79eb48aac",
+          "hydrology_regime": "a365efe02cea2697d07c6a36ad634e21be5ca6bff4bca8acca24173e3646bf40",
+          "calendar": "cc52e18d0c78453931e97c01cae8c9b73371c2c3d40ef3e6db25bef09d75a89e",
+          "demand": "222374f4af15c96580f0dbc1978ef554524ed2a2f216fe10c4cfd8a72fc4e5e0",
+          "source_path_id": "21691fde83c4cdee420840411eee4f24703ccb8358f475699a52ee437221ed38"
+        }
+      }
+    },
+    {
+      "bundle": "scaling_R12_T12",
+      "datasets": {
+        "fit": {
+          "factors": "ac9d5dfff218a2c58452ef8276bf8a6ffab36d3994bac976d2842ddb34ec164d",
+          "idiosyncratic": "2bcf8ec9d957a359a292f78567c8ce03a67ec9e8794fb51ac0357d734b402b02",
+          "demand_noise": "0715195e156232427329502042d8bb1a22cc782cdef793b339a65bf45bb901d6",
+          "inflow": "914a11f6fe7e71a9bd9b600e3a59434e3a484e018824dc06d2578dd1b7f1fbfe",
+          "demand": "16960d6db1d4911cb36dc1e7a57abf3f8884e66fa9a272bc468b79cb3c41b440",
+          "price": "1ec4d3dc51c383528dbaed6cf1544110c44bc3f0ee89767a025c3c2b2c671b37"
+        },
+        "validation": {
+          "factors": "c853ea857cdbfc76436ff7d7ec7a9899d3fc1dfef79329dcd0093b8ae7feffde",
+          "idiosyncratic": "b5c235667a3af2ae965e48d7a9a7b953d5953787cd90b601c14d9efee5d8c43a",
+          "demand_noise": "82fc58b664a7b9c21fa562dfbc309d83983034efe14986ada5584a8d13bc2dc5",
+          "inflow": "4e262b006dc7e3cd2c7827a90e51d46d2d2acf542fc8f014e26098032e781057",
+          "demand": "a91f4c8fffbfcadcde9d96d2552ee11f0be20a7e2e84694cefa9bf77c9a9b547",
+          "price": "ad7d24bd4fabccdc82bd38e37dc15579ee3c651e78989e93806f1cdd9e281dad"
+        },
+        "test": {
+          "factors": "65b040667f172b7e8a7143e8dd3f14246d5ca253900668fd8c609b59aa4209f0",
+          "idiosyncratic": "9106985b394c993d80cf5b05fb8d2b867db87dd99411bb4660c2888381067631",
+          "demand_noise": "ec7dd1b1b8ebf5f17444412022fc3c5cbf9d71944f888f0c13f4b8572de24e19",
+          "inflow": "734dbf1e2379356d9858d504ff8ab648dd336033f4d57ae2233aba0801d5b3e3",
+          "demand": "a1f4163aa52779638e076276ef838526dd42474c79de4119f1acfd4c0f896050",
+          "price": "be027842abeae9f60afbff5cbb67891b751d2c77d9c730a5a3271b23baf81dd4"
+        }
+      }
+    },
+    {
+      "bundle": "scaling_R12_T24",
+      "datasets": {
+        "fit": {
+          "factors": "598e07cbae10a4600b4e607a7cc7d8f979ae43bce4ddc4ff5377f717af5b51f4",
+          "idiosyncratic": "d5717665656ad58ecb3ca31795937cb49bbe152b0f6158e4cc1f842ad818eb33",
+          "demand_noise": "5e1c3919589bdb6a32cd14cceee7a037bfb45230ab153e1366ddfc5a0f065994",
+          "inflow": "b5768f49252a39716eabd75a649940de788e1d7f38c0386189359931ace8896f",
+          "demand": "438eb5650cd24ff2e62cbfe575472eb12dae3e78b078ef7b28dc7b9760e41b45",
+          "price": "9d4e689e8a2e277ea26d05880fce6962b3603f12860ca1b1f7936ceb15738995"
+        },
+        "validation": {
+          "factors": "e598ffcbb255a1ab89f84d40f12ebc731beb652d402feac5722c6f2ef450866b",
+          "idiosyncratic": "5d9371137b84d405220a77511e770ab0403ca5cc32baad9d73e7a813d0bac0a3",
+          "demand_noise": "5adec12f632f47dece6929409828a4c97ffd29b56b00aaf5f1dc7d4987c753e6",
+          "inflow": "d669a56d42d6cb130baa86e5b47eb51bea99c4df6587590102b341b2de30adda",
+          "demand": "977ac86dfb4e08f730b57c2fa2aeaed47ed36a98c896435803c3018fdff36c5a",
+          "price": "66d83fe389fe2ff9e8fcf6e415bcf967cea099278c0655a7588efcc87d84839e"
+        },
+        "test": {
+          "factors": "ac34134c963e57efd57c04be6ca1c880c35bedb5d6ea1c030595e1af070916d5",
+          "idiosyncratic": "a0247b752fdc141e4b7d507b8468758b46222ca3d4f7f5f646df19a648f1409d",
+          "demand_noise": "01ce6f79701fac95ae1f7440c3f82b9dac07b77cee3e7a51ab7fa843647f2d13",
+          "inflow": "d5ebef382f891b421f60463c00716d2588c3c1cfef135a0856c0cbc8dedb8a82",
+          "demand": "fe6e4958ccaa44ac6fb5126e44ce2ec575329baa8fe59c81940a751b670f7ddb",
+          "price": "bc54de920e705eab77e28a0f6319ec9699849d01f022f419607c0931dbdf5f60"
+        }
+      }
+    },
+    {
+      "bundle": "scaling_R12_T48",
+      "datasets": {
+        "fit": {
+          "factors": "cc53428fbe5908c998d0155da007002ea0f7c64f89fd7e3a25eb599682833567",
+          "idiosyncratic": "ae674757c4fd9b465762e464bc8e7d631f1733d2545693b904e29fadded8c29b",
+          "demand_noise": "fc4204e74c39d127e539f38d925a31c3290e19169fdfdfbc5b3ef5f7b96a451a",
+          "inflow": "632fe1ed97b176c21e78fd84913188f32847246eeab1ac08e14fde7f0b5f0af9",
+          "demand": "cae159e8567580aff0b12538a4a85c54c5bf8b850a90f019e8a81509af0f3858",
+          "price": "34127d96b70821159e156a6b6c0a8f4940a32d4b2ccaab49b6acb126567ebf33"
+        },
+        "validation": {
+          "factors": "d4fd0c99e8de3c30c0a69f953ace24043f4669a91664b8f0d82f5f1b759d9f6d",
+          "idiosyncratic": "8a9ffc9472dcbb83cd2c53a5c2e96ebccf16b38bd62eed582d246a31facbec61",
+          "demand_noise": "c8f5b0aba6054bb832e0d2df52e1e7b47c77a90ed908cab57fd4a84277f28b25",
+          "inflow": "90efcbfd7696060590889c1c2ab41e9b78a5eba81578fdd30cd92b763a1194d8",
+          "demand": "43ecbc3dc4a004f5744dd75e1545e25194b88378becf677c3f3a54f0e678e403",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "d78e78c0b58f8b594a95a75936e7eebca78c5e0231356bc7a1f51d1e0b9aa178",
+          "idiosyncratic": "5e4234408d4d27fa1a088a456da741afeace55936664840c3239ca2112e5f83d",
+          "demand_noise": "b2b4405d27eba0e697d33585ddfef54f9bceda1015228107492ed91a004d3e98",
+          "inflow": "62d3d25fb37469bbe6671562b261d662bd41699f152f4d70b6e1bb3dbad59e39",
+          "demand": "e1ac0a305bbda5d07951e8a477e27191e8ffa5773a511ad269d9d75d802ba9a9",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "scaling_R12_T96",
+      "datasets": {
+        "fit": {
+          "factors": "7b887f44254201a3ff0c97afebb72994e6545647a354a44886f0695480e7a179",
+          "idiosyncratic": "9263d75dc8a9d160c70887f20df418136553263da4b330acb3579d8722d7e25c",
+          "demand_noise": "fd29a9173b3ba7f10d0f1d679e132c18c9110e265be5917098f22291007babc3",
+          "inflow": "e3ad771c5cab23409d924a2269b46b83b42d3b20f4417ed9da0abcc8cb72284c",
+          "demand": "ce2e489af2056126d5599a709a6853bcaf1991707c042fbc52561ced8d604101",
+          "price": "e431d82fd10a78882b9fb90ee8301af5b50d8cb54763551196b4f9a044d8b3ab"
+        },
+        "validation": {
+          "factors": "d1da35fddf5db5c84a243dfd7ed4b6fb082511187bf3aa7cff386ea7c7d49ce9",
+          "idiosyncratic": "a99b2f2e441751ce2b6199c08e8a87defef48ddcbedc03f11ae78c465b0761ae",
+          "demand_noise": "264b4d66bed4cbe64d282b54515cc419b07c8e873a57eac073aa0a4d71e93983",
+          "inflow": "8217bf6e5d6b3c6adc4d49ec00305bae146c898a7e38d7699c88c14dc9cb1392",
+          "demand": "173663f55e031da795b002267e9074155f41f39f896a1915c99c3859d88bbf8b",
+          "price": "fd8bc6b25699cd0b2530e736091dbcd3c2c4b645200fe138c2dc3412424f1ecd"
+        },
+        "test": {
+          "factors": "fe58491341f1843c6680214541ab85adf3f3b94df0f5e8c1cee21879aeef4eb5",
+          "idiosyncratic": "5c01bb2a382c4d16279e49b4baed64505b8bf8e098a6f2d0d65cbb6696c09d90",
+          "demand_noise": "6f17d3317a8dc192779a50a0b3224b2ab78d17530529ab3dd8dc36223c418bf2",
+          "inflow": "190fa0bb84c0c911ccc06ebb70b58f5e67dbb164dd0ad210d6a1985aa47715fc",
+          "demand": "88c129e6f053aaa497375ea5b744abe2275574c4808f7541587c8ef8b8eac6df",
+          "price": "8a5e2e96fcbe36e1eaadf1ae622c4589f471cf7de4e2335ac7bc5958767594c8"
+        }
+      }
+    },
+    {
+      "bundle": "scaling_R24_T48",
+      "datasets": {
+        "fit": {
+          "factors": "cc53428fbe5908c998d0155da007002ea0f7c64f89fd7e3a25eb599682833567",
+          "idiosyncratic": "5e1f6475c6a3a262e5ff4d484856d6f5a6d92bd660ff48b81791d57d5817fc44",
+          "demand_noise": "eb0a66fd6efa5bb7eafed79da81d9332035f79c91f9ea6e90b3eb68537688a21",
+          "inflow": "f73e0529d33aba48ff7f92fa7cf8534fcd18764a527352fd685b92b0c23ae39b",
+          "demand": "8a32e3b47749dcc1b8285d71120f22ca4f9453f5a7f7bc513dd1fc77f46787d9",
+          "price": "34127d96b70821159e156a6b6c0a8f4940a32d4b2ccaab49b6acb126567ebf33"
+        },
+        "validation": {
+          "factors": "d4fd0c99e8de3c30c0a69f953ace24043f4669a91664b8f0d82f5f1b759d9f6d",
+          "idiosyncratic": "81fd6a685e1a7cb6bf91cae06e4f1b535239d026f41aa4d847f979a551fa56da",
+          "demand_noise": "e5598f14b0f0eb787f94536553d4ae3d9927999a3980fec17b2c1891e974418e",
+          "inflow": "cc8a00fcdecb42450fd9e6237e645ead3fd4a3bb21169ccd631dfcca2eac1716",
+          "demand": "818d898cf9406d18a46780e87fedb81069988cc621506aa1c0148ac384b80e5b",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "d78e78c0b58f8b594a95a75936e7eebca78c5e0231356bc7a1f51d1e0b9aa178",
+          "idiosyncratic": "3ec324dcb3f96ddbfd1de3a3d5bd2c731c11895da16e2b1fa624311673343be6",
+          "demand_noise": "dc29b7006ce8ab97b6c6435883c7bc0c09e15f4f64dc681309c9ba2b1ecbbd83",
+          "inflow": "408197656244b97be337562b952ec5d068e36a2ec945f6dc67bdf28d8f909f82",
+          "demand": "df9b0f4ce6a57116dd9d242ddde9ba3237fb1ac63831570da1fe7de272b014af",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "scaling_R48_T48",
+      "datasets": {
+        "fit": {
+          "factors": "cc53428fbe5908c998d0155da007002ea0f7c64f89fd7e3a25eb599682833567",
+          "idiosyncratic": "acff7132d62c986f97f06b4b818adb146621f4e8265cb35eed5d89183cdbe82e",
+          "demand_noise": "75068dfb52767e32ddd2d66a049fb83a1bb91a09c8230a4d073910650348b31b",
+          "inflow": "de4e7823239e7dbd103d12e29ad3c917e37f285fd3db4aa5760bcf7bc4d09cf3",
+          "demand": "3263e8df3e140bb5a94dd56fda53a3dd0ff473f27f1b4c5a2ab07f45a63bb18b",
+          "price": "34127d96b70821159e156a6b6c0a8f4940a32d4b2ccaab49b6acb126567ebf33"
+        },
+        "validation": {
+          "factors": "d4fd0c99e8de3c30c0a69f953ace24043f4669a91664b8f0d82f5f1b759d9f6d",
+          "idiosyncratic": "db47c8e7f4d7d8808f521ca98918f4eabe87e24fe84952808aec3a0076617c3a",
+          "demand_noise": "1cb734dd65aae747cc68a2363e3e9ad6358504338e01079b335aeea40b4c39ad",
+          "inflow": "4888e0330560947b9f85c22fe0da6c93a9d943df6c75e87073193847150193cd",
+          "demand": "8759a8b67b2df7d126dbdff89d6c1d94db8e20d805beda435bddf53e05c50959",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "d78e78c0b58f8b594a95a75936e7eebca78c5e0231356bc7a1f51d1e0b9aa178",
+          "idiosyncratic": "2b05f4c4fefb83c7608bb9b0c3ea22e62b6da086345e14d0076fdb398dbb3cfe",
+          "demand_noise": "35d4a30f9ad800a986dc056a645af3df687e46d31434d15d743c338b8cf5b2f5",
+          "inflow": "79d49d65b28e6e80876d2dcb0ade75d55c1625965eb02429efd4ff6579b44d2f",
+          "demand": "d5227496d73230a8970b6dcef6359ba506b9c97d7b09adbc134c9dac8315690d",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    },
+    {
+      "bundle": "scaling_R6_T48",
+      "datasets": {
+        "fit": {
+          "factors": "cc53428fbe5908c998d0155da007002ea0f7c64f89fd7e3a25eb599682833567",
+          "idiosyncratic": "0d8f3de4cf0019462ac05e618bad0861867672a4affee706bce18cb016023569",
+          "demand_noise": "673b7e09531706d519d7649caf68bfb229b25b8c7794aefabf6d34166bfc05f9",
+          "inflow": "67e39a56fb3783de9dd40d8bf9b02ebaa707218e1006bedaed420b4fe8035066",
+          "demand": "28169f91fe51caa8a8d7cea33c4552f19c8598dbf4f05129171bb38285289230",
+          "price": "34127d96b70821159e156a6b6c0a8f4940a32d4b2ccaab49b6acb126567ebf33"
+        },
+        "validation": {
+          "factors": "d4fd0c99e8de3c30c0a69f953ace24043f4669a91664b8f0d82f5f1b759d9f6d",
+          "idiosyncratic": "70691ca7c0bdee27a310cde39614366ee2ddafed470534a1f9ec3cbd283de379",
+          "demand_noise": "78cf5bc779b48c5d7ea6651f5e3440394f71bd679e5793c6bdd391acfd16f490",
+          "inflow": "e54f1de140f4f1a12e868bbcf041cda2d1dfa6118ceedfef0b2bfb039c8694c4",
+          "demand": "335aa21d2c7b19bd62c083d7d54e2628077ac358fa00d8669e13301533f8838c",
+          "price": "d116f33f3ff1a10861f067abc9fd0ec3ae4efca8f2df4d75a65ceb9eaefee0c5"
+        },
+        "test": {
+          "factors": "d78e78c0b58f8b594a95a75936e7eebca78c5e0231356bc7a1f51d1e0b9aa178",
+          "idiosyncratic": "5880054deff6f123cec6d6c6def693df5312e9105eca18134b6f80d57325b15f",
+          "demand_noise": "a91bf6fbf2ff0c0e2e9f2c494b78ad4e8ed7b51407ad5088d319bdc5a52b5197",
+          "inflow": "f1cb4af032965f14af8b967801b82357cb6a68f56806be25243146f434108b02",
+          "demand": "76d8d6dd6dbaea5246e519c718108ec656869322889fabfc8bf0fb57addfdd66",
+          "price": "4afd5830fe939bbea052363f7f443679ab52a767824e790e1f54c610634a9432"
+        }
+      }
+    }
+  ]
+}

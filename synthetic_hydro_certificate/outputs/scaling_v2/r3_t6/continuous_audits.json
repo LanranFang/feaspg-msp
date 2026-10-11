@@ -1,0 +1,130 @@
+[
+  {
+    "generator": "zero",
+    "path": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "absolute_error": 1.4210854715202004e-14,
+    "value": 67.00000000000001,
+    "bound": 67.0,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "zero",
+    "path": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "absolute_error": 1.4210854715202004e-14,
+    "value": 67.00000000000001,
+    "bound": 67.0,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "zero",
+    "path": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "absolute_error": 2.842170943040401e-14,
+    "value": 67.00000000000001,
+    "bound": 67.00000000000003,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "zero",
+    "path": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "absolute_error": 2.842170943040401e-14,
+    "value": 56.00000000000003,
+    "bound": 56.0,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "absolute_error": 1.1368683772161603e-13,
+    "value": 83.53184509277344,
+    "bound": 83.53184509277355,
+    "mip": true,
+    "nodes": 34.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "absolute_error": 1.1368683772161603e-13,
+    "value": 83.53184509277344,
+    "bound": 83.53184509277355,
+    "mip": true,
+    "nodes": 34.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "absolute_error": 2.842170943040401e-14,
+    "value": 83.15321350097658,
+    "bound": 83.15321350097659,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "absolute_error": 1.1368683772161603e-13,
+    "value": 85.67622375488281,
+    "bound": 85.6762237548827,
+    "mip": true,
+    "nodes": 1.0
+  }
+]

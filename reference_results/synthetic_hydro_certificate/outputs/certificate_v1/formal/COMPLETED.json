@@ -1,0 +1,8 @@
+{
+  "repetitions": 200,
+  "reported_certificates": 6600,
+  "memoized_inner_paths": 230400,
+  "elapsed_this_invocation": 54.07350695692003,
+  "failures": 0,
+  "completed_at": "2026-09-14T20:31:12.360894+00:00"
+}

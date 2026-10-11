@@ -1,0 +1,26 @@
+case_id,case_title,method,role,method_label,protocol_status,n_fit,mean_test_cost,seed_sd,n_seeds,parameter_count,test_paths,test_seed
+ons_subsystems,ONS system,algorithm1_mlp,structured,A1 MLP,"regularized A1, validation-selected weight and LR",250,62108995717.1,514621351.6161101,5,18948.0,4096,61303
+ons_subsystems,ONS system,algorithm1_mlp,structured,A1 MLP,"regularized A1, validation-selected weight and LR",500,60789587582.5,427949076.4926857,5,18948.0,4096,61303
+ons_subsystems,ONS system,algorithm1_mlp,structured,A1 MLP,"regularized A1, validation-selected weight and LR",1000,59143933187.2,303454613.8488405,5,18948.0,4096,61303
+ons_subsystems,ONS system,algorithm1_mlp,structured,A1 MLP,"regularized A1, validation-selected weight and LR",2500,55464870094.15,1197342991.5128276,5,18948.0,4096,61303
+ons_subsystems,ONS system,hydrology_state_sddp,sddp,Finite-state empirical SDDP,post-primary sensitivity,250,61734818737.0,741463955.3424423,5,,4096,61303
+ons_subsystems,ONS system,hydrology_state_sddp,sddp,Finite-state empirical SDDP,post-primary sensitivity,500,61683438589.7,736947522.934639,5,,4096,61303
+ons_subsystems,ONS system,hydrology_state_sddp,sddp,Finite-state empirical SDDP,post-primary sensitivity,1000,62576317294.9,2035460023.283792,5,,4096,61303
+ons_subsystems,ONS system,hydrology_state_sddp,sddp,Finite-state empirical SDDP,primary anchor,2500,63854332316.7,784054141.3167164,5,,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_deepsets,structured,DeepSets A1,"regularized A1, validation-selected weight and LR",250,175.3581356126815,0.882873360622659,5,9153.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_mlp,matched_mlp,Matched A1 MLP,"regularized A1, validation-selected weight and LR",250,189.01693495735526,1.216451208584749,5,9132.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_deepsets,structured,DeepSets A1,"regularized A1, validation-selected weight and LR",500,170.4228263925761,0.3185345868900561,5,9153.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_mlp,matched_mlp,Matched A1 MLP,"regularized A1, validation-selected weight and LR",500,181.56353590749205,1.0431048312371023,5,9132.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_deepsets,structured,DeepSets A1,"regularized A1, validation-selected weight and LR",1000,168.55033114403486,0.23267723520686237,5,9153.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_mlp,matched_mlp,Matched A1 MLP,"regularized A1, validation-selected weight and LR",1000,175.4987083800137,0.5116632746806464,5,9132.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_deepsets,structured,DeepSets A1,"regularized A1, validation-selected weight and LR",2500,167.3985980566591,0.11584361671586699,5,9153.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_mlp,matched_mlp,Matched A1 MLP,"regularized A1, validation-selected weight and LR",2500,170.24320040754975,0.3315593989667824,5,9132.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,hydrology_state_sddp,sddp,Finite-state empirical SDDP,post-primary sensitivity,250,176.91406632587314,0.677828201713848,5,,4096,61303
+camels_br_12,CAMELS-BR 12 basins,hydrology_state_sddp,sddp,Finite-state empirical SDDP,post-primary sensitivity,500,176.46165462061762,1.3236938366201252,5,,4096,61303
+camels_br_12,CAMELS-BR 12 basins,hydrology_state_sddp,sddp,Finite-state empirical SDDP,post-primary sensitivity,1000,174.62617978081107,0.4854780700356538,5,,4096,61303
+camels_br_12,CAMELS-BR 12 basins,hydrology_state_sddp,sddp,Finite-state empirical SDDP,primary anchor,2500,174.837537907809,0.3543794220591695,5,,4096,61303
+ons_subsystems,ONS system,algorithm1_mlp,structured,A1 MLP,"regularized A1, validation-selected weight and LR",5000,52216199007.0,1007312503.2132412,5,18948.0,4096,61303
+ons_subsystems,ONS system,hydrology_state_sddp,sddp,Finite-state empirical SDDP,post-primary 5k extension,5000,63057520392.1,675955676.6991343,5,,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_deepsets,structured,DeepSets A1,"regularized A1, validation-selected weight and LR",5000,166.24594046510757,0.19321736362764777,5,9153.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,algorithm1_mlp,matched_mlp,Matched A1 MLP,"regularized A1, validation-selected weight and LR",5000,167.67327064685523,0.2303323615617047,5,9132.0,4096,61303
+camels_br_12,CAMELS-BR 12 basins,hydrology_state_sddp,sddp,Finite-state empirical SDDP,post-primary 5k extension,5000,173.91832844801246,0.58533888015651,5,,4096,61303

@@ -1,0 +1,59 @@
+{
+  "bundle": "ons_subsystems_n5000",
+  "method": "algorithm1_mlp",
+  "seed": 3,
+  "mode": "full",
+  "zero": false,
+  "selection": {
+    "bundle": "ons_subsystems_n5000",
+    "method": "algorithm1_mlp",
+    "seed": 3,
+    "strength": 0.1,
+    "lr_index": 2,
+    "learning_rate": 0.0006,
+    "mode": "full",
+    "lambda_ref": 5.4374089346861107e-14,
+    "initial_validation": 98.97943878173828,
+    "best_validation_cost": 24.990421295166016,
+    "selected_iteration": 2200,
+    "validation": {
+      "mean_cost": 24.990421295166016,
+      "proposal_distance": 985240801640448.0,
+      "active_projection_fraction": 1.0,
+      "active_projection_tolerance": 1e-06,
+      "max_action_violation": 0.0,
+      "max_storage_violation": 0.0,
+      "mean_cost_float64": 24.99042197418213
+    },
+    "runtime_seconds": 777.9680717000738,
+    "iterations": 2500,
+    "n_fit": 5000,
+    "max_gradient_norm": 1792.06201171875,
+    "initial_state_sha256": "ed8c3e6979f0a28dbe259901bef4b6470b7996994062892582eac5e944437867",
+    "selected_state_sha256": "0acbc5a0b17237d47eb54d456ca267f743d49fc66c4a79e6975b709accb53276",
+    "batches_sha256": "867ccede4c8526d4bb017eb734f1c2f51583ffec7422af12fb8f235108b8fa67",
+    "calibration_seconds": 9.215472627896816,
+    "path": "iclr_algorithm1_experiments/outputs/regularized_a1_v2/runs/ons_subsystems_n5000/algorithm1_mlp/seed3/full/a0.1_lr2"
+  },
+  "test": {
+    "mean_cost": 53988466688.0,
+    "proposal_distance": 982931317194752.0,
+    "active_projection_fraction": 1.0,
+    "active_projection_tolerance": 1e-06,
+    "max_action_violation": 0.0,
+    "max_storage_violation": 0.0,
+    "mean_cost_float64": 53988467796.0
+  },
+  "total_fit_seconds": 6685.995848706458,
+  "calibration_seconds": 9.215472627896816,
+  "candidate_count": 9,
+  "historical": {
+    "mean_cost": 5071564701696.0,
+    "proposal_distance": 830817131560960.0,
+    "active_projection_fraction": 1.0,
+    "active_projection_tolerance": 1e-06,
+    "max_action_violation": 0.0,
+    "max_storage_violation": 0.0,
+    "mean_cost_float64": 5071564701696.0
+  }
+}

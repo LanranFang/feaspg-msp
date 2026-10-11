@@ -1,0 +1,22 @@
+\begin{table}[ht]
+\caption{Seven-configuration scaling audit.  Costs are in thousands, mean
+$\pm$ sample SD over five training seeds. Myopic is fixed.  ``Reduction'' is
+the reduction in Graph mean cost relative to matched MLP.}
+\label{tab:scaling-complete}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.3pt}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Configuration & FeasPG+Graph & FeasPG+MLP (matched) & Myopic & Reduction (\%)\\
+\midrule
+$R=6,\ T=48$ & $20.28\pm0.80$ & $24.21\pm0.07$ & 56.88 & 16.23\\
+$R=12,\ T=48$ & $52.87\pm0.70$ & $58.29\pm0.16$ & 144.04 & 9.29\\
+$R=24,\ T=48$ & $127.02\pm2.86$ & $138.07\pm2.20$ & 316.54 & 8.01\\
+$R=48,\ T=48$ & $282.24\pm4.96$ & $298.49\pm1.58$ & 722.88 & 5.45\\
+$R=12,\ T=12$ & $11.30\pm0.22$ & $11.73\pm0.08$ & 27.28 & 3.65\\
+$R=12,\ T=24$ & $22.96\pm0.72$ & $25.09\pm0.19$ & 64.66 & 8.52\\
+$R=12,\ T=96$ & $114.35\pm0.58$ & $123.79\pm0.34$ & 309.91 & 7.62\\
+\bottomrule
+\end{tabular}
+\end{table}

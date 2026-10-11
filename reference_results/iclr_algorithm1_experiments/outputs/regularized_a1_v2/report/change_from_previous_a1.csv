@@ -1,0 +1,44 @@
+bundle,method,old_zero_test_mean,new_positive_test_mean,cost_reduction_percent,comparison_scope
+scaling_R12_T24,projected_graph_neural_global,23095.521427440643,22955.711816501618,0.6053537755285832,Same CPU fitting implementation and frozen data; original unregularized run retained
+scaling_R12_T24,projected_mlp_matched,25681.783929538728,25093.564295196535,2.290415790258371,Same CPU fitting implementation and frozen data; original unregularized run retained
+camels_br_12_n500,algorithm1_mlp,181.4689474467188,181.56353590749205,-0.05212377219581121,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+camels_br_12_n500,algorithm1_deepsets,169.77917731590568,170.4228263925761,-0.3791095509155351,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+ons_subsystems_n500,algorithm1_mlp,60951698013.5,60789587582.5,0.26596540585972495,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+controlled_n250,projected_graph_neural_global,60947.58196182251,61180.61755180359,-0.38235411886735626,Same CPU fitting implementation and frozen data; original unregularized run retained
+controlled_n250,projected_mlp_matched,64742.79021434784,64592.586115646365,0.23200127489746425,Same CPU fitting implementation and frozen data; original unregularized run retained
+ons_subsystems_n2500,algorithm1_mlp,56608594028.6,55464870094.15,2.020406890643067,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+scaling_R12_T96,projected_graph_neural_global,120179.64650421144,114349.68402023315,4.851039800465706,Same CPU fitting implementation and frozen data; original unregularized run retained
+scaling_R12_T96,projected_mlp_matched,125236.17061309816,123788.15487365723,1.1562280548439996,Same CPU fitting implementation and frozen data; original unregularized run retained
+controlled_n2500,projected_graph_neural_global,51340.184460830686,48736.709037971494,5.071028571869429,Same CPU fitting implementation and frozen data; original unregularized run retained
+controlled_n2500,projected_mlp_matched,56568.00597438812,55840.4045879364,1.2862418851764978,Same CPU fitting implementation and frozen data; original unregularized run retained
+full_comparison_n1000,projected_graph_neural_global,56322.30875377655,54511.51834468842,3.215050038172873,Same CPU fitting implementation and frozen data; original unregularized run retained
+full_comparison_n1000,projected_polynomial,61389.10964736938,61122.39141998291,0.4344715681959821,Same CPU fitting implementation and frozen data; original unregularized run retained
+full_comparison_n1000,projected_affine,63924.77678813935,63303.333340454104,0.9721480135078897,Same CPU fitting implementation and frozen data; original unregularized run retained
+full_comparison_n1000,projected_mlp_pathwise,60480.31757221222,59423.39496402741,1.7475480463919002,Same CPU fitting implementation and frozen data; original unregularized run retained
+ons_subsystems_n250,algorithm1_mlp,62713048813.2,62108995717.1,0.9632016104005103,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+camels_br_12_n1000,algorithm1_mlp,175.39703629761934,175.4987083800137,-0.057966818904420236,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+camels_br_12_n1000,algorithm1_deepsets,168.44814045131207,168.55033114403486,-0.06066596665834645,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+scaling_R12_T48,projected_graph_neural_global,54864.3196554184,52869.07643890381,3.6366863364859836,Same CPU fitting implementation and frozen data; original unregularized run retained
+scaling_R12_T48,projected_mlp_matched,59142.2082813263,58285.124990272525,1.4491905459072751,Same CPU fitting implementation and frozen data; original unregularized run retained
+scaling_R24_T48,projected_graph_neural_global,129362.46955986024,127019.45181922913,1.8112036269892995,Same CPU fitting implementation and frozen data; original unregularized run retained
+scaling_R24_T48,projected_mlp_matched,140530.1126068115,138073.9370334625,1.7477930728064806,Same CPU fitting implementation and frozen data; original unregularized run retained
+scaling_R12_T12,projected_graph_neural_global,12245.2844622612,11304.105262947083,7.686054188571456,Same CPU fitting implementation and frozen data; original unregularized run retained
+scaling_R12_T12,projected_mlp_matched,12360.372194766998,11732.58127644062,5.079061604570178,Same CPU fitting implementation and frozen data; original unregularized run retained
+controlled_n100,projected_graph_neural_global,70795.8958108902,70756.33456192017,0.055880709632805114,Same CPU fitting implementation and frozen data; original unregularized run retained
+controlled_n100,projected_mlp_matched,75962.50331039428,74704.17993946075,1.6565059287104278,Same CPU fitting implementation and frozen data; original unregularized run retained
+ons_subsystems_n5000,algorithm1_mlp,55256158253.0,52216199007.0,5.501575466178831,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+controlled_n500,projected_graph_neural_global,57926.75528583527,57251.923510932924,1.164974236123606,Same CPU fitting implementation and frozen data; original unregularized run retained
+controlled_n500,projected_mlp_matched,61526.49192943573,60476.756914329526,1.7061512564541137,Same CPU fitting implementation and frozen data; original unregularized run retained
+camels_br_12_n250,algorithm1_mlp,188.80433427728715,189.01693495735526,-0.11260370736820846,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+camels_br_12_n250,algorithm1_deepsets,174.262771454826,175.3581356126815,-0.628570376053883,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+scaling_R48_T48,projected_graph_neural_global,281837.7257766724,282237.8423233032,-0.14196699378274946,Same CPU fitting implementation and frozen data; original unregularized run retained
+scaling_R48_T48,projected_mlp_matched,300749.34457092284,298494.506816864,0.7497398730081373,Same CPU fitting implementation and frozen data; original unregularized run retained
+ons_subsystems_n1000,algorithm1_mlp,59533934573.4,59143933187.2,0.6550908973086078,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+camels_br_12_n2500,algorithm1_mlp,170.1838334068656,170.24320040754975,-0.03488404244733623,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+camels_br_12_n2500,algorithm1_deepsets,167.4712727110833,167.3985980566591,0.043395295949988366,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+scaling_R6_T48,projected_graph_neural_global,20444.865086078644,20279.562308502198,0.8085295592828556,Same CPU fitting implementation and frozen data; original unregularized run retained
+scaling_R6_T48,projected_mlp_matched,24475.54767074585,24209.317074775696,1.0877411184075925,Same CPU fitting implementation and frozen data; original unregularized run retained
+camels_br_12_n5000,algorithm1_mlp,167.61647164672613,167.67327064685523,-0.03388628788751902,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+camels_br_12_n5000,algorithm1_deepsets,166.7094636954367,166.24594046510757,0.27804254182951516,Original unregularized real-case fit used CUDA; new positive fit uses CPU; matched fresh CPU zero controls are reported separately at N1000
+controlled_n1000,projected_graph_neural_global,55071.713433265686,52737.49732151032,4.238502792515986,Same CPU fitting implementation and frozen data; original unregularized run retained
+controlled_n1000,projected_mlp_matched,58927.298537635805,58325.94548435211,1.0204999519868085,Same CPU fitting implementation and frozen data; original unregularized run retained

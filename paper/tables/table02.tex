@@ -1,0 +1,28 @@
+\begin{table}[H]
+\caption{Complete controlled-benchmark comparison at $N_{\rm fit}=1000$.
+Cost is mean $\pm$ sample SD over five training seeds, with one run for each fixed
+method. Timing records each implementation's CPU execution. FeasPG and
+baseline timings were collected separately and do not support a
+controlled speed comparison. Lower cost is better.}
+\label{tab:synthetic-full}
+\centering
+\small
+\setlength{\tabcolsep}{3.1pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Method & Test cost & Policy params & Tuning (s) & Batch-1 (ms)\\
+\midrule
+FeasPG+Graph & $54.512\pm0.573$k & 54,721 & 1131.51 & 0.978\\
+FeasPG+MLP & $59.423\pm0.153$k & 82,444 & 607.63 & 0.854\\
+FeasPG+polynomial & $61.122\pm0.150$k & 705,600 & 629.06 & 0.806\\
+FeasPG+affine & $63.303\pm0.175$k & 28,224 & 499.22 & 0.796\\
+SAC & $79.078\pm1.359$k & 85,528 & 1042.16 & 0.984\\
+TD3 & $81.049\pm3.602$k & 82,444 & 683.83 & 0.932\\
+PPO & $105.871\pm3.875$k & 82,456 & 84.20 & 0.944\\
+\shortstack[l]{Two-scenario\\linearized SDDP} & $131.588\pm1.614$k & $0^\dagger$ & 613.96 & 3.066\\
+\shortstack[l]{Constant cost-function\\approximation (CFA)} & $134.212\pm0.013$k & 1 & 452.83 & 1.356\\
+Deterministic lookahead & 136.059k & 0 & 0 & 1.376\\
+Myopic & 144.091k & 0 & 0 & 0.758\\
+\bottomrule
+\end{tabular}
+\end{table}

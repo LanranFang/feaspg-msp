@@ -1,0 +1,96 @@
+{
+  "paper_title": "Differentiating Through Moving Recourse: Feasible Policy Optimization and Finite-Sample Certification for Multistage Stochastic Programs",
+  "authors": [
+    "Lanran Fang",
+    "Hyuk Park",
+    "Grani A. Hanasusanto"
+  ],
+  "paper_pages": 104,
+  "paper_pdf_sha256": "58d75cfdf04a48558cf89ba9e26ec7504ceff4cb03fa3215752fb87ab08a3b30",
+  "paper_tex_sha256": "38521d0527d1ecbe9c76bda3d96c64e0ec89fb9e11ed54725c3acfc6f4d5edc2",
+  "assembly_date": "2026-10-11",
+  "base_artifact": "iclr2027_code_submission",
+  "new_exports": [
+    {
+      "source": "overleaf_iclr2027/extend_version/main_preprint.pdf",
+      "destination": "paper/main_preprint.pdf",
+      "sha256": "58d75cfdf04a48558cf89ba9e26ec7504ceff4cb03fa3215752fb87ab08a3b30"
+    },
+    {
+      "source": "overleaf_iclr2027/extend_version/figures/gradient_mechanism.pdf",
+      "destination": "paper/figures/gradient_mechanism.pdf",
+      "sha256": "ea2cd27daf3f8b62304afe2c29bd51ff3460fc87852e1a4963c691fd986ac35a"
+    },
+    {
+      "source": "overleaf_iclr2027/extend_version/figures/proposal_distance_mechanism.pdf",
+      "destination": "paper/figures/proposal_distance_mechanism.pdf",
+      "sha256": "64eb988a5b193320d88733e0071a9407e10f923e7ab6b1ca03078c0f640c5c37"
+    },
+    {
+      "source": "overleaf_iclr2027/extend_version/figures/controlled_budget_preprint.pdf",
+      "destination": "paper/figures/controlled_budget_preprint.pdf",
+      "sha256": "940c72dbd38867300d1f1e00dee7150e8d21ffe4521ec790d5c524704063efd7"
+    },
+    {
+      "source": "overleaf_iclr2027/extend_version/figures/real_hydrology_preprint.pdf",
+      "destination": "paper/figures/real_hydrology_preprint.pdf",
+      "sha256": "589e3235f201ab7749e1e538875a634d2451852813c2581e839f465f554b034c"
+    },
+    {
+      "source": "overleaf_iclr2027/extend_version/figures/certificate_hydro.pdf",
+      "destination": "paper/figures/certificate_hydro.pdf",
+      "sha256": "c2dc73a9037b6abc359d8d6ea1d6bca3fa40afd3f1ea98ae211c991386aa5e37"
+    },
+    {
+      "source": "overleaf_iclr2027/extend_version/figures/controlled_budget_latency.pdf",
+      "destination": "paper/figures/controlled_budget_latency.pdf",
+      "sha256": "3caa91cc2585a2be673c1212822ed3eff7f1051df048b446277390576e684716"
+    },
+    {
+      "source": "overleaf_iclr2027/extend_version/figures/real_hydrology_preprint_data.csv",
+      "destination": "reference_results/paper/real_hydrology_preprint_data.csv",
+      "sha256": "b25044eb1d65ca0646689bcd65290a6a53b57651ff3380883c15a93cbf976f82"
+    },
+    {
+      "source": "overleaf_iclr2027/extend_version/figures/controlled_budget_only_data.csv",
+      "destination": "reference_results/paper/controlled_budget_only_data.csv",
+      "sha256": "3894c144c8251a1a6cc7a4355f1076c80dc95372d1e5f4696a45b440150f85ea"
+    },
+    {
+      "source": "iclr_algorithm1_experiments/outputs/projection_plateau_v1/report/all_validation_histories.csv",
+      "destination": "reference_results/iclr_algorithm1_experiments/outputs/projection_plateau_v1/report/all_validation_histories.csv",
+      "sha256": "1d049f32a550f2c364d41082d4c23d3d463fb81f7777975bc5b789fadce94111"
+    },
+    {
+      "source": "overleaf_iclr2027/scripts/plot_preprint_budget.py",
+      "destination": "artifact/plot_preprint_budget.py",
+      "source_sha256": "34aaa648c88ecdc1aa23ba284677d2a919a9f05fc4212e33246e5eba1d9c0990",
+      "change": "Portable input/output paths and draw(output) wrapper only."
+    },
+    {
+      "source": "overleaf_iclr2027/scripts/plot_preprint_hydrology.py",
+      "destination": "artifact/plot_preprint_hydrology.py",
+      "source_sha256": "10bdf3cc8cd23d7edb9b7170f3f56ff0f0a43ee66fb9a19067ddbb4b75ff09c7",
+      "change": "Portable input/output paths and draw(output) wrapper only."
+    },
+    {
+      "source": "iclr_algorithm1_experiments/auxiliary_gradient_v1_figure.py",
+      "destination": "artifact/plot_gradient_mechanism.py",
+      "source_sha256": "0cd8701e81116365c9a06ddc1d2ee4bc47ad78eed2b0965279a3f2baa145ceda",
+      "change": "Frozen reference inputs and explicit output directory; original drawing computations retained."
+    },
+    {
+      "source": "iclr_algorithm1_experiments/regularized_a1_v2_mechanism_plot.py",
+      "destination": "artifact/plot_plateau.py",
+      "source_sha256": "b03b69475f189760f9494f61c92619e81b93a2bd70b6da8549b3f6ab994d2257",
+      "change": "Frozen reference inputs and explicit output directory; original drawing computations retained."
+    },
+    {
+      "source": "overleaf_iclr2027/extend_version/figures/long/rebuild.py::draw_latency",
+      "destination": "artifact/plot_latency.py",
+      "change": "Local plotting import and preprint axis terminology only."
+    }
+  ],
+  "tables": 14,
+  "figures": 7
+}

@@ -1,0 +1,53 @@
+{
+  "frozen_positive_arm": "decay",
+  "parent_decision_sha256": "1337c974c9c12c2927ede032dfedcfefefea423375cea3278fb56d5ad35b103a",
+  "selection_rule": "Positive lambda schedule selected from N=1000 validation results before parent test access; held fixed across all remaining budgets.",
+  "original_baseline_training_runs_added": 0,
+  "new_positive_candidate_training_runs": 60,
+  "new_positive_selected_policies": 20,
+  "reused_parent_positive_policies": 5,
+  "budgets_with_lower_mean_test_cost": 5,
+  "n_budgets": 5,
+  "mean_comparison_by_budget": [
+    {
+      "n_fit": 100,
+      "test_delta_mean": -839.1686836242676,
+      "test_seed_ci95_low": -2825.7632238577075,
+      "test_seed_ci95_high": 1147.4258566091721
+    },
+    {
+      "n_fit": 250,
+      "test_delta_mean": -136.9180820465088,
+      "test_seed_ci95_low": -622.1129274528098,
+      "test_seed_ci95_high": 348.2767633597922
+    },
+    {
+      "n_fit": 500,
+      "test_delta_mean": -879.1518125534058,
+      "test_seed_ci95_low": -1220.8467319051542,
+      "test_seed_ci95_high": -537.4568932016573
+    },
+    {
+      "n_fit": 1000,
+      "test_delta_mean": -481.48745822906494,
+      "test_seed_ci95_low": -768.4180503186831,
+      "test_seed_ci95_high": -194.5568661394468
+    },
+    {
+      "n_fit": 2500,
+      "test_delta_mean": -478.58076496124266,
+      "test_seed_ci95_low": -781.100647017141,
+      "test_seed_ci95_high": -176.06088290534439
+    }
+  ],
+  "limitations": [
+    "The schedule was chosen and extension triggered using the parent ablation; this is a conditional follow-up, not a new independent confirmatory experiment.",
+    "Nested training pools, common test paths and matched seeds make budgets dependent. Do not count all seed-by-budget-by-path rows as independent replicates.",
+    "Pointwise seed t intervals are descriptive and unadjusted for multiple budgets or the earlier selection step. Within-seed path uncertainty is separate.",
+    "No claim is made for other policies, datasets, reservoir counts, horizons or regularizer schedules.",
+    "Old proposal-distance and gradient histories were not recorded; no baseline values for those diagnostics are invented.",
+    "Current concurrent runtime is not directly compared to historical baseline timing as a speedup claim."
+  ],
+  "actual_extension_calibration_seconds": 1902.7969140685163,
+  "parent_calibration_seconds_reused": 545.6198577259202
+}

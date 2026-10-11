@@ -1,0 +1,5 @@
+output_bias_change,maximum_proposal_change,maximum_action_change,maximum_operating_cost_change,mean_proposal_distance
+-0.05,2.4306716918945312,0.0,0.0,181877.875
+-0.01,0.4865264892578125,0.0,0.0,198482.921875
+0.01,0.47789955139160156,0.0,0.0,206001.703125
+0.05,2.387584686279297,0.0,0.0,219379.859375

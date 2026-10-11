@@ -1,0 +1,121 @@
+{
+  "protocol": {
+    "profile": "decision_switching",
+    "n_reservoirs": 12,
+    "horizon": 48,
+    "shock_factors": 4,
+    "train_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_fit": 1000,
+    "n_validation": 500,
+    "n_test": 4096,
+    "n_calibration": 500,
+    "n_evaluation": 2048,
+    "fit_seed": 4101,
+    "validation_seed": 4202,
+    "test_seed": 4303,
+    "calibration_seed": 4404,
+    "evaluation_seed": 4505,
+    "direct_iterations": 500,
+    "direct_batch_size": 2,
+    "direct_validation_every": 10,
+    "affine_learning_rates": [
+      0.0005,
+      0.002
+    ],
+    "polynomial_learning_rates": [
+      0.00015,
+      0.0003
+    ],
+    "mlp_learning_rates": [
+      0.0001,
+      0.0003
+    ],
+    "graph_learning_rates": [
+      0.0003,
+      0.0006
+    ],
+    "weight_decay": 1e-06,
+    "gradient_clip": 10.0,
+    "mlp_width": 256,
+    "graph_width": 64,
+    "network_depth": 2,
+    "rl_learning_rates_ppo": [
+      0.0001,
+      0.0003
+    ],
+    "rl_learning_rates_sac": [
+      0.0001,
+      0.0003
+    ],
+    "rl_learning_rates_td3": [
+      0.0003,
+      0.001
+    ],
+    "rl_reward_scale": 1000.0,
+    "rl_gamma": 1.0,
+    "rl_validation_every_episodes": 50,
+    "rl_network_width": 256,
+    "rl_network_depth": 2,
+    "ppo_rollout_episodes": 10,
+    "ppo_epochs": 10,
+    "ppo_batch_size": 256,
+    "replay_buffer_size": 100000,
+    "learning_starts": 1000,
+    "off_policy_batch_size": 256,
+    "gradient_steps": 1,
+    "off_policy_n_steps": 3,
+    "td3_action_noise": 0.1,
+    "sddp_iterations": 50,
+    "sddp_validation_every": 10,
+    "sddp_noise_scenarios": 2,
+    "cfa_lookahead_horizon": 12,
+    "cfa_iterations": 100,
+    "cfa_batch_size": 10,
+    "cfa_validation_every": 20,
+    "cfa_learning_rates": [
+      0.02,
+      0.05
+    ],
+    "cfa_smoothing_radius": 0.05,
+    "cfa_rms_decay": 0.9,
+    "cfa_theta_lower": 0.25,
+    "cfa_theta_upper": 1.75,
+    "latency_batch_size": 256,
+    "latency_repetitions": 100,
+    "device": "cpu",
+    "rl_device": "cpu",
+    "smoke": false
+  },
+  "requested_models": [
+    "myopic",
+    "projected_affine",
+    "projected_polynomial",
+    "projected_mlp_pathwise",
+    "projected_graph_neural_global",
+    "deterministic_lookahead",
+    "constant_cfa",
+    "rl_ppo",
+    "rl_sac",
+    "rl_td3",
+    "linearized_empirical_sddp"
+  ],
+  "primary_metric": "test cost",
+  "selection_rule": "minimum validation cost",
+  "trajectory_information_rule": "Each candidate reads the same n_fit trajectories. Direct policies use each once; RL completes each once; CFA evaluates two perturbed policies on each path and reports those extra function evaluations.",
+  "reserved_interfaces": {
+    "calibration": "generated with an independent seed and never read",
+    "evaluation": "generated with an independent seed and never read"
+  },
+  "uncertainty": {
+    "test_path": "paired test-path CI within training seed",
+    "training": "SD of selected-policy test means across training seeds"
+  },
+  "sddp_limit": "The nonlinear model uses a planned-state first-order SDDP linearization with two empirical stagewise scenarios to fit the size-limited Gurobi license; it is not an exact optimum benchmark.",
+  "cfa_limit": "Lookahead uses a planned-state LP approximation with positive linear marginal penalties; all reported costs are recomputed in the shared nonlinear simulator."
+}

@@ -1,0 +1,13 @@
+{
+  "aic_by_order": [
+    141.0408197270814,
+    -1734.6203152007456,
+    -1622.3324249083666,
+    -1519.1480656870576
+  ],
+  "annual_component": false,
+  "order": 1,
+  "periods": 12,
+  "training_fingerprint": "3bcce7ea12f0f22a724fec14ad140e41bab3431b2c79901b8da322589042f6ef",
+  "transform": "log1p"
+}

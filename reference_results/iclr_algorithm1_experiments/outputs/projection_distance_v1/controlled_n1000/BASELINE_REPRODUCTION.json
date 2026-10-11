@@ -1,0 +1,55 @@
+{
+  "all_bitwise_equal": true,
+  "checks": [
+    {
+      "seed": 0,
+      "bitwise_equal_parameters": true,
+      "original_learning_rate": 0.0006,
+      "new_learning_rate": 0.0006,
+      "original_selected_iteration": 490,
+      "new_selected_iteration": 490,
+      "validation_difference": 0.0,
+      "max_parameter_abs_difference": 0.0
+    },
+    {
+      "seed": 1,
+      "bitwise_equal_parameters": true,
+      "original_learning_rate": 0.0006,
+      "new_learning_rate": 0.0006,
+      "original_selected_iteration": 500,
+      "new_selected_iteration": 500,
+      "validation_difference": 0.0,
+      "max_parameter_abs_difference": 0.0
+    },
+    {
+      "seed": 2,
+      "bitwise_equal_parameters": true,
+      "original_learning_rate": 0.0006,
+      "new_learning_rate": 0.0006,
+      "original_selected_iteration": 490,
+      "new_selected_iteration": 490,
+      "validation_difference": 0.0,
+      "max_parameter_abs_difference": 0.0
+    },
+    {
+      "seed": 3,
+      "bitwise_equal_parameters": true,
+      "original_learning_rate": 0.0006,
+      "new_learning_rate": 0.0006,
+      "original_selected_iteration": 500,
+      "new_selected_iteration": 500,
+      "validation_difference": 0.0,
+      "max_parameter_abs_difference": 0.0
+    },
+    {
+      "seed": 4,
+      "bitwise_equal_parameters": true,
+      "original_learning_rate": 0.0006,
+      "new_learning_rate": 0.0006,
+      "original_selected_iteration": 460,
+      "new_selected_iteration": 460,
+      "validation_difference": 0.0,
+      "max_parameter_abs_difference": 0.0
+    }
+  ]
+}

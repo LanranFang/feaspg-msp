@@ -1,0 +1,6 @@
+train_seed,lambda_ref,median_cost_gradient_norm,median_distance_gradient_norm,n_paths,fitting_data_name,fitting_data_seed,gradient_parameter_count,gradient_dtype,gradient_mode,normalization,denominator_epsilon,zero_cost_gradient_median,zero_distance_gradient_median,elapsed_seconds
+0,3.3018032342350327,238222.36734822072,72149.17136133113,32,fit_gradient_diagnostic,14101,54619,torch.float64,full,half_sum_over_stages_and_action_coordinates_per_path,1e-12,False,False,2.9293514250312
+1,5.336264694146996,376572.72753412754,70568.59978238445,32,fit_gradient_diagnostic,14101,54619,torch.float64,full,half_sum_over_stages_and_action_coordinates_per_path,1e-12,False,False,3.309073436073959
+2,7.272318300003537,490052.2936654247,67385.97974530162,32,fit_gradient_diagnostic,14101,54619,torch.float64,full,half_sum_over_stages_and_action_coordinates_per_path,1e-12,False,False,3.088752262061462
+3,5.448203025715221,430332.85548485094,78986.20030378885,32,fit_gradient_diagnostic,14101,54619,torch.float64,full,half_sum_over_stages_and_action_coordinates_per_path,1e-12,False,False,2.9382964039687067
+4,6.6495756184293775,477442.0631701002,71800.38104189144,32,fit_gradient_diagnostic,14101,54619,torch.float64,full,half_sum_over_stages_and_action_coordinates_per_path,1e-12,False,False,3.499503101920709

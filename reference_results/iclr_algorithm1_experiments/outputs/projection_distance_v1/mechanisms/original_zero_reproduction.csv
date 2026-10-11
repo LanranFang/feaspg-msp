@@ -1,0 +1,4 @@
+metric,n_rows,maximum_absolute_difference,matches_rtol_1e-7_atol_1e-5
+autograd_directional_derivative,70,2.2737367544323206e-13,True
+finite_difference_directional_derivative,70,2.2737367544323206e-13,True
+gradient_norm,70,5.820766091346741e-11,True

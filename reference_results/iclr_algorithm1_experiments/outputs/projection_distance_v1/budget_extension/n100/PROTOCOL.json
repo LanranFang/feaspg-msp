@@ -1,0 +1,183 @@
+{
+  "experiment": "conditional_projection_distance_budget_extension",
+  "protocol": {
+    "profile": "decision_switching",
+    "n_reservoirs": 12,
+    "horizon": 48,
+    "shock_factors": 4,
+    "train_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mechanism_seeds": {
+      "fit": 14101,
+      "validation": 14202,
+      "test": 14303,
+      "calibration": 14404,
+      "evaluation": 14505
+    },
+    "budget_seeds": {
+      "fit": 15101,
+      "validation": 15202,
+      "test": 15303,
+      "calibration": 15404,
+      "evaluation": 15505
+    },
+    "scaling_seeds": {
+      "fit": 16101,
+      "validation": 16202,
+      "test": 16303,
+      "calibration": 16404,
+      "evaluation": 16505
+    },
+    "transfer_seeds": {
+      "fit": 17101,
+      "validation": 17202,
+      "test": 17303,
+      "calibration": 17404,
+      "evaluation": 17505
+    },
+    "n_validation": 500,
+    "n_test": 4096,
+    "n_calibration": 500,
+    "n_evaluation": 2048,
+    "fit_budgets": [
+      100,
+      250,
+      500,
+      1000,
+      2500
+    ],
+    "base_n_fit": 1000,
+    "batch_size": 2,
+    "max_validation_checks": 50,
+    "mlp_learning_rates": [
+      0.0001,
+      0.0003,
+      0.0006
+    ],
+    "graph_learning_rates": [
+      0.0003,
+      0.0006,
+      0.001
+    ],
+    "shac_learning_rates": [
+      0.0001,
+      0.0003,
+      0.0006
+    ],
+    "ppo_learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "sac_learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "weight_decay": 1e-06,
+    "gradient_clip": 10.0,
+    "network_depth": 2,
+    "graph_width": 64,
+    "shac_window": 8,
+    "shac_critic_learning_rate": 0.001,
+    "shac_critic_epochs": 2,
+    "shac_critic_tau": 0.05,
+    "shac_cost_scale": 100000.0,
+    "rl_reward_scale": 1000.0,
+    "rl_gamma": 1.0,
+    "rl_validation_every_episodes": 50,
+    "rl_network_width": 256,
+    "rl_network_depth": 2,
+    "ppo_rollout_episodes": 10,
+    "ppo_epochs": 10,
+    "ppo_batch_size": 256,
+    "replay_buffer_size": 100000,
+    "learning_starts": 1000,
+    "off_policy_batch_size": 256,
+    "off_policy_gradient_steps": 1,
+    "off_policy_n_steps": 3,
+    "reservoir_values": [
+      6,
+      12,
+      24,
+      48
+    ],
+    "horizon_values": [
+      12,
+      24,
+      48,
+      96
+    ],
+    "routing_severities": [
+      0.1,
+      0.25,
+      0.4
+    ],
+    "routing_topology_seeds": [
+      27101,
+      27102,
+      27103,
+      27104,
+      27105
+    ],
+    "latency_batch_size": 256,
+    "latency_repetitions": 100,
+    "device": "cpu",
+    "rl_device": "cpu",
+    "smoke": false
+  },
+  "n_fit": 100,
+  "policy": "projected_mlp_matched",
+  "arms": [
+    "decay"
+  ],
+  "selected_positive_arm": "decay",
+  "parent": "iclr_algorithm1_experiments/outputs/projection_distance_v1/controlled_n1000",
+  "parent_decision_sha256": "1337c974c9c12c2927ede032dfedcfefefea423375cea3278fb56d5ad35b103a",
+  "parent_selection_sha256": "47facefa0b1ee341a61ab7e0fb12d553298cd274b19e5a84e1a26bdc3e7913af",
+  "parent_protocol_sha256": "52b2e3a68621d5c24bcefab49935380e07dd2b7077a48f4ab3bd88f3a04560d6",
+  "parent_independent_audit_sha256": "8d9ecde6d56fda833cc2271e973cf1a08b164d7b7773766e839ea6a6b9f34486",
+  "source_sha256": {
+    "iclr_algorithm1_experiments/projection_distance.py": "3456643bc3aca40aa0bf0e536ddfcd90e37bbb3040883c90e0ea7acd34628ec8",
+    "iclr_algorithm1_experiments/projection_distance_run.py": "a587e839378a061780b86f83b14d7cec8224cc806fc9fed4235f60b00bd35fc6",
+    "iclr_algorithm1_experiments/config.py": "bd86ec212fed31053aaf2a363afd9909e54d42c16800dc86b0c69fc8ef521945",
+    "iclr_algorithm1_experiments/policies.py": "908151d71e055a050450e1c69b44611af3cae42e2240a5ad6eb7ffe90721ec89",
+    "algorithm1_gradient_study/training.py": "d490eb09bc02200ba3b31259b71e8fa5cd822af774f5e85643a1f8acb1f53de9",
+    "efficiency_switching_hydro/simulator.py": "85c89cae7d6e0dd58a8994aa49598c4f9e0c798ccf634d898a6ed93fc67ebab7",
+    "efficiency_switching_hydro/projection.py": "db217e5498316909e321ec271980ec51b8248c10208896e8de5dc0a7efcaf39c",
+    "efficiency_switching_hydro/policies.py": "4269457bf219d39278b7c7be765c7d2c41f5c28768a14eac4c653c0237b79405",
+    "efficiency_switching_hydro/physics.py": "d57a677b1767380f82c379f1731f17d8492ee934474c5aff15f301b9bb253435",
+    "efficiency_switching_hydro/data.py": "1ebb7c0050137220b82bac05f21b241294a2906cc5ddf4b9616426016c4cd0d7",
+    "efficiency_switching_hydro/config.py": "f88cbe1f7faec547bb574cb89e70358e298f63aace6776c80b2e75fae816a05d",
+    "efficiency_switching_hydro/train.py": "1d2262fdff296dc2bb4b9c1fb61611e6fcae04d2dc3a7c308996d37512e533bf",
+    "iclr_algorithm1_experiments/projection_distance_extend.py": "6c9b1bedef1cd385cd4e1005bc435aa003525af14b7087ff20ff7984951d41a0",
+    "iclr_algorithm1_experiments/projection_distance_report.py": "b3eb70d67dd2a9f221476c217a5df7034635b96c37f5604b46cbadd837328946"
+  },
+  "original_selected_checkpoint_sha256": {
+    "iclr_algorithm1_experiments/outputs/formal_protocol_v1/02_data_budget/checkpoints/n100/projected_mlp_matched_selected_seed0.pt": "7bdb0351479c44ea708c738fa8884e1ce5e5fbcb82f34010d55ddfda497cdbc3",
+    "iclr_algorithm1_experiments/outputs/formal_protocol_v1/02_data_budget/checkpoints/n100/projected_mlp_matched_selected_seed1.pt": "65d9f5c608d9dd1fad98eb368af632b74d7c00effb2e7348164c10a2499e8928",
+    "iclr_algorithm1_experiments/outputs/formal_protocol_v1/02_data_budget/checkpoints/n100/projected_mlp_matched_selected_seed2.pt": "b877236a469eef7fe2da85afb4ebac004aff438db24d32ffe80e4db93e09095f",
+    "iclr_algorithm1_experiments/outputs/formal_protocol_v1/02_data_budget/checkpoints/n100/projected_mlp_matched_selected_seed3.pt": "a15dbd59335ad18dee2ebe262f8a5aaa38a307880fae577d649469a9972285ac",
+    "iclr_algorithm1_experiments/outputs/formal_protocol_v1/02_data_budget/checkpoints/n100/projected_mlp_matched_selected_seed4.pt": "1054713477af6ca4be6f1147812e6b6e3d8bafd945438374222fa88cf3cc4b75"
+  },
+  "original_results_sha256": "6476a647060d05a001a9189c3362ecdaa533553826c73d1938afe91bf824346c",
+  "original_test_path_costs_sha256": "df6b972ffde94995c7f37ddb295c33d3b5d26874edab8fdf797365b59853a955",
+  "original_data_manifest_sha256": "5f734473485c04fbbe7839b1cbd29eb7e074d0fad6d82418da932a92c738097a",
+  "fit_pool_sha256": "c1074a1b914d5b70e98e1a0ba83e787e2e3f5fbb60ebde21323bc4341f31d234",
+  "fit_sha256": "c91c979d8e27c3902048d2c90bc3633bdeabe1c2c2b2095fb8e4ec604d72ea87",
+  "validation_sha256": "ffce11e4551ddb649350d770151bf5abedead90e1aec266c2fad297f9eec4ea7",
+  "expected_test_sha256": "2698a50615dabfd75c751512cc21592a663e69a04e926d14580faed98ec38528",
+  "selection": "Lambda arm is inherited unchanged from the N=1000 validation selection; checkpoint and LR selected by original validation cost separately per seed; all choices frozen before test evaluation.",
+  "baseline": "Reuse original zero-lambda selected checkpoint and archived costs; no baseline training or invented gradient/trajectory diagnostics.",
+  "lambda_reference": "Re-estimated once per seed at initialization from all fitting paths of this budget; same nested 2500-path original pool; raw per-path gradient medians.",
+  "training_candidates": 15,
+  "workers": 15,
+  "torch_threads_per_worker": 1,
+  "timing": "Parallel wall times include monitoring; calibration once per seed; no cross-era runtime speedup claim.",
+  "inference": "Budgets share paths, test data, and seeds. Pointwise seed CIs are descriptive, not independent confirmations or simultaneous guarantees."
+}

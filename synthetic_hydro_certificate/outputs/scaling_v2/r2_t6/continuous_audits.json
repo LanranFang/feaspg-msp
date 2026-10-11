@@ -1,0 +1,130 @@
+[
+  {
+    "generator": "zero",
+    "path": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "absolute_error": 1.4210854715202004e-14,
+    "value": 55.0,
+    "bound": 55.000000000000014,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "zero",
+    "path": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "absolute_error": 1.4210854715202004e-14,
+    "value": 45.25,
+    "bound": 45.250000000000014,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "zero",
+    "path": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "absolute_error": 2.842170943040401e-14,
+    "value": 45.25,
+    "bound": 45.25000000000003,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "zero",
+    "path": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "absolute_error": 1.4210854715202004e-14,
+    "value": 66.75,
+    "bound": 66.75000000000001,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "absolute_error": 0.0,
+    "value": 64.4541244506836,
+    "bound": 64.4541244506836,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "absolute_error": 2.2737367544323206e-13,
+    "value": 64.18789672851562,
+    "bound": 64.1878967285154,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "absolute_error": 0.0,
+    "value": 64.98175811767578,
+    "bound": 64.98175811767578,
+    "mip": true,
+    "nodes": 9.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "absolute_error": 7.105427357601002e-15,
+    "value": 63.48591613769532,
+    "bound": 63.48591613769531,
+    "mip": true,
+    "nodes": 1.0
+  }
+]

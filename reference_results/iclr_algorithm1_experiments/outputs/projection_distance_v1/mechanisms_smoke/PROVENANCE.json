@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-09-16T03:48:40.919070+00:00",
+  "python": "3.13.0",
+  "torch": "2.11.0+cu130",
+  "numpy": "2.3.4",
+  "protocol_sha256": "376383d7c4ce7b836b7dc8942d0e9a65292ecce21cc50cdeecb54e8607ae2eeb",
+  "source_sha256": {
+    "iclr_algorithm1_experiments/projection_distance_mechanisms.py": "d13b280edf84b0f9a0d94499ed2bc0aef606593b2c72e74cb3ea650af1c9fa0a",
+    "iclr_algorithm1_experiments/projection_distance.py": "3456643bc3aca40aa0bf0e536ddfcd90e37bbb3040883c90e0ea7acd34628ec8",
+    "iclr_algorithm1_experiments/config.py": "bd86ec212fed31053aaf2a363afd9909e54d42c16800dc86b0c69fc8ef521945",
+    "algorithm1_gradient_study/models.py": "f862b8965dc4d29bbc55693e6d7b936964343ffa600af5135fc327885624e18d",
+    "algorithm1_gradient_study/experiments.py": "657325b5a866df11b998811070cd844d0c235e2e6caed222fd5c8f08066d6ea6",
+    "efficiency_switching_hydro/simulator.py": "85c89cae7d6e0dd58a8994aa49598c4f9e0c798ccf634d898a6ed93fc67ebab7",
+    "efficiency_switching_hydro/projection.py": "db217e5498316909e321ec271980ec51b8248c10208896e8de5dc0a7efcaf39c",
+    "efficiency_switching_hydro/data.py": "1ebb7c0050137220b82bac05f21b241294a2906cc5ddf4b9616426016c4cd0d7"
+  }
+}

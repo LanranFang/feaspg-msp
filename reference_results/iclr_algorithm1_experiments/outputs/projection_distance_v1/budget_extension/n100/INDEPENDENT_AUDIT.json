@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "experiment": "conditional_projection_distance_budget_extension",
+  "n_fit": 100,
+  "n_candidates": 15,
+  "n_optimizer_updates": 750,
+  "n_selected": 5,
+  "n_test_costs": 20480,
+  "original_baselines_bitwise_verified": 0,
+  "replayed_initialization_paths": 15,
+  "independently_replayed_selected_evaluations": 5,
+  "auditor_sha256": "7f2f53014afd8870501dd28cdeb09f0e631796580b8f3bf978dd0354f58eae54",
+  "protocol_sha256": "22bfe231370128b11a55f00780c8ec8bb3ed5b63bd05162d32bc2feeda471518",
+  "limitations": "Integrity checks cannot reconstruct unsaved intermediate parameter states; selected-policy and sampled initialization numerical replays are separately counted."
+}

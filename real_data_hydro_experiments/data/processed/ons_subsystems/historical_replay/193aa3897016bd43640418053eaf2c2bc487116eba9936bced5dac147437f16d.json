@@ -1,0 +1,49 @@
+{
+  "array_dtypes": {
+    "calendar": "<i2",
+    "demand": "<f4",
+    "hydrology_regime": "<i2",
+    "hydrology_state": "<f4",
+    "inflow": "<f4",
+    "source_path_id": "<i4"
+  },
+  "array_shapes": {
+    "calendar": [
+      48
+    ],
+    "demand": [
+      1,
+      48
+    ],
+    "hydrology_regime": [
+      1,
+      48
+    ],
+    "hydrology_state": [
+      1,
+      48,
+      8
+    ],
+    "inflow": [
+      1,
+      48,
+      4
+    ],
+    "source_path_id": [
+      1
+    ]
+  },
+  "arrays_file": "historical_replay/193aa3897016bd43640418053eaf2c2bc487116eba9936bced5dac147437f16d.npz",
+  "arrays_sha256": "5e9dd7c92e6ed1a4e069c163bed6c3e67997dd82aa95544e652a31d209c9f98d",
+  "artifact_type": "real_historical_trajectory_batch",
+  "fingerprint_sha256": "193aa3897016bd43640418053eaf2c2bc487116eba9936bced5dac147437f16d",
+  "has_demand": true,
+  "has_source_path_id": true,
+  "horizon": 48,
+  "hydrology_state_dimension": 8,
+  "n_paths": 1,
+  "n_reservoirs": 4,
+  "name": "ons_locked_2022_2025",
+  "schema_version": 1,
+  "seed": 71001
+}

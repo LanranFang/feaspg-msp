@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-09-14T20:28:23.820127+00:00",
+  "fit_seed": 73101,
+  "validation_seed": 73202,
+  "n_fit": 2048,
+  "n_validation": 1024,
+  "policy": "projected stagewise affine A1, full-horizon pathwise Adam",
+  "updates_per_candidate": 800,
+  "batch_size": 64,
+  "training_seeds": [
+    73001,
+    73002
+  ],
+  "learning_rates": [
+    0.01,
+    0.03
+  ],
+  "validation_every": 40,
+  "files": {
+    "policy.json": "c12e8ca050a4481e0475263e0ef2f2980a9089e9f4a378b45421e18c6a8d2318",
+    "model.json": "c010ee0fe0239472438ba7c917af86f246717920ce114f86c32b1c0fca02ab3f",
+    "continuations.json": "e9d4c5f49c21b7e18f64628039a0e261458b4e64bfc8e0b8faf4b71b515429de",
+    "fitting_paths.npz": "e60ee6ada8e4b875f56c00039b148c13808218705d8bf48abb5f52ccefd3c95c",
+    "training_history.json": "846c967712be729c47eb1c8582c99e7f30e00d1eb896c3ff811d76a1ab00f8bd"
+  }
+}

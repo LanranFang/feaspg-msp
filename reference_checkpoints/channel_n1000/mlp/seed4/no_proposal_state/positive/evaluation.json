@@ -1,0 +1,50 @@
+{
+  "bundle": "channel_n1000",
+  "method": "mlp",
+  "seed": 4,
+  "mode": "no_proposal_state",
+  "zero": false,
+  "selection": {
+    "bundle": "channel_n1000",
+    "method": "mlp",
+    "seed": 4,
+    "strength": 1.0,
+    "lr_index": 2,
+    "learning_rate": 0.0006,
+    "mode": "no_proposal_state",
+    "lambda_ref": 4.839252315277881,
+    "initial_validation": 162565.65625,
+    "best_validation_cost": 78437.4765625,
+    "selected_iteration": 470,
+    "validation": {
+      "mean_cost": 78437.4765625,
+      "proposal_distance": 464.63458251953125,
+      "active_projection_fraction": 0.466375,
+      "active_projection_tolerance": 1e-06,
+      "max_action_violation": 0.0,
+      "max_storage_violation": 0.0,
+      "mean_cost_float64": 78437.48140625
+    },
+    "runtime_seconds": 85.19546760409139,
+    "iterations": 500,
+    "n_fit": 1000,
+    "max_gradient_norm": 615460.0625,
+    "initial_state_sha256": "aeeb3f6eec7bcf8c21db47c9d6fdc61e11bc2dc872f4704428f9569c078d311c",
+    "selected_state_sha256": "0e5d434c98b407df31e18c3edf7ab72f7dd86a97d4a05c7ed76aa0d14fef245e",
+    "batches_sha256": "ccb472c9adb2feb15db521acf87d3189df7912f64d51f131d7f0ecce1e9617e6",
+    "calibration_seconds": 3.991594229126349,
+    "path": "iclr_algorithm1_experiments/outputs/regularized_a1_v2/runs/channel_n1000/mlp/seed4/no_proposal_state/a1_lr2"
+  },
+  "test": {
+    "mean_cost": 78330.515625,
+    "proposal_distance": 464.56060791015625,
+    "active_projection_fraction": 0.4650624593098958,
+    "active_projection_tolerance": 1e-06,
+    "max_action_violation": 0.0,
+    "max_storage_violation": 0.0,
+    "mean_cost_float64": 78330.51305007935
+  },
+  "total_fit_seconds": 782.6333415003028,
+  "calibration_seconds": 3.991594229126349,
+  "candidate_count": 9
+}

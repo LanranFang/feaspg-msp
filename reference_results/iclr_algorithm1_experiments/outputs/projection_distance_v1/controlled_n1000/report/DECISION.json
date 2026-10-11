@@ -1,0 +1,25 @@
+{
+  "selected_positive_arm": "decay",
+  "selection_source": "SELECTION.json, frozen before test generation/access",
+  "validation_mean_delta": -476.56171874999563,
+  "test_mean_delta": -481.48745822906494,
+  "test_seed_ci95": [
+    -768.4180503186794,
+    -194.5568661394505
+  ],
+  "test_improved_seed_count": 5,
+  "n_training_seeds": 5,
+  "extension_criterion_met": true,
+  "extend_displayed_mlp_budgets": true,
+  "remaining_displayed_budgets": [
+    100,
+    250,
+    500,
+    2500
+  ],
+  "rule": "Both validation mean and test mean must improve over zero for the already validation-selected positive arm; no alternative arm may be chosen using test results.",
+  "seed_ci_includes_zero": false,
+  "uncertainty": "Approximate unadjusted Student-t 95% interval across paired training-seed means conditional on the fixed test set; does not remove validation-arm selection uncertainty or combine finite test-path uncertainty.",
+  "smoke": false,
+  "action": "Extend only the chosen MLP A1 configuration to the remaining displayed controlled budgets."
+}

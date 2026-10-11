@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "experiment": "projection_distance_auxiliary_loss",
+  "n_fit": 1000,
+  "n_candidates": 60,
+  "n_optimizer_updates": 30000,
+  "n_selected": 20,
+  "n_test_costs": 81920,
+  "original_baselines_bitwise_verified": 5,
+  "replayed_initialization_paths": 15,
+  "independently_replayed_selected_evaluations": 20,
+  "auditor_sha256": "555bf4fc29c7dbdb301549cd2cb3dd2010b628f3492e992a6989dd71a9f89537",
+  "protocol_sha256": "52b2e3a68621d5c24bcefab49935380e07dd2b7077a48f4ab3bd88f3a04560d6",
+  "limitations": "Integrity checks cannot reconstruct unsaved intermediate parameter states; selected-policy and sampled initialization numerical replays are separately counted."
+}

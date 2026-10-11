@@ -1,0 +1,3 @@
+comparison,mean_cost_difference,paired_t4_95_lower,paired_t4_95_upper,complete_lower_cost_seeds,relative_mean_cost_reduction_percent
+complete minus zero,-2151.0538677215577,-4020.9938290565897,-281.11390638652597,5,2.6696601268323183
+complete minus detach_auxiliary_action,-503.1374088287354,-1489.1509993295,482.87618167202936,4,0.637478674312475

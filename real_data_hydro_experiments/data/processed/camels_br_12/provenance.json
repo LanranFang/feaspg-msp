@@ -1,0 +1,99 @@
+{
+  "case_id": "camels_br_12",
+  "fit_calendar_periods": 12,
+  "fit_fingerprint_sha256": "3bcce7ea12f0f22a724fec14ad140e41bab3431b2c79901b8da322589042f6ef",
+  "fit_shape": [
+    300,
+    12
+  ],
+  "flow_magnitudes_used_for_availability_selection": false,
+  "historical_replay": {
+    "arrays_file": "historical_replay/734ea68e74de14cb7a35a2fbdbdcf9c0afba289b87fbfea300deb23dd51cd5d1.npz",
+    "arrays_sha256": "43f83447d08e2dc81db8169d6ec6f81ba01e69550be18ebf0c9df9120c9f1094",
+    "attached_at_utc": "2026-08-18T06:57:30.951113+00:00",
+    "fingerprint_sha256": "734ea68e74de14cb7a35a2fbdbdcf9c0afba289b87fbfea300deb23dd51cd5d1",
+    "has_demand": false,
+    "has_source_path_id": true,
+    "horizon": 48,
+    "metadata_file": "historical_replay/734ea68e74de14cb7a35a2fbdbdcf9c0afba289b87fbfea300deb23dd51cd5d1.json",
+    "metadata_sha256": "14fef21b32a04f3a381057edb227e19926a6522696ee071aeba57a7503b507f3",
+    "n_paths": 5,
+    "name": "camels_br_locked_real_test",
+    "schema_version": 1,
+    "seed": 73001
+  },
+  "hydrology_regimes": 6,
+  "locked_48_month_window_starts": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "locked_complete_water_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "nesting_pair_count": 0,
+  "par_aic_by_order": [
+    141.0408197270814,
+    -1734.6203152007456,
+    -1622.3324249083666,
+    -1519.1480656870576
+  ],
+  "par_annual_component": false,
+  "par_max_order": 3,
+  "par_order": 1,
+  "prepared_at_utc": "2026-08-18T06:28:16.878515+00:00",
+  "raw_files": [
+    {
+      "bytes": 273282,
+      "path": "camels_br/01_CAMELS_BR_attributes.zip",
+      "sha256": "87da63388a071b6cfc51f444cc223e95bff0eb0efe7b756cb4813170bf5489ca"
+    },
+    {
+      "bytes": 62466395,
+      "path": "camels_br/03_CAMELS_BR_streamflow_selected_catchments.zip",
+      "sha256": "19edd9beb891f502797c61dcdd12707c31ebfa8a53f9db1df203b4381a50ffcd"
+    },
+    {
+      "bytes": 2136249,
+      "path": "camels_br/12_CAMELS_BR_catchment_boundaries.zip",
+      "sha256": "83da8d076cb7b7182fa48d7bdc3d91b9358d18cd1bf9eb3e25d9a4944fc1c42f"
+    },
+    {
+      "bytes": 798606,
+      "path": "camels_br/13_CAMELS_BR_gauge_location.zip",
+      "sha256": "8d82e7f11c016212c6ba0d169fd0b0583c081802b5b00de844a114ff65d82d0a"
+    },
+    {
+      "bytes": 23461,
+      "path": "camels_br/CAMELS_BR_readme.txt",
+      "sha256": "0bb253dbd4d77d7bc4cb9f8abddf0d4d0daadd04df7545273054b716fdbe5440"
+    }
+  ],
+  "selected_basin_ids": [
+    "44250000",
+    "34170000",
+    "40811100",
+    "34090000",
+    "34020000",
+    "74270000",
+    "74370000",
+    "74470000",
+    "74700000",
+    "86480000",
+    "40680000",
+    "70200000"
+  ],
+  "selection_rule": "outcome-blind QC/missingness lexicographic: joint locked 48-month windows, joint complete water years, fit-only quality rank, gauge_id",
+  "topology_validation": "structural WKB plus Shapely topology; GEOS make_valid repairs=0"
+}

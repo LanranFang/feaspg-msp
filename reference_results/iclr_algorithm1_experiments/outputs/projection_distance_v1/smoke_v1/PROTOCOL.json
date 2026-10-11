@@ -1,0 +1,145 @@
+{
+  "experiment": "projection_distance_auxiliary_loss",
+  "protocol": {
+    "profile": "decision_switching",
+    "n_reservoirs": 4,
+    "horizon": 6,
+    "shock_factors": 2,
+    "train_seeds": [
+      0
+    ],
+    "mechanism_seeds": {
+      "fit": 14101,
+      "validation": 14202,
+      "test": 14303,
+      "calibration": 14404,
+      "evaluation": 14505
+    },
+    "budget_seeds": {
+      "fit": 15101,
+      "validation": 15202,
+      "test": 15303,
+      "calibration": 15404,
+      "evaluation": 15505
+    },
+    "scaling_seeds": {
+      "fit": 16101,
+      "validation": 16202,
+      "test": 16303,
+      "calibration": 16404,
+      "evaluation": 16505
+    },
+    "transfer_seeds": {
+      "fit": 17101,
+      "validation": 17202,
+      "test": 17303,
+      "calibration": 17404,
+      "evaluation": 17505
+    },
+    "n_validation": 8,
+    "n_test": 16,
+    "n_calibration": 4,
+    "n_evaluation": 4,
+    "fit_budgets": [
+      8,
+      16
+    ],
+    "base_n_fit": 16,
+    "batch_size": 2,
+    "max_validation_checks": 4,
+    "mlp_learning_rates": [
+      0.0003
+    ],
+    "graph_learning_rates": [
+      0.0006
+    ],
+    "shac_learning_rates": [
+      0.0003
+    ],
+    "ppo_learning_rates": [
+      0.0003
+    ],
+    "sac_learning_rates": [
+      0.0003
+    ],
+    "weight_decay": 1e-06,
+    "gradient_clip": 10.0,
+    "network_depth": 2,
+    "graph_width": 16,
+    "shac_window": 3,
+    "shac_critic_learning_rate": 0.001,
+    "shac_critic_epochs": 1,
+    "shac_critic_tau": 0.05,
+    "shac_cost_scale": 100000.0,
+    "rl_reward_scale": 1000.0,
+    "rl_gamma": 1.0,
+    "rl_validation_every_episodes": 4,
+    "rl_network_width": 16,
+    "rl_network_depth": 2,
+    "ppo_rollout_episodes": 4,
+    "ppo_epochs": 2,
+    "ppo_batch_size": 32,
+    "replay_buffer_size": 256,
+    "learning_starts": 4,
+    "off_policy_batch_size": 16,
+    "off_policy_gradient_steps": 1,
+    "off_policy_n_steps": 3,
+    "reservoir_values": [
+      4,
+      6
+    ],
+    "horizon_values": [
+      6,
+      9
+    ],
+    "routing_severities": [
+      0.25
+    ],
+    "routing_topology_seeds": [
+      27101
+    ],
+    "latency_batch_size": 4,
+    "latency_repetitions": 3,
+    "device": "cpu",
+    "rl_device": "cpu",
+    "smoke": true
+  },
+  "n_fit": 16,
+  "policy": "projected_mlp_matched",
+  "arms": [
+    "zero",
+    "tenth",
+    "fixed",
+    "decay"
+  ],
+  "lambda_reference": "per-path full parameter-gradient norms at initialization over ALL fitting paths; median(C norms)/(median(d_pd norms)+1e-12); no clipping; frozen constant",
+  "distance": "0.5 sum over stages and reservoir action coordinates of (proposal - projected action)^2; no detach or normalization",
+  "active_projection": "fraction of path-stage vectors with Euclidean ||u-x|| > 1e-6; distinct from fraction of binding constraints",
+  "lambda_schedule": "k=0 on first optimizer update; zero, 0.1*ref, ref, ref/sqrt(k+1)",
+  "selection": "checkpoint and LR minimize original float32 validation mean C for each arm/seed; positive arm with lowest mean validation C across 5 seeds chosen BEFORE test access",
+  "extension_rule": "extend validation-selected positive arm to remaining displayed MLP budgets only if its mean validation C and paired mean test C both improve over zero; report seed uncertainty regardless of sign; no new lambda search based on test",
+  "test_role": "all 4 arms reported after selection frozen; never used for fitting/LR/arm selection",
+  "fit_pool_sha256": "b1380d0de54c560f51f772831f0a02bdc8a9b5d0480707608ae523a8cd6e1b1d",
+  "fit_sha256": "b1380d0de54c560f51f772831f0a02bdc8a9b5d0480707608ae523a8cd6e1b1d",
+  "validation_sha256": "ecc1c19d5ecf1df40736b7af6e13a5073f4840cec75a0013dfd43479ed75b1cb",
+  "expected_test_sha256": null,
+  "source_sha256": {
+    "iclr_algorithm1_experiments/projection_distance.py": "3456643bc3aca40aa0bf0e536ddfcd90e37bbb3040883c90e0ea7acd34628ec8",
+    "iclr_algorithm1_experiments/projection_distance_run.py": "6828cbfc5f2247de839c15a65cb1e3f402d89be4e39981764e16a52077a5fdf0",
+    "iclr_algorithm1_experiments/config.py": "bd86ec212fed31053aaf2a363afd9909e54d42c16800dc86b0c69fc8ef521945",
+    "iclr_algorithm1_experiments/policies.py": "908151d71e055a050450e1c69b44611af3cae42e2240a5ad6eb7ffe90721ec89",
+    "algorithm1_gradient_study/training.py": "d490eb09bc02200ba3b31259b71e8fa5cd822af774f5e85643a1f8acb1f53de9",
+    "efficiency_switching_hydro/simulator.py": "85c89cae7d6e0dd58a8994aa49598c4f9e0c798ccf634d898a6ed93fc67ebab7",
+    "efficiency_switching_hydro/projection.py": "db217e5498316909e321ec271980ec51b8248c10208896e8de5dc0a7efcaf39c",
+    "efficiency_switching_hydro/policies.py": "4269457bf219d39278b7c7be765c7d2c41f5c28768a14eac4c653c0237b79405",
+    "efficiency_switching_hydro/physics.py": "d57a677b1767380f82c379f1731f17d8492ee934474c5aff15f301b9bb253435",
+    "efficiency_switching_hydro/data.py": "1ebb7c0050137220b82bac05f21b241294a2906cc5ddf4b9616426016c4cd0d7",
+    "efficiency_switching_hydro/config.py": "f88cbe1f7faec547bb574cb89e70358e298f63aace6776c80b2e75fae816a05d",
+    "efficiency_switching_hydro/train.py": "1d2262fdff296dc2bb4b9c1fb61611e6fcae04d2dc3a7c308996d37512e533bf"
+  },
+  "original_protocol_sha256": "ac6df748dabb33146a3f4575e5eb68028d5e38a98a6a0ca804b7623930c140d1",
+  "original_results_sha256": "6476a647060d05a001a9189c3362ecdaa533553826c73d1938afe91bf824346c",
+  "workers": 4,
+  "torch_threads_per_worker": 1,
+  "timing_note": "wall times include monitoring and concurrent workers; not isolated latency benchmarks; shared initial lambda calibration charged separately per seed"
+}

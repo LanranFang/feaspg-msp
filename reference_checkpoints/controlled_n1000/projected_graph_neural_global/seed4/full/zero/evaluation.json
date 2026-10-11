@@ -1,0 +1,50 @@
+{
+  "bundle": "controlled_n1000",
+  "method": "projected_graph_neural_global",
+  "seed": 4,
+  "mode": "full",
+  "zero": true,
+  "selection": {
+    "bundle": "controlled_n1000",
+    "method": "projected_graph_neural_global",
+    "seed": 4,
+    "strength": 0.0,
+    "lr_index": 1,
+    "learning_rate": 0.0006,
+    "mode": "full",
+    "lambda_ref": 8.70510951558118,
+    "initial_validation": 122065.09375,
+    "best_validation_cost": 55369.984375,
+    "selected_iteration": 480,
+    "validation": {
+      "mean_cost": 55369.984375,
+      "proposal_distance": 15614.4580078125,
+      "active_projection_fraction": 0.758,
+      "active_projection_tolerance": 1e-06,
+      "max_action_violation": 0.0,
+      "max_storage_violation": 0.0,
+      "mean_cost_float64": 55369.9838515625
+    },
+    "runtime_seconds": 198.2494849448558,
+    "iterations": 500,
+    "n_fit": 1000,
+    "max_gradient_norm": 171554.875,
+    "initial_state_sha256": "7ebb7dfc09e351676dd99b52dec9db5b5306b012d547aaac0abd75fb8c70bc47",
+    "selected_state_sha256": "0029386ae7f79b2a2a13991b5b9d1ada953ff4a2ee81e7906e61e8a140d8c44b",
+    "batches_sha256": "ccb472c9adb2feb15db521acf87d3189df7912f64d51f131d7f0ecce1e9617e6",
+    "calibration_seconds": 5.522495883051306,
+    "path": "iclr_algorithm1_experiments/outputs/regularized_a1_v2/runs/controlled_n1000/projected_graph_neural_global/seed4/full/a0_lr1"
+  },
+  "test": {
+    "mean_cost": 55445.734375,
+    "proposal_distance": 15536.6337890625,
+    "active_projection_fraction": 0.7569681803385416,
+    "active_projection_tolerance": 1e-06,
+    "max_action_violation": 0.0,
+    "max_storage_violation": 0.0,
+    "mean_cost_float64": 55445.734006881714
+  },
+  "total_fit_seconds": 554.039890189888,
+  "calibration_seconds": 5.522495883051306,
+  "candidate_count": 3
+}

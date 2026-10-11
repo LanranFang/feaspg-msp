@@ -1,0 +1,39 @@
+{
+  "optimum_lower": 184.81729524299539,
+  "optimum_upper": 185.69570746666426,
+  "optimum_lower_exact": "48448745044179792609849833/262144000000000000000000",
+  "optimum_upper_exact": "23769050555733020414381/128000000000000000000",
+  "reference_interval_width": 0.8784122236687973,
+  "inner_seconds": 0.05033192201517522,
+  "reference_type": "exact-expectation information-relaxation lower bound; feasible integer-state policy upper bound",
+  "policies": {
+    "40": {
+      "cost_lower": 192.4588876612341,
+      "cost_upper": 192.45888787676677,
+      "cost_midpoint": 192.45888776900043,
+      "loss_lower": 6.763180194569827,
+      "loss_upper": 7.641592633771381,
+      "integration_guard": 1.0776539660639628e-07,
+      "max_trace_interval": 3.979039320256561e-12
+    },
+    "200": {
+      "cost_lower": 190.3644973075076,
+      "cost_upper": 190.3644975230403,
+      "cost_midpoint": 190.36449741527395,
+      "loss_lower": 4.6687898408433455,
+      "loss_upper": 5.547202280044928,
+      "integration_guard": 1.0776539660639628e-07,
+      "max_trace_interval": 4.888534022029489e-12
+    },
+    "400": {
+      "cost_lower": 190.16159760667966,
+      "cost_upper": 190.16159782221237,
+      "cost_midpoint": 190.16159771444603,
+      "loss_lower": 4.465890140015404,
+      "loss_upper": 5.344302579216986,
+      "integration_guard": 1.0776539660639628e-07,
+      "max_trace_interval": 4.916955731459893e-12
+    }
+  },
+  "seconds": 11.068995628971606
+}

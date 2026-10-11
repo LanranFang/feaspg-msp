@@ -1,0 +1,36 @@
+{
+  "created_unix_time": 1789659774.2976549,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "strength_candidates": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "lambda_schedule": "a * lambda_ref / sqrt(k+1), zero-based k",
+  "lambda_reference": "Ratio of medians of per-path parameter-gradient norms at initialization on first32 fitting paths; exact-zero numerator or denominator uses mean abs fitting cost / (0.5*T*sum release_capacity^2)",
+  "derivative": "Both u and x, including all moving recourse, differentiated; channel omissions affect backward graphs only",
+  "selection": "Joint positive strength and original LR grid selected by validation operating cost separately within each SAME fitting budget and seed; initial checkpoint eligible; ties lower strength then original LR order",
+  "no_larger_budget_tuning": true,
+  "n_positive_candidates_per_run": 9,
+  "tuning_accounting": "Three times original LR candidate count for most families, same unique fit paths; report total updates/runtime. Calibration32 fitting paths counted as additional gradient queries, not additional distinct data.",
+  "zero_controls": "N1000 reruns for each architecture and benchmark; original zero results retained elsewhere; baseline methods unchanged",
+  "device": "CPU, one thread per worker. Historical real-case baseline training used CUDA; no cross-era speed claim.",
+  "test": "No held-out cost evaluated until all requested selection files are written; existing test/historical data reused for paired reporting, never for selection",
+  "source_sha256": {
+    "iclr_algorithm1_experiments/regularized_a1_v2.py": "ce0969e0ec7dc625f515d1e8fe8e720233c75b0b943ab324134281835ee40e35",
+    "iclr_algorithm1_experiments/projection_distance.py": "3456643bc3aca40aa0bf0e536ddfcd90e37bbb3040883c90e0ea7acd34628ec8",
+    "efficiency_switching_hydro/simulator.py": "85c89cae7d6e0dd58a8994aa49598c4f9e0c798ccf634d898a6ed93fc67ebab7",
+    "efficiency_switching_hydro/projection.py": "db217e5498316909e321ec271980ec51b8248c10208896e8de5dc0a7efcaf39c",
+    "efficiency_switching_hydro/policies.py": "4269457bf219d39278b7c7be765c7d2c41f5c28768a14eac4c653c0237b79405",
+    "real_data_hydro_experiments/real_hydro/simulator.py": "d3617552e5b0602282195a97afd629aa4384c0d61eda9a2f11c170744fae083b",
+    "real_data_hydro_experiments/real_hydro/policies.py": "c1abfc23186db924c62bd9799202f1fff41fe21b3d6ccb7f2cf0381978b6616a",
+    "real_data_hydro_experiments/real_hydro/projection.py": "888564f6ad6d311f950a0bed451481769e133b80e5e82cb487b968aa485b85cc"
+  },
+  "channel_selection": "Choose strength by full-gradient validation for each seed, then hold it identical in omitted-gradient variants; retain all exploratory candidates and charge their compute."
+}

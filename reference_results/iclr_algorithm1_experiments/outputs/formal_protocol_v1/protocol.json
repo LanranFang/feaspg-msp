@@ -1,0 +1,160 @@
+{
+  "experiment": "iclr_algorithm1_suite",
+  "protocol": {
+    "profile": "decision_switching",
+    "n_reservoirs": 12,
+    "horizon": 48,
+    "shock_factors": 4,
+    "train_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mechanism_seeds": {
+      "fit": 14101,
+      "validation": 14202,
+      "test": 14303,
+      "calibration": 14404,
+      "evaluation": 14505
+    },
+    "budget_seeds": {
+      "fit": 15101,
+      "validation": 15202,
+      "test": 15303,
+      "calibration": 15404,
+      "evaluation": 15505
+    },
+    "scaling_seeds": {
+      "fit": 16101,
+      "validation": 16202,
+      "test": 16303,
+      "calibration": 16404,
+      "evaluation": 16505
+    },
+    "transfer_seeds": {
+      "fit": 17101,
+      "validation": 17202,
+      "test": 17303,
+      "calibration": 17404,
+      "evaluation": 17505
+    },
+    "n_validation": 500,
+    "n_test": 4096,
+    "n_calibration": 500,
+    "n_evaluation": 2048,
+    "fit_budgets": [
+      100,
+      250,
+      500,
+      1000,
+      2500
+    ],
+    "base_n_fit": 1000,
+    "batch_size": 2,
+    "max_validation_checks": 50,
+    "mlp_learning_rates": [
+      0.0001,
+      0.0003,
+      0.0006
+    ],
+    "graph_learning_rates": [
+      0.0003,
+      0.0006,
+      0.001
+    ],
+    "shac_learning_rates": [
+      0.0001,
+      0.0003,
+      0.0006
+    ],
+    "ppo_learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "sac_learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "weight_decay": 1e-06,
+    "gradient_clip": 10.0,
+    "network_depth": 2,
+    "graph_width": 64,
+    "shac_window": 8,
+    "shac_critic_learning_rate": 0.001,
+    "shac_critic_epochs": 2,
+    "shac_critic_tau": 0.05,
+    "shac_cost_scale": 100000.0,
+    "rl_reward_scale": 1000.0,
+    "rl_gamma": 1.0,
+    "rl_validation_every_episodes": 50,
+    "rl_network_width": 256,
+    "rl_network_depth": 2,
+    "ppo_rollout_episodes": 10,
+    "ppo_epochs": 10,
+    "ppo_batch_size": 256,
+    "replay_buffer_size": 100000,
+    "learning_starts": 1000,
+    "off_policy_batch_size": 256,
+    "off_policy_gradient_steps": 1,
+    "off_policy_n_steps": 3,
+    "reservoir_values": [
+      6,
+      12,
+      24,
+      48
+    ],
+    "horizon_values": [
+      12,
+      24,
+      48,
+      96
+    ],
+    "routing_severities": [
+      0.1,
+      0.25,
+      0.4
+    ],
+    "routing_topology_seeds": [
+      27101,
+      27102,
+      27103,
+      27104,
+      27105
+    ],
+    "latency_batch_size": 256,
+    "latency_repetitions": 100,
+    "device": "cpu",
+    "rl_device": "cpu",
+    "smoke": false
+  },
+  "primary_metric": "test cost",
+  "selection_rule": "minimum validation cost",
+  "test_role": "reporting only after fitting and selection are frozen",
+  "uncertainty": {
+    "test_path": "paired 95% CI on common test paths within train seed",
+    "training": "SD of selected-policy test means across train seeds"
+  },
+  "counting": {
+    "environment_transitions": "fit trajectories times horizon",
+    "actor_gradient_updates": "optimizer steps applied to deployment policy",
+    "critic_gradient_updates": "reported separately and excluded from actor updates"
+  },
+  "reserved_interfaces": {
+    "calibration": "independent seed, not read by Algorithm 1 experiments",
+    "evaluation": "independent seed, not read by Algorithm 1 experiments"
+  },
+  "execution_order": [
+    "mechanisms",
+    "data_budget",
+    "scaling",
+    "graph_transfer"
+  ],
+  "requested_experiments": [
+    "graph_transfer"
+  ],
+  "old_test_seed_reused": false
+}

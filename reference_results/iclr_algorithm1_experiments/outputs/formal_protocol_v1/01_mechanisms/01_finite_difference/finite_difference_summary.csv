@@ -1,0 +1,4 @@
+gradient_mode,n_seeds,best_relative_error_mean,best_relative_error_train_seed_sd,selected_step_median,max_action_violation,max_storage_violation
+full,5,1.7759249081286305e-07,2.619200797410538e-07,1e-05,0.0,0.0
+no_moving_recourse,5,0.5229409756389936,0.3185101837087919,0.0003,0.0,0.0
+no_proposal_state,5,0.032277611913127904,0.01797456588608828,0.001,0.0,0.0

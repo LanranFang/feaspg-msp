@@ -1,0 +1,130 @@
+[
+  {
+    "generator": "zero",
+    "path": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "absolute_error": 7.105427357601002e-15,
+    "value": 34.00000000000001,
+    "bound": 34.00000000000001,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "zero",
+    "path": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "absolute_error": 1.4210854715202004e-14,
+    "value": 34.000000000000014,
+    "bound": 34.0,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "zero",
+    "path": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "absolute_error": 7.105427357601002e-15,
+    "value": 38.0,
+    "bound": 38.00000000000001,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "zero",
+    "path": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "absolute_error": 7.105427357601002e-15,
+    "value": 34.00000000000001,
+    "bound": 34.0,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "absolute_error": 0.0,
+    "value": 37.35728454589844,
+    "bound": 37.35728454589844,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "absolute_error": 0.0,
+    "value": 37.06407165527344,
+    "bound": 37.06407165527344,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "absolute_error": 0.0,
+    "value": 37.06407165527344,
+    "bound": 37.06407165527344,
+    "mip": true,
+    "nodes": 1.0
+  },
+  {
+    "generator": "pwl",
+    "path": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "absolute_error": 0.0,
+    "value": 37.35728454589844,
+    "bound": 37.35728454589844,
+    "mip": true,
+    "nodes": 1.0
+  }
+]

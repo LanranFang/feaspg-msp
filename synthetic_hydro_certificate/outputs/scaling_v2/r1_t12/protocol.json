@@ -1,0 +1,46 @@
+{
+  "classification": "engineering pilot, not a formal coverage experiment",
+  "model": {
+    "reservoirs": 1,
+    "stages": 12
+  },
+  "reservoirs": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    6,
+    12,
+    18
+  ],
+  "n_fit": 2048,
+  "n_validation": 1024,
+  "training_updates": 400,
+  "checkpoints": [
+    40,
+    200,
+    400
+  ],
+  "continuations": [
+    "zero",
+    "pwl"
+  ],
+  "calibration_budgets": [
+    2048,
+    8192,
+    32768
+  ],
+  "n_evaluation": 8192,
+  "repetitions": 3,
+  "alpha": 0.025,
+  "delta": 0.025,
+  "envelope": "sum of within-shock stage-objective ranges on the full relaxed domain; no path enumeration",
+  "reference": "continuous optimum bracket, with independent small-instance continuous LP",
+  "seeds": "SeedSequence([84620,R,T,block,rep]); fit=0, validation=1, calibration=2, evaluation=3, audit=4",
+  "source_sha256": {
+    "scaling.py": "44b717fdcf7d46066e7fa09a2e147df7d2557b7e19fa5f9674badf8abae2376f",
+    "scaling_inner.cpp": "ee1f25f74d88869cada21d21a0d864fff3c063241a947f3aca3a837a5105304a",
+    "scaling_run.py": "e1dac7f299cc31c5ed49b08093922ca057e37175db873b4810b14d5cb7279867"
+  }
+}

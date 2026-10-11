@@ -1,0 +1,113 @@
+dataset,planning_id,ceg,ceg_count,subsystem_id,subsystem_count,plant_name,plant_name_count,first_observed_on,last_observed_on,source_years,dispatch_observations
+ons_thermal_dispatch_crosswalk,1,UTN.UR.RJ.000100-7.01,1,SE,1,Angra I,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,104,UTE.AI.SP.027974-9.01,1,SE,1,Cocal,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,105,UTE.FL.SP.028592-7.01,1,SE,1,PIE-RP,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,108,UTE.PE.GO.028654-0.01,1,SE,1,Xavantes Aruanã,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,109,UTE.PE.PI.028538-2.01,1,NE,1,Altos,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,110,UTE.GN.SP.028191-3.01,1,SE,1,Nova Piratininga,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,111,UTE.PE.CE.028531-5.01,1,NE,1,Aracati,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,112,UTE.PE.BA.028615-0.01,1,NE,1,Curumim,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,113,UTE.PE.CE.028529-3.01,1,NE,1,Baturité,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,116,UTE.GN.MA.031193-6.01,1,N,1,Parnaíba IV,1,2013-11-21,2014-12-31,"2013,2014",9672
+ons_thermal_dispatch_crosswalk,117,UTE.PE.PI.028537-4.01,1,NE,1,Campo Maior,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,119,UTE.PE.CE.028528-5.01,1,NE,1,Caucaia,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,12,UTE.GN.MT.027003-2.01,1,SE,1,Cuiabá,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,121,UTE.PE.CE.028530-7.01,1,NE,1,Crato,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,125,UTE.PE.CE.028533-1.01,1,NE,1,Pecém,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,127,UTE.PE.CE.028532-3.01,1,NE,1,Iguatu,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,13,UTN.UR.RJ.000101-5.01,1,SE,1,Angra II,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,133,UTE.PE.CE.028534-0.01,1,NE,1,Juazeiro do Norte,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,135,UTE.PE.PI.028535-8.01,1,NE,1,Marambaia,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,136,UTE.FL.MA.030959-1.01,1,N,1,Suzano Maranhão,1,2014-01-16,2014-12-31,2014,8375
+ons_thermal_dispatch_crosswalk,138,UTE.PE.PI.028536-6.01,1,NE,1,Nazária,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,141,UTE.PE.AM.002952-1.01,1,N,1,Mauá Bloco 4,1,2013-07-09,2014-12-31,"2013,2014",12934
+ons_thermal_dispatch_crosswalk,144,UTE.PE.PE.028584-6.01,1,NE,1,Petrolina,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,151,UTE.PE.RN.028655-9.01,1,NE,1,Potiguar,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,152,UTE.GN.PE.028326-6.01,1,NE,1,Termocabo,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,153,UTE.PE.GO.028612-5.01,1,SE,1,Daia,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,155,UTE.PE.GO.029460-8.01,1,SE,1,Goiânia II,1,2013-01-01,2014-12-31,"2013,2014",17495
+ons_thermal_dispatch_crosswalk,156,UTE.CM.RS.029767-4.01,1,S,1,Candiota III,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,159,UTE.PE.PE.029562-0.01,1,NE,1,Termomanaus,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,160,UTE.PE.PE.029561-2.01,1,NE,1,Pau Ferro I,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,161,UTE.PE.RN.029556-6.01,1,NE,1,Potiguar III,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,163,UTE.CM.CE.030098-5.01,1,NE,1,Porto do Pecém II,1,2013-07-02,2014-12-31,"2013,2014",13103
+ons_thermal_dispatch_crosswalk,164,UTE.PE.BA.029554-0.01,1,NE,1,Apoena,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,166,UTE.PE.BA.029555-8.01,1,NE,1,Guarani,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,167,UTE.CM.CE.029720-8.01,1,NE,1,Porto do Pecém I,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,169,UTE.FL.SC.028140-9.01,1,S,1,Energia Madeiras,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,170,UTE.PE.PE.029719-4.01,1,NE,1,Suape II,1,2013-01-24,2014-12-31,"2013,2014",16919
+ons_thermal_dispatch_crosswalk,171,UTE.GN.RJ.001544-0.01,1,SE,1,Norte Fluminense 1,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,172,UTE.GN.RJ.001544-0.01,1,SE,1,Norte Fluminense 2,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,173,UTE.GN.RJ.001544-0.01,1,SE,1,Norte Fluminense 3,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,174,UTE.GN.RJ.001544-0.01,1,SE,1,Norte Fluminense 4,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,176,UTE.CM.MA.029700-3.01,1,N,1,Porto do Itaqui,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,182,UTE.PE.GO.001946-1.01,1,SE,1,Palmeiras de Goiás,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,183,UTE.PE.RJ.029587-6.01,1,SE,1,Atlântico 1,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,19,UTE.PE.DF.000312-3.01,1,SE,1,Brasília,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,192,UTE.PE.AC.002277-2.01,1,SE,1,Rio Acre,1,2013-01-01,2013-01-06,2013,144
+ons_thermal_dispatch_crosswalk,193,UTE.PE.RO.027887-4.01,1,SE,1,Termonorte 1,1,2013-01-01,2013-02-06,2013,888
+ons_thermal_dispatch_crosswalk,194,UTE.GN.RO.028033-0.01,1,SE,1,Termo Norte II,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,195,UTE.PE.RO.002406-6.01,1,SE,1,Rio Madeira,1,2013-01-01,2013-01-06,2013,144
+ons_thermal_dispatch_crosswalk,196,UTE.OF.ES.029273-7.01,1,SE,1,Sol,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,2,UTE.PE.MG.001100-2.01,1,SE,1,Igarapé,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,201,UTE.GN.AM.027250-7.02,1,N,1,Aparecida,1,2013-07-09,2014-12-31,"2013,2014",12958
+ons_thermal_dispatch_crosswalk,203,UTE.PE.AM.029499-3.01,1,N,1,Poraque,1,2013-07-09,2014-12-31,"2013,2014",12934
+ons_thermal_dispatch_crosswalk,204,UTE.GN.AM.029272-9.01,1,N,1,Jaraqui,1,2013-07-09,2014-12-31,"2013,2014",12934
+ons_thermal_dispatch_crosswalk,205,UTE.GN.AM.029432-2.01,1,N,1,Pirarucu,1,2013-07-09,2014-12-31,"2013,2014",12934
+ons_thermal_dispatch_crosswalk,206,UTE.PE.AM.002952-1.01,1,N,1,Mauá Bloco 3,1,2013-07-19,2014-12-31,"2013,2014",12694
+ons_thermal_dispatch_crosswalk,207,UTE.GN.AM.029361-0.02,1,N,1,Tucunare,1,2013-07-09,2014-12-31,"2013,2014",12934
+ons_thermal_dispatch_crosswalk,208,UTE.PE.AP.027104-7.01,1,N,1,Santana Bloco 1,1,2014-09-15,2014-12-11,2014,2111
+ons_thermal_dispatch_crosswalk,209,UTE.PE.AM.029276-1.01,1,N,1,Tambaqui,1,2013-07-09,2014-12-31,"2013,2014",12934
+ons_thermal_dispatch_crosswalk,21,UTE.GN.MA.030203-1.01,1,N,1,Maranhão V,1,2013-03-17,2014-12-31,"2013,2014",15671
+ons_thermal_dispatch_crosswalk,211,UTE.GN.RJ.030769-6.01,1,SE,1,Baixada Fluminense,1,2014-01-16,2014-12-31,2014,8376
+ons_thermal_dispatch_crosswalk,212,UTE.GN.MA.030800-5.01,1,N,1,Maranhão III,1,2014-02-25,2014-12-31,2014,7440
+ons_thermal_dispatch_crosswalk,213,UTE.GN.RJ.027952-8.01,1,SE,1,Seropédica P,1,2014-05-01,2014-12-31,2014,5879
+ons_thermal_dispatch_crosswalk,214,UTE.GN.RJ.027952-8.01,1,SE,1,Seropédica L,1,2014-05-01,2014-12-31,2014,5879
+ons_thermal_dispatch_crosswalk,215,UTE.GN.RJ.027888-2.01,1,SE,1,Termorio P,1,2014-05-01,2014-12-31,2014,5879
+ons_thermal_dispatch_crosswalk,216,UTE.GN.RJ.027888-2.01,1,SE,1,Termorio L,1,2014-05-01,2014-12-31,2014,5879
+ons_thermal_dispatch_crosswalk,217,UTE.GN.MS.027975-7.01,1,SE,1,Três Lagoas P,1,2014-05-01,2014-12-31,2014,5879
+ons_thermal_dispatch_crosswalk,218,UTE.GN.MS.027975-7.01,1,SE,1,Três Lagoas L,1,2014-05-01,2014-12-31,2014,5879
+ons_thermal_dispatch_crosswalk,219,UTE.GN.SP.028014-3.01,1,SE,1,Cubatão P,1,2014-05-01,2014-12-31,2014,5879
+ons_thermal_dispatch_crosswalk,22,UTE.CM.RS.002150-4.01,1,S,1,Presidente Médici,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,220,UTE.GN.SP.028014-3.01,1,SE,1,Cubatão L,1,2014-05-01,2014-12-31,2014,5879
+ons_thermal_dispatch_crosswalk,24,UTE.CM.SC.027094-6.01,1,S,1,Jorge Lacerda C,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,25,UTE.CM.SC.027093-8.01,1,S,1,Jorge Lacerda B,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,26,UTE.CM.SC.001260-2.01,1,S,1,J. Lacerda A-1,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,27,UTE.CM.SC.001260-2.01,1,S,1,J. Lacerda A-2,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,28,UTE.CM.PR.000955-5.01,1,S,1,Figueira,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,29,UTE.CM.RS.000760-9.01,1,S,1,Charqueadas,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,30,UTE.PE.RS.001595-4.01,1,S,1,Nutepa,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,31,UTE.PE.RS.000049-3.01,1,S,1,Alegrete,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,319,UTE.PE.AM.029192-7.01,1,N,1,Flores 2,1,2013-07-30,2013-08-11,2013,312
+ons_thermal_dispatch_crosswalk,32,UTE.CM.RS.026829-1.01,1,S,1,São Jerônimo,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,34,UTE.GN.MS.027075-0.01,1,SE,1,Willian Arjona,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,35,UTE.GN.RS.002913-0.01,1,S,1,Uruguaiana,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,36,UTE.GN.MA.030202-3.01,1,N,1,Maranhão IV,1,2013-01-21,2014-12-31,"2013,2014",16991
+ons_thermal_dispatch_crosswalk,42,UTE.GN.CE.028357-6.01,1,NE,1,Fortaleza,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,43,UTE.GN.BA.027263-9.01,1,NE,1,Termobahia,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,46,UTE.GN.MA.030196-5.01,1,N,1,Nova Venécia 2,1,2013-10-13,2014-12-31,"2013,2014",10631
+ons_thermal_dispatch_crosswalk,48,UTE.GN.PR.027733-9.01,1,S,1,Araucária,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,49,UTE.PE.ES.029664-3.01,1,SE,1,Viana,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,50,UTE.PE.SP.002082-6.01,1,SE,1,Piratininga,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,52,UTE.PE.PB.000612-2.01,1,NE,1,Campina Grande,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,53,UTE.PE.BA.029653-8.01,1,NE,1,Global I,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,54,UTE.GN.MG.001276-9.01,1,SE,1,Juiz de Fora,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,55,UTE.PE.BA.029639-2.01,1,NE,1,Global II,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,57,UTE.PE.CE.029654-6.01,1,NE,1,Maracanaú I,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,58,UTE.GN.CE.028358-4.01,1,NE,1,Termoceará,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,63,UTE.GN.MG.001096-0.01,1,SE,1,Ibirité,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,64,UTE.GN.RS.028038-0.01,1,S,1,Canoas,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,65,UTE.PE.RJ.029587-6.01,1,SE,1,Atlântico 2,1,2013-01-01,2014-12-31,"2013,2014",17470
+ons_thermal_dispatch_crosswalk,67,UTE.PE.PB.029641-4.01,1,NE,1,Termonordeste,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,69,UTE.PE.PB.029638-4.01,1,NE,1,Termoparaíba,1,2013-01-01,2014-12-31,"2013,2014",17447
+ons_thermal_dispatch_crosswalk,7,UTE.PE.SP.000678-5.01,1,SE,1,Carioba,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,70,UTE.PE.MA.029668-6.01,1,N,1,Geramar II,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,73,UTE.PE.MA.029705-4.01,1,N,1,Geramar I,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,74,UTE.GN.BA.028206-5.01,1,NE,1,Termocamaçari,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,83,UTE.GN.RN.028225-1.01,1,NE,1,Vale do Açú,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,84,UTE.GN.BA.000602-5.01,1,NE,1,Camaçari,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,86,UTE.GN.RJ.027243-4.01,1,SE,1,Santa Cruz,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,9,UTE.GN.RJ.027935-8.01,1,SE,1,Campos,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,90,UTE.GN.RJ.028029-1.01,1,SE,1,Termomacaé,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,96,UTE.GN.PE.028031-3.01,1,NE,1,Termopernambuco,1,2013-01-01,2014-12-31,"2013,2014",17471
+ons_thermal_dispatch_crosswalk,98,UTE.PE.PE.030120-5.01,1,NE,1,Pernambuco III,1,2013-11-07,2014-12-31,"2013,2014",10032

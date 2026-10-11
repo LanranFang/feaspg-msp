@@ -1,0 +1,74 @@
+{
+  "validation_date": "2026-10-11",
+  "test_suite": {
+    "passed": 113,
+    "elapsed_seconds": 12.33
+  },
+  "smoke_training": [
+    {
+      "bundle": "controlled_n100",
+      "method": "projected_graph_neural_global",
+      "updates": 2,
+      "validation_cost": 124872.1015625
+    },
+    {
+      "bundle": "ons_subsystems_n250",
+      "method": "algorithm1_mlp",
+      "updates": 2,
+      "validation_cost": 105.03601741790771
+    },
+    {
+      "bundle": "camels_br_12_n250",
+      "method": "algorithm1_deepsets",
+      "updates": 2,
+      "validation_cost": 135.6428451538086
+    }
+  ],
+  "checkpoint_replay": {
+    "seed": 0,
+    "maximum_per_path_cost_error": 0.0,
+    "bundles": [
+      "controlled_n1000/projected_graph_neural_global",
+      "ons_subsystems_n2500/algorithm1_mlp",
+      "camels_br_12_n2500/algorithm1_deepsets"
+    ]
+  },
+  "certificate_replay": {
+    "rows": 90,
+    "matched_reference_rows": 90,
+    "max_absolute_errors": {
+      "certificate": 7.105427357601002e-15,
+      "calibration_correction": 7.105427357601002e-15,
+      "evaluation_correction": 1.7763568394002505e-15
+    },
+    "elapsed_seconds": 1.5262685781344771,
+    "source": "unchanged frozen fitting objects; regenerated calibration and evaluation paths"
+  },
+  "paper_rebuild": {
+    "certificate_repetitions_per_setting": 200,
+    "original_certificate_mean": 39.535402403547295,
+    "tightened_certificate_mean": 13.253475107333411,
+    "source": "frozen experiment records; no retraining in this command",
+    "paper_pdf_sha256": "58d75cfdf04a48558cf89ba9e26ec7504ceff4cb03fa3215752fb87ab08a3b30",
+    "figure_map": {
+      "1": "figure01.tex (TikZ source snapshot)",
+      "2": "gradient_mechanism.pdf",
+      "3": "proposal_distance_mechanism.pdf",
+      "4": "controlled_budget_preprint.pdf",
+      "5": "real_hydrology_preprint.pdf",
+      "6": "certificate_hydro.pdf",
+      "7": "controlled_budget_latency.pdf"
+    },
+    "tables": "Table 1 rebuilt from numerical records; Tables 1--14 also retained as verbatim TeX source snapshots"
+  },
+  "relocation": {
+    "inherited_pythonpath_removed": true,
+    "research_imports_inside_relocated_package": true,
+    "figure_rebuild_passed": true,
+    "checkpoint_bundle": "controlled_n100",
+    "checkpoint_method": "projected_mlp_matched",
+    "maximum_per_path_cost_error": 0.0
+  },
+  "full_multi_seed_training_rerun": false,
+  "full_raw_data_preprocessing_rerun": false
+}

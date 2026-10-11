@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "n_candidates": 4,
+  "n_optimizer_updates": 32,
+  "n_selected": 4,
+  "n_test_costs": 64,
+  "original_baselines_bitwise_verified": 0,
+  "replayed_initialization_paths": 3,
+  "independently_replayed_selected_evaluations": 4,
+  "auditor_sha256": "3e2abecadaba395837a23bf127aa4a7af500b2484fac20f0255a71fe2c8d0e78",
+  "protocol_sha256": "146421ad97c1b4d719ca3f088995fea64b853df7c9e5763713bc283f3a653bf0",
+  "limitations": "Integrity checks cannot reconstruct unsaved intermediate parameter states; selected-policy and sampled initialization numerical replays are separately counted."
+}

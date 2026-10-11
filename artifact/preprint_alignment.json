@@ -1,0 +1,20 @@
+{
+  "cost_fd_at_1e-5": {
+    "full": 2.1686324071617377e-07,
+    "no_moving_recourse": 0.5236630586252411,
+    "no_proposal_state": 0.0387942039584551
+  },
+  "regularized_fd_at_1e-5": {
+    "detach_auxiliary_action": 0.1811938682398081,
+    "full": 2.1192113982123892e-07
+  },
+  "hydrology_budget_series": 5,
+  "published_hydrology_rows": 25,
+  "hydrology_csv_matches_archived_budget_report": true,
+  "plateau_full_training_updates": 500,
+  "plateau_seeds_per_arm": 5,
+  "verbatim_table_snapshots": 14,
+  "research_python_sources_unchanged_from_portable_base": true,
+  "exact_paper_pdf_sha256": "58d75cfdf04a48558cf89ba9e26ec7504ceff4cb03fa3215752fb87ab08a3b30",
+  "embedded_figure_pdfs_unchanged": 6
+}

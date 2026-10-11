@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.so
+*.egg-info/
+.venv/
+*.pkl
+*.log
+synthetic_hydro_certificate/outputs/scaling_v2/bin/
+/outputs/
+iclr_algorithm1_experiments/outputs/
+efficiency_switching_hydro/outputs/
+algorithm1_gradient_study/outputs/
+algorithm1_full_comparison/outputs/
+real_data_hydro_experiments/outputs/

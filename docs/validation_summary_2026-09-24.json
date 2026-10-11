@@ -1,0 +1,53 @@
+{
+  "checkpoint_evaluation": {
+    "bundle": "controlled_n1000",
+    "method": "projected_graph_neural_global",
+    "seed": 0,
+    "test_cost": 52542.16728115082,
+    "frozen_test_cost": 52542.16728115082,
+    "max_path_cost_error": 0.0,
+    "matches_reference_within_tolerance": true
+  },
+  "checkpoint_ons": {
+    "bundle": "ons_subsystems_n2500",
+    "method": "algorithm1_mlp",
+    "seed": 0,
+    "test_cost": 55375701432.5,
+    "frozen_test_cost": 55375701432.5,
+    "max_path_cost_error": 0.0,
+    "matches_reference_within_tolerance": true
+  },
+  "checkpoint_camels": {
+    "bundle": "camels_br_12_n2500",
+    "method": "algorithm1_deepsets",
+    "seed": 0,
+    "test_cost": 167.32943451404572,
+    "frozen_test_cost": 167.32943451404572,
+    "max_path_cost_error": 0.0,
+    "matches_reference_within_tolerance": true
+  },
+  "training_replay": {
+    "bundle": "controlled_n100",
+    "method": "projected_graph_neural_global",
+    "seed": 0,
+    "iterations": 50,
+    "selected_state_matches": true,
+    "validation_cost_error": 0.0
+  },
+  "certificate_replay": {
+    "rows": 90,
+    "matched_reference_rows": 90,
+    "max_absolute_errors": {
+      "certificate": 7.105427357601002e-15,
+      "calibration_correction": 7.105427357601002e-15,
+      "evaluation_correction": 1.7763568394002505e-15
+    },
+    "elapsed_seconds": 1.544272722210735,
+    "source": "unchanged frozen fitting objects; regenerated calibration and evaluation paths"
+  },
+  "test_suite": {
+    "passed": 113,
+    "relocated_run_seconds": 12.46
+  },
+  "input_bundles": 24
+}

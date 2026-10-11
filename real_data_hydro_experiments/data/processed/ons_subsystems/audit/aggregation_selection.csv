@@ -1,0 +1,5 @@
+aggregation_id,train_months_present,complete_train_months,first_train_month,last_train_month,mean_train_inflow_mwh,release_capacity_mwh,energy_capacity_mwh,identifiable_reservoirs,aggregation_level,required_train_months,complete_training_record,capacity_identifiable,release_identifiable,eligible,exclusion_reason,selection_rank,selected
+N,180,180,2000-01-01,2014-12-01,4425331.772770221,13488495.479999982,6711249.531111112,7,subsystem,180,True,True,True,True,,4,True
+NE,180,180,2000-01-01,2014-12-01,4570058.6255534375,15010113.359999998,2899737.5416666665,9,subsystem,180,True,True,True,True,,3,True
+S,180,180,2000-01-01,2014-12-01,6072459.087223343,22903889.879999924,5571746.3898611115,28,subsystem,180,True,True,True,True,,2,True
+SE,180,180,2000-01-01,2014-12-01,23757696.42356778,64197164.639999956,43399071.23933333,100,subsystem,180,True,True,True,True,,1,True

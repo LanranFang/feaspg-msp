@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "n_new_candidates": 60,
+  "n_new_selected": 20,
+  "n_reused_parent_selected": 5,
+  "n_budgets": 5,
+  "new_selected_evaluations_independently_replayed": 20,
+  "paired_seed_intervals_independently_recomputed": 5,
+  "conditional_test_path_intervals_independently_recomputed": 25,
+  "auditor_sha256": "fdc957c0474978b42ebbe2507495184f1a99d9899ac249e2fee3419fe3aa8a42",
+  "shard_audits": [
+    {
+      "status": "passed",
+      "experiment": "conditional_projection_distance_budget_extension",
+      "n_fit": 100,
+      "n_candidates": 15,
+      "n_optimizer_updates": 750,
+      "n_selected": 5,
+      "n_test_costs": 20480,
+      "original_baselines_bitwise_verified": 0,
+      "replayed_initialization_paths": 15,
+      "independently_replayed_selected_evaluations": 5,
+      "auditor_sha256": "7f2f53014afd8870501dd28cdeb09f0e631796580b8f3bf978dd0354f58eae54",
+      "protocol_sha256": "22bfe231370128b11a55f00780c8ec8bb3ed5b63bd05162d32bc2feeda471518",
+      "limitations": "Integrity checks cannot reconstruct unsaved intermediate parameter states; selected-policy and sampled initialization numerical replays are separately counted."
+    },
+    {
+      "status": "passed",
+      "experiment": "conditional_projection_distance_budget_extension",
+      "n_fit": 250,
+      "n_candidates": 15,
+      "n_optimizer_updates": 1875,
+      "n_selected": 5,
+      "n_test_costs": 20480,
+      "original_baselines_bitwise_verified": 0,
+      "replayed_initialization_paths": 15,
+      "independently_replayed_selected_evaluations": 5,
+      "auditor_sha256": "7f2f53014afd8870501dd28cdeb09f0e631796580b8f3bf978dd0354f58eae54",
+      "protocol_sha256": "ac7b80783f8248d38c4e6cecb810af364dfd3e130558c5cbd8e3a13fc0300beb",
+      "limitations": "Integrity checks cannot reconstruct unsaved intermediate parameter states; selected-policy and sampled initialization numerical replays are separately counted."
+    },
+    {
+      "status": "passed",
+      "experiment": "conditional_projection_distance_budget_extension",
+      "n_fit": 500,
+      "n_candidates": 15,
+      "n_optimizer_updates": 3750,
+      "n_selected": 5,
+      "n_test_costs": 20480,
+      "original_baselines_bitwise_verified": 0,
+      "replayed_initialization_paths": 15,
+      "independently_replayed_selected_evaluations": 5,
+      "auditor_sha256": "7f2f53014afd8870501dd28cdeb09f0e631796580b8f3bf978dd0354f58eae54",
+      "protocol_sha256": "80c8de54bf8f207ef0f0dcb1998ec62a5d836ea6d65009b69438ca83aa2434b5",
+      "limitations": "Integrity checks cannot reconstruct unsaved intermediate parameter states; selected-policy and sampled initialization numerical replays are separately counted."
+    },
+    {
+      "status": "passed",
+      "experiment": "conditional_projection_distance_budget_extension",
+      "n_fit": 2500,
+      "n_candidates": 15,
+      "n_optimizer_updates": 18750,
+      "n_selected": 5,
+      "n_test_costs": 20480,
+      "original_baselines_bitwise_verified": 0,
+      "replayed_initialization_paths": 15,
+      "independently_replayed_selected_evaluations": 5,
+      "auditor_sha256": "7f2f53014afd8870501dd28cdeb09f0e631796580b8f3bf978dd0354f58eae54",
+      "protocol_sha256": "958211c298c21c48ccdccdc708a2e7545964fe7903c28066aa6a842a7a27d115",
+      "limitations": "Integrity checks cannot reconstruct unsaved intermediate parameter states; selected-policy and sampled initialization numerical replays are separately counted."
+    }
+  ]
+}

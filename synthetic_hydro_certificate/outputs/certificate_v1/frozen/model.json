@@ -1,0 +1,18 @@
+{
+  "prices": [
+    1,
+    4,
+    2,
+    6,
+    3,
+    8
+  ],
+  "initial_storage": 3,
+  "release_capacity": 3,
+  "wet_inflow": 2,
+  "dry_demand": 3,
+  "wet_demand": 2,
+  "holding_denominator": 8,
+  "terminal_target": 3,
+  "terminal_price": 4
+}

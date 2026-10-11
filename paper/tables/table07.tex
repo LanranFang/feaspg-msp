@@ -1,0 +1,26 @@
+\begin{table}[ht]
+\caption{Nominal control diagnostics, five-seed means. $\overline d_{\rm pd}$ is mean test
+proposal distance, and $G_C$ and $G_\lambda$ are training-gradient norms.
+Projected is the percentage of decision coordinates changed by projection.
+Time sums all candidate
+training runs and scale estimation per seed, in seconds.}
+\label{tab:regularization-metrics}
+\centering\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Setting, weight & $\overline d_{\rm pd}$ & $G_C$ & $G_\lambda$ & Projected (\%) & Time (s)\\
+\midrule
+Synthetic Graph, 0 & $1.40\times10^{4}$ & $2.00\times10^{4}$ & $2.00\times10^{4}$ & 80.2 & 507\\
+Synthetic Graph, positive & $3.70\times10^{2}$ & $3.89\times10^{4}$ & $4.12\times10^{4}$ & 47.0 & 1515\\
+Synthetic MLP, 0 & $1.42\times10^{3}$ & $5.01\times10^{4}$ & $5.01\times10^{4}$ & 39.9 & 249\\
+Synthetic MLP, positive & $3.82\times10^{2}$ & $5.77\times10^{4}$ & $5.89\times10^{4}$ & 37.3 & 805\\
+ONS MLP, 0 & $1.15\times10^{15}$ & $3.84\times10^{1}$ & $3.84\times10^{1}$ & 100.0 & 456\\
+ONS MLP, positive & $9.38\times10^{14}$ & $4.22\times10^{1}$ & $4.32\times10^{1}$ & 99.2 & 1339\\
+CAMELS MLP, 0 & $9.31\times10^{4}$ & $1.19\times10^{1}$ & $1.19\times10^{1}$ & 50.4 & 61\\
+CAMELS MLP, positive & $8.75\times10^{4}$ & $1.15\times10^{1}$ & $1.15\times10^{1}$ & 50.2 & 181\\
+CAMELS DeepSets, 0 & $1.42\times10^{5}$ & $1.10\times10^{1}$ & $1.10\times10^{1}$ & 60.7 & 105\\
+CAMELS DeepSets, positive & $1.35\times10^{5}$ & $1.23\times10^{1}$ & $1.23\times10^{1}$ & 59.7 & 307\\
+\bottomrule
+\end{tabular}
+\end{table}

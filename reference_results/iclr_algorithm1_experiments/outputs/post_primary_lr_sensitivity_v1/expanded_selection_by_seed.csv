@@ -1,0 +1,16 @@
+policy,train_seed,selected_learning_rate_expanded,candidate_source,best_validation_cost,test_mean_cost
+projected_shac,0,0.0006,registered,57546.15234375,57566.01398849487
+projected_shac,1,0.001,post_primary_upper_sensitivity,57413.1171875,57479.98555278778
+projected_shac,2,0.001,post_primary_upper_sensitivity,59982.43359375,60003.11765289307
+projected_shac,3,0.0006,registered,59191.92578125,59257.9271440506
+projected_shac,4,0.0006,registered,60201.9765625,60228.72131729126
+rl_ppo,0,0.001,registered,85857.703125,85817.58292770386
+rl_ppo,1,0.001,registered,83476.53125,83468.94471740723
+rl_ppo,2,0.0003,registered,81101.0703125,80960.60587692261
+rl_ppo,3,0.001,registered,86800.421875,86697.81693649292
+rl_ppo,4,0.0003,registered,85204.9609375,85195.1696472168
+rl_sac,0,0.001,registered,60833.05078125,61022.75376224518
+rl_sac,1,0.003,post_primary_upper_sensitivity,62120.42578125,62172.53679847717
+rl_sac,2,0.003,post_primary_upper_sensitivity,63870.53125,63926.287791252136
+rl_sac,3,0.003,post_primary_upper_sensitivity,60662.2578125,60753.753935813904
+rl_sac,4,0.001,registered,60300.34765625,60495.075919151306

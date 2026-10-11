@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "real-data-hydro-experiments"
+version = "0.1.0"
+description = "Versioned real-hydrology benchmarks for feasibility-preserving policies"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scipy>=1.11",
+  "torch>=2.2",
+  "pyarrow>=17",
+  "shapely>=2.0",
+]
+
+[project.optional-dependencies]
+rl = ["gymnasium>=0.29", "stable-baselines3>=2.3"]
+formal = [
+  "gymnasium>=0.29",
+  "stable-baselines3>=2.3",
+  "gurobipy>=12.0",
+]
+test = ["pytest>=8"]
+report = ["matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["real_hydro*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

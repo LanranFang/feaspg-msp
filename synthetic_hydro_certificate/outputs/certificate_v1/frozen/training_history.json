@@ -1,0 +1,506 @@
+[
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 0,
+    "validation_cost": 39.73837384264047
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 40,
+    "validation_cost": 29.79402892456094
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 80,
+    "validation_cost": 27.79404385651824
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 120,
+    "validation_cost": 27.650359970837854
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 160,
+    "validation_cost": 27.58584590378809
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 200,
+    "validation_cost": 27.521494418940122
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 240,
+    "validation_cost": 27.432776123204242
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 280,
+    "validation_cost": 27.339485868778358
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 320,
+    "validation_cost": 27.339729189811546
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 360,
+    "validation_cost": 27.298184053223572
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 400,
+    "validation_cost": 27.257388681975527
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 440,
+    "validation_cost": 27.2971707872076
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 480,
+    "validation_cost": 27.292832827239174
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 520,
+    "validation_cost": 27.211324403397413
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 560,
+    "validation_cost": 27.190436609195228
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 600,
+    "validation_cost": 27.20336773381264
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 640,
+    "validation_cost": 27.15269471176608
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 680,
+    "validation_cost": 27.155101051402582
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 720,
+    "validation_cost": 27.11812680019223
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 760,
+    "validation_cost": 27.113178587569642
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.01,
+    "update": 800,
+    "validation_cost": 27.091556814911314
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 0,
+    "validation_cost": 39.73837384264047
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 40,
+    "validation_cost": 27.73098717002753
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 80,
+    "validation_cost": 27.54113929041091
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 120,
+    "validation_cost": 27.37285564496756
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 160,
+    "validation_cost": 27.302783892754405
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 200,
+    "validation_cost": 27.288414551393146
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 240,
+    "validation_cost": 27.278658965250617
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 280,
+    "validation_cost": 27.218703925381252
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 320,
+    "validation_cost": 27.142092787442387
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 360,
+    "validation_cost": 27.148841750040393
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 400,
+    "validation_cost": 27.18200219233652
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 440,
+    "validation_cost": 27.12279657771188
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 480,
+    "validation_cost": 27.11428704008644
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 520,
+    "validation_cost": 27.13695834345516
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 560,
+    "validation_cost": 27.142972047231794
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 600,
+    "validation_cost": 27.101143758522774
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 640,
+    "validation_cost": 27.116954937820395
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 680,
+    "validation_cost": 27.14411791126897
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 720,
+    "validation_cost": 27.127824051403817
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 760,
+    "validation_cost": 27.082037926703155
+  },
+  {
+    "seed": 73001,
+    "learning_rate": 0.03,
+    "update": 800,
+    "validation_cost": 27.098843660738147
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 0,
+    "validation_cost": 39.296711644943336
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 40,
+    "validation_cost": 29.417720935253183
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 80,
+    "validation_cost": 27.75645179334761
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 120,
+    "validation_cost": 27.680492244856268
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 160,
+    "validation_cost": 27.600087359741863
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 200,
+    "validation_cost": 27.543158513087665
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 240,
+    "validation_cost": 27.440034942193464
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 280,
+    "validation_cost": 27.33758966888012
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 320,
+    "validation_cost": 27.314631126483956
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 360,
+    "validation_cost": 27.305626626614526
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 400,
+    "validation_cost": 27.273138857398422
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 440,
+    "validation_cost": 27.27190469582556
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 480,
+    "validation_cost": 27.258654283088376
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 520,
+    "validation_cost": 27.267287279065513
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 560,
+    "validation_cost": 27.251042386705592
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 600,
+    "validation_cost": 27.237557309402693
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 640,
+    "validation_cost": 27.18836198381848
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 680,
+    "validation_cost": 27.20623214377406
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 720,
+    "validation_cost": 27.210253955450018
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 760,
+    "validation_cost": 27.211993150147425
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.01,
+    "update": 800,
+    "validation_cost": 27.17371880440083
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 0,
+    "validation_cost": 39.296711644943336
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 40,
+    "validation_cost": 27.821521022945735
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 80,
+    "validation_cost": 27.57010947482745
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 120,
+    "validation_cost": 27.384078737426254
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 160,
+    "validation_cost": 27.348462211995976
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 200,
+    "validation_cost": 27.276742946941674
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 240,
+    "validation_cost": 27.294067230816125
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 280,
+    "validation_cost": 27.205416764352407
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 320,
+    "validation_cost": 27.167890844000297
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 360,
+    "validation_cost": 27.180010330136525
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 400,
+    "validation_cost": 27.168664249839843
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 440,
+    "validation_cost": 27.153333532571285
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 480,
+    "validation_cost": 27.128591976944485
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 520,
+    "validation_cost": 27.156232170745106
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 560,
+    "validation_cost": 27.138107135161842
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 600,
+    "validation_cost": 27.154514702311268
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 640,
+    "validation_cost": 27.162964731541255
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 680,
+    "validation_cost": 27.131060800757176
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 720,
+    "validation_cost": 27.09436890781977
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 760,
+    "validation_cost": 27.105769771291563
+  },
+  {
+    "seed": 73002,
+    "learning_rate": 0.03,
+    "update": 800,
+    "validation_cost": 27.076451867956052
+  }
+]

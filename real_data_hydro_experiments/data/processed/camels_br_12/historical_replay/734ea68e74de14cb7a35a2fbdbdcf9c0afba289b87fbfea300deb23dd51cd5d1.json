@@ -1,0 +1,44 @@
+{
+  "array_dtypes": {
+    "calendar": "<i2",
+    "hydrology_regime": "<i2",
+    "hydrology_state": "<f4",
+    "inflow": "<f4",
+    "source_path_id": "<i4"
+  },
+  "array_shapes": {
+    "calendar": [
+      48
+    ],
+    "hydrology_regime": [
+      5,
+      48
+    ],
+    "hydrology_state": [
+      5,
+      48,
+      12
+    ],
+    "inflow": [
+      5,
+      48,
+      12
+    ],
+    "source_path_id": [
+      5
+    ]
+  },
+  "arrays_file": "historical_replay/734ea68e74de14cb7a35a2fbdbdcf9c0afba289b87fbfea300deb23dd51cd5d1.npz",
+  "arrays_sha256": "43f83447d08e2dc81db8169d6ec6f81ba01e69550be18ebf0c9df9120c9f1094",
+  "artifact_type": "real_historical_trajectory_batch",
+  "fingerprint_sha256": "734ea68e74de14cb7a35a2fbdbdcf9c0afba289b87fbfea300deb23dd51cd5d1",
+  "has_demand": false,
+  "has_source_path_id": true,
+  "horizon": 48,
+  "hydrology_state_dimension": 12,
+  "n_paths": 5,
+  "n_reservoirs": 12,
+  "name": "camels_br_locked_real_test",
+  "schema_version": 1,
+  "seed": 73001
+}

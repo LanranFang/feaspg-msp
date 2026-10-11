@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying preprint."
+title: "Differentiating Through Moving Recourse: Feasible Policy Optimization and Finite-Sample Certification for Multistage Stochastic Programs"
+type: software
+authors:
+  - family-names: Fang
+    given-names: Lanran
+  - family-names: Park
+    given-names: Hyuk
+  - family-names: Hanasusanto
+    given-names: Grani A.
+preferred-citation:
+  type: unpublished
+  title: "Differentiating Through Moving Recourse: Feasible Policy Optimization and Finite-Sample Certification for Multistage Stochastic Programs"
+  authors:
+    - family-names: Fang
+      given-names: Lanran
+    - family-names: Park
+      given-names: Hyuk
+    - family-names: Hanasusanto
+      given-names: Grani A.
+  year: 2026
+  notes: "Local 104-page main_preprint.pdf supplied with this artifact; no DOI assigned in this package."

@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-09-16T03:49:33.738954+00:00",
+  "elapsed_seconds": 43.73171922494657,
+  "artifacts_sha256": {
+    "PROTOCOL.json": "013e25c2928367523457bf03c2baa819a80fcd7a3c19ebdb1e23fa0c643bd794",
+    "PROVENANCE.json": "41827b1b81b708d5c9e78697eaecd86ea2f7a14fe65ebe8312775ad6e6451e22",
+    "README.md": "3e6ff6450d1085caf2fb9320818af338d386295090be8be9ff1a3709e27a2d8a",
+    "dataset.json": "39d815c9a96e0166c39e8024fe88a747a466bb22e398ca9a41a050e6aca2c950",
+    "finite_difference.pdf": "49e04f526207ed2b5dca19acf747bef3b8ac67c3ed2e9132b32ce4e4ec57863b",
+    "finite_difference.png": "16c303b4ea632148b429ca2c384dbe034fd8ed99bc7565619aa5e797ceeb3e6c",
+    "finite_difference_check.csv": "b9bb477cac0ddac1e25783d3191bf1d37480cc8323980e9dceef9a56d18749b5",
+    "finite_difference_summary.csv": "49155771e45571502d9f6776fbb87728f4f64676c4de41b8ffe5f01df22982e9",
+    "lambda_reference.csv": "74dd7defeeb2d73ff0ba09578c195cdfe6bf1dd02ce78c915260da8960ff01cb",
+    "lambda_reference_per_path.csv": "9b51bfef64f4dd4b6c7a7c7fd22f6e8d366866f8f89e8bbf825e2866a9d707c7",
+    "original_zero_reproduction.csv": "0bde39084b4223b0c0308462dfd93ce426cfa3e79ca5ec85bec59ffc942eab36",
+    "scalar_boundary_derivative.csv": "190ac1d86353e4a11fe613ac382deff6f8bb393f7dfbf55747203a1c31e8dad5",
+    "scalar_plateau.pdf": "c8ecb1bf3bf7ac4999c4e8f7ce9b6239dab3afe39bf7e0e76458053dc15ff92b",
+    "scalar_plateau.png": "9fcabed9dcc9f5cc7b7954eb4c2f00c3c36ff49d7eca1a4d78328058277e2b3b",
+    "scalar_summary.csv": "2b83a63740fd1931b36b58e29538fc7718989be9aebf40f52a6d7310639dda31",
+    "scalar_trajectories.csv": "8ea7fd92b96faf60348cf61aa4897f2ed56dc7418a9b2f35c4ecca861de9d9b9"
+  }
+}

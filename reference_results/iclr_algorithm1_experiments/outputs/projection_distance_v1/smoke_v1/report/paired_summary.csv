@@ -1,0 +1,4 @@
+arm,n_seeds,test_delta_mean,test_delta_sd,test_delta_se,test_seed_ci95_low,test_seed_ci95_high,validation_delta_mean,validation_delta_sd,test_improved_seed_count,validation_improved_seed_count
+tenth,1,-0.857818603515625,,,,,-0.90380859375,,1,1
+fixed,1,59.21235656738281,,,,,53.42724609375,,0,0
+decay,1,34.31343078613281,,,,,30.93994140625,,0,0

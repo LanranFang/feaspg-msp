@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\caption{Held-out historical cost at \(N_{\rm fit}=2500\), mean \(\pm\) sample SD
+over five training seeds. ONS is in trillions, while CAMELS-BR uses native raw
+units. Seasonal is fixed.}
+\label{tab:real-history-full}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Method & ONS (1) & CAMELS-BR (5)\\
+\midrule
+Seasonal & \textbf{4.596} & 256.257\\
+FeasPG+MLP & $5.161\pm0.098$ & $245.081\pm2.944$\\
+FeasPG+DeepSets & -- & {\boldmath $215.875\pm1.596$}\\
+Projected SHAC & $5.111\pm0.102$ & $320.625\pm3.422$\\
+PPO & $5.262\pm0.156$ & $588.704\pm16.959$\\
+SAC & $5.616\pm0.095$ & $595.760\pm87.875$\\
+Finite-state SDDP & $5.495\pm0.034$ & $290.062\pm8.761$\\
+\bottomrule
+\end{tabular}
+\end{table}

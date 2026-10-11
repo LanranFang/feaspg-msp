@@ -1,0 +1,48 @@
+{
+  "classification": "fresh fixed-protocol validation conditional on the unchanged fitted policies",
+  "reservoirs": 3,
+  "stages": 18,
+  "stagewise_independent_binary_shocks": true,
+  "repetitions": 200,
+  "calibration_budgets": [
+    2048,
+    8192,
+    32768
+  ],
+  "n_evaluation": 8192,
+  "checkpoints": [
+    40,
+    200,
+    400
+  ],
+  "generators": [
+    "zero",
+    "pwl"
+  ],
+  "variants": [
+    "original",
+    "calibration_only",
+    "evaluation_only",
+    "tightened",
+    "centered_hoeffding_eb"
+  ],
+  "primary_variant": "tightened",
+  "primary_checkpoint": 400,
+  "alpha": 0.025,
+  "delta": 0.025,
+  "confidence": "95% marginal per fixed setting; no selection of the smallest reported bound",
+  "calibration": "joint independent-coordinate subGaussian Euclidean ball; querywise paired contrast correction",
+  "evaluation": "Maurer-Pontil 2009 Theorem4 on full raw+random correction; exact dyadic sample moments",
+  "envelope": "minimum of three deterministic bounds, including adversarial residual DP, frozen before evaluation",
+  "seeds": "SeedSequence([95731,3,18,block,rep]); block0 calibration, block1 evaluation",
+  "independent_from_previous_seeds": true,
+  "reference": "retained verified continuous-loss interval; no exact loss point claim",
+  "fitting_sha256": "6918eef547ff416bd34b63604bb713214b6f24fe9cd8612e3fc449d3a8c29dce",
+  "source_sha256": {
+    "scaling.py": "44b717fdcf7d46066e7fa09a2e147df7d2557b7e19fa5f9674badf8abae2376f",
+    "scaling_inner.cpp": "ee1f25f74d88869cada21d21a0d864fff3c063241a947f3aca3a837a5105304a",
+    "scaling_run.py": "e1dac7f299cc31c5ed49b08093922ca057e37175db873b4810b14d5cb7279867",
+    "tightening.py": "b4db79a784ec10c63f0a3a38444793df9210c4241649d5b30a33b17bef3137bb",
+    "tightening_run.py": "5dcf9df98a0e1b32ae7f3bb84dd9a2fd595443198b1c5f26977cae72b94d46ce"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "diagnostic_status": "post-hoc follow-up; primary seven-step results remain unchanged",
+  "selection": "largest positive-lambda complete-derivative error at primary h=1e-5",
+  "train_seed": 0,
+  "direction_seed": 21000,
+  "lambda_ref": 3.3018032342350327,
+  "steps": [
+    1e-05,
+    3e-06,
+    1e-06,
+    3e-07
+  ],
+  "primary_relative_error": 0.0057978338925787,
+  "signature_at_bound_tolerance": 1e-09,
+  "started_utc": "2026-09-16T03:50:50.517168+00:00",
+  "source_sha256": "238fc3d9db00b8922ee8ad69e036528d3bf402de3afae24b0a69f0874cc99b70",
+  "primary_results_sha256": "b9bb477cac0ddac1e25783d3191bf1d37480cc8323980e9dceef9a56d18749b5"
+}

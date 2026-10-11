@@ -1,0 +1,56 @@
+[
+  {
+    "repetition": 0,
+    "generator": "zero",
+    "certificate": 1.5355340099481847,
+    "reproduced": true
+  },
+  {
+    "repetition": 0,
+    "generator": "affine",
+    "certificate": 1.8255845865263256,
+    "reproduced": true
+  },
+  {
+    "repetition": 0,
+    "generator": "pwl",
+    "certificate": 0.9907765673131386,
+    "reproduced": true
+  },
+  {
+    "repetition": 99,
+    "generator": "zero",
+    "certificate": 1.534242419668963,
+    "reproduced": true
+  },
+  {
+    "repetition": 99,
+    "generator": "affine",
+    "certificate": 1.8242929962471037,
+    "reproduced": true
+  },
+  {
+    "repetition": 99,
+    "generator": "pwl",
+    "certificate": 0.9941306659427115,
+    "reproduced": true
+  },
+  {
+    "repetition": 199,
+    "generator": "zero",
+    "certificate": 1.5324413320519374,
+    "reproduced": true
+  },
+  {
+    "repetition": 199,
+    "generator": "affine",
+    "certificate": 1.8224919086300784,
+    "reproduced": true
+  },
+  {
+    "repetition": 199,
+    "generator": "pwl",
+    "certificate": 0.9864129130152997,
+    "reproduced": true
+  }
+]

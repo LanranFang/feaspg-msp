@@ -1,0 +1,452 @@
+{
+  "aggregation_ids": [
+    "SE",
+    "S",
+    "NE",
+    "N"
+  ],
+  "aggregation_level": "subsystem",
+  "case_id": "ons_subsystems",
+  "fit_calendar_periods": 12,
+  "fit_fingerprint_sha256": "518affc95f247fc89457834521fad9c72e09400a641052494c7588368fd3cd48",
+  "fit_period": "2000-01/2014-12",
+  "fit_shape": [
+    180,
+    4
+  ],
+  "formal_inflow_files": [
+    "ENA_DIARIO_SUBSISTEMA_2000.csv",
+    "ENA_DIARIO_SUBSISTEMA_2001.csv",
+    "ENA_DIARIO_SUBSISTEMA_2002.csv",
+    "ENA_DIARIO_SUBSISTEMA_2003.csv",
+    "ENA_DIARIO_SUBSISTEMA_2004.csv",
+    "ENA_DIARIO_SUBSISTEMA_2005.csv",
+    "ENA_DIARIO_SUBSISTEMA_2006.csv",
+    "ENA_DIARIO_SUBSISTEMA_2007.csv",
+    "ENA_DIARIO_SUBSISTEMA_2008.csv",
+    "ENA_DIARIO_SUBSISTEMA_2009.csv",
+    "ENA_DIARIO_SUBSISTEMA_2010.csv",
+    "ENA_DIARIO_SUBSISTEMA_2011.csv",
+    "ENA_DIARIO_SUBSISTEMA_2012.csv",
+    "ENA_DIARIO_SUBSISTEMA_2013.csv",
+    "ENA_DIARIO_SUBSISTEMA_2014.csv",
+    "ENA_DIARIO_SUBSISTEMA_2015.csv",
+    "ENA_DIARIO_SUBSISTEMA_2016.csv",
+    "ENA_DIARIO_SUBSISTEMA_2017.csv",
+    "ENA_DIARIO_SUBSISTEMA_2018.csv",
+    "ENA_DIARIO_SUBSISTEMA_2019.csv",
+    "ENA_DIARIO_SUBSISTEMA_2020.csv",
+    "ENA_DIARIO_SUBSISTEMA_2021.csv",
+    "ENA_DIARIO_SUBSISTEMA_2022.csv",
+    "ENA_DIARIO_SUBSISTEMA_2023.csv",
+    "ENA_DIARIO_SUBSISTEMA_2024.csv",
+    "ENA_DIARIO_SUBSISTEMA_2025.csv"
+  ],
+  "formal_inflow_source": "ONS official subsystem daily gross ENA",
+  "generation_capacity_reconstruction_as_of": "2014-12-31",
+  "historical_replay": {
+    "arrays_file": "historical_replay/193aa3897016bd43640418053eaf2c2bc487116eba9936bced5dac147437f16d.npz",
+    "arrays_sha256": "5e9dd7c92e6ed1a4e069c163bed6c3e67997dd82aa95544e652a31d209c9f98d",
+    "attached_at_utc": "2026-08-18T06:56:10.886013+00:00",
+    "fingerprint_sha256": "193aa3897016bd43640418053eaf2c2bc487116eba9936bced5dac147437f16d",
+    "has_demand": true,
+    "has_source_path_id": true,
+    "horizon": 48,
+    "metadata_file": "historical_replay/193aa3897016bd43640418053eaf2c2bc487116eba9936bced5dac147437f16d.json",
+    "metadata_sha256": "2933a680ab86d35efc1d13c9c3a66fb5f84c2ae3915a901a0f72df3717fe0174",
+    "n_paths": 1,
+    "name": "ons_locked_2022_2025",
+    "schema_version": 1,
+    "seed": 71001
+  },
+  "hydrology_regimes": 6,
+  "par_aic_by_order": [
+    0.03317714428496288,
+    -331.905709038798,
+    -301.3257327566613,
+    -289.5858731418841
+  ],
+  "par_annual_component": true,
+  "par_max_order": 3,
+  "par_order": 1,
+  "prepared_at_utc": "2026-08-18T06:42:18.202449+00:00",
+  "raw_files": [
+    {
+      "bytes": 1267540,
+      "path": "ons/CAPACIDADE_GERACAO.csv",
+      "sha256": "faae14f4d402ad7c7393d78b55e31fbdeae09b4c4640366a3a48f85d9dd6715d"
+    },
+    {
+      "bytes": 49162,
+      "path": "ons/CARGA_MENSAL.csv",
+      "sha256": "18474883e06a1a5556abbb5ec0055c467db2599871f2a9667355206ec5f419dc"
+    },
+    {
+      "bytes": 287224,
+      "path": "ons/CVU_USINA_TERMICA_2005.csv",
+      "sha256": "66104dbc6c4c2f10c2858f32e1f7c054a96fc17f63db72575377f15f036b8395"
+    },
+    {
+      "bytes": 191480,
+      "path": "ons/CVU_USINA_TERMICA_2006.csv",
+      "sha256": "cf28105ade2948781cff4c9d08da291796d4c2063601d9acd90b5599ad7ec264"
+    },
+    {
+      "bytes": 209069,
+      "path": "ons/CVU_USINA_TERMICA_2007.csv",
+      "sha256": "dd4293a05b7c4bfc61655026176c22cb7cc6352549504b85bbe792b515642a42"
+    },
+    {
+      "bytes": 310079,
+      "path": "ons/CVU_USINA_TERMICA_2008.csv",
+      "sha256": "bc9a8cb0cea4993bc312966b496bc24cb918c45ae774e93f73e806869cf5e708"
+    },
+    {
+      "bytes": 383865,
+      "path": "ons/CVU_USINA_TERMICA_2009.csv",
+      "sha256": "8f60fc6b7d1d33a476947f2523f3e74d8b265ee563ddc01431d7ea9b8cd7923e"
+    },
+    {
+      "bytes": 423830,
+      "path": "ons/CVU_USINA_TERMICA_2010.csv",
+      "sha256": "911789856bcd5943c00d7b0e50e390ce040ce596942f197d90c46eab4634032d"
+    },
+    {
+      "bytes": 469206,
+      "path": "ons/CVU_USINA_TERMICA_2011.csv",
+      "sha256": "c16bf0eef00e96390381061770a18958de0f834796c6c60425271b5d86fd7f7f"
+    },
+    {
+      "bytes": 427274,
+      "path": "ons/CVU_USINA_TERMICA_2012.csv",
+      "sha256": "04c54d16dd2ce1f69a8ac1b3179dc88ba3bb11c37fbf90b1239792527c0ce516"
+    },
+    {
+      "bytes": 502955,
+      "path": "ons/CVU_USINA_TERMICA_2013.csv",
+      "sha256": "2a4b226b1ebb446dd9c5f44c501c5a7b5ef52c47c81387c1b1e4d42fb6a935e3"
+    },
+    {
+      "bytes": 593823,
+      "path": "ons/CVU_USINA_TERMICA_2014.csv",
+      "sha256": "8a44d239a828e2302e5145a89892077d5cea05637f2b61ec1dfce2f55b2eb5bb"
+    },
+    {
+      "bytes": 5437095,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2000.csv",
+      "sha256": "f98adee3a5566217365d2ac170567f93b97ce5376cf13c02e9d70f9650a2f950"
+    },
+    {
+      "bytes": 5159261,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2001.csv",
+      "sha256": "8964eafaf24b1c59d4b429a93dc2a5bad3e9c0bfb49fe09c92a4a39c0c8614a7"
+    },
+    {
+      "bytes": 5380283,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2002.csv",
+      "sha256": "b663dcba92cae74acc3e1dcc847e19ee0247ec4703b05edddba1588ebee3ab6a"
+    },
+    {
+      "bytes": 5445708,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2003.csv",
+      "sha256": "09f165aa1e5ae1520ec7fca9448bdbcb169a6ce3d89d813af23aeacce0539c46"
+    },
+    {
+      "bytes": 5886613,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2004.csv",
+      "sha256": "f23f7a18c51e6491d172bc3cc92f873c74726fc52cdf3ac4bee48c8bbd97df69"
+    },
+    {
+      "bytes": 6121953,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2005.csv",
+      "sha256": "c0c223d7d96dd54462524e831d167bc94ce06171ad26640c2e0e7c09165fec45"
+    },
+    {
+      "bytes": 6299602,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2006.csv",
+      "sha256": "8aadc22df8dfc84aa817be3a6c65720ffcd1861e3c011adb36f4c09b288c9f79"
+    },
+    {
+      "bytes": 6433093,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2007.csv",
+      "sha256": "8dbfaf8740ba53063685a0458cd6257f706dee316c8d351f8b75c0446be62da9"
+    },
+    {
+      "bytes": 6485890,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2008.csv",
+      "sha256": "8ff0455d64615291a6e5ef5f79d98bdd109034fdd5a62c07a337eeee2eae606a"
+    },
+    {
+      "bytes": 6568150,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2009.csv",
+      "sha256": "08fc7dfd24aad2673291bfdfb1c1cf8a25b48b0f3828059c17170e33a4c2b9e6"
+    },
+    {
+      "bytes": 6746426,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2010.csv",
+      "sha256": "3bdaebe98068650d49222a1d4b3f9f172c29b6fc5566e6b322d53ce2c973e670"
+    },
+    {
+      "bytes": 6919996,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2011.csv",
+      "sha256": "16237c1ed7b9fb6b402b1a46708f0a3b02024024b80c4db48be68b7cce18261b"
+    },
+    {
+      "bytes": 6940757,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2012.csv",
+      "sha256": "0dc3c6e8bf9cfae4e7ca277d2a5f0dd2453d7671f52562805049fc0b1b4cf987"
+    },
+    {
+      "bytes": 7028192,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2013.csv",
+      "sha256": "3e4e21015241ac68d6011793f5411e593cd78a4c15e02e64f521d15a4dd34a0a"
+    },
+    {
+      "bytes": 7055567,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2014.csv",
+      "sha256": "b5a75eb9f5796302bf53ff68cf1a7e7a01dc31725af2df7b6b8d0974a10fd56f"
+    },
+    {
+      "bytes": 7124409,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2015.csv",
+      "sha256": "8b95e15920d1ea5b8ffa3aa972e3a39dba486babf7a7640417808b699176753e"
+    },
+    {
+      "bytes": 7547608,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2016.csv",
+      "sha256": "b57aa3b92047506ebe497b234bccc88d311382b352b701d9f63efeb7c55e9cec"
+    },
+    {
+      "bytes": 7563337,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2017.csv",
+      "sha256": "4a901ce5d6261369ada61ab0ccbf9070450c8b8093bbf97d821b9ff0b6e75c5b"
+    },
+    {
+      "bytes": 7670952,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2018.csv",
+      "sha256": "29a4a15696fd7319efbf5629e2d2a655a7112fa118303e9e72693ebe9d140b43"
+    },
+    {
+      "bytes": 7727239,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2019.csv",
+      "sha256": "60e142cdc60002a3377fb0d42f649e9f551c8f26a7d08acac96e5387bb86c2eb"
+    },
+    {
+      "bytes": 7768708,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2020.csv",
+      "sha256": "b0456c345d57e8535cca6f0799867b0b1cb61f4f4682ba8ad8997f08185ca884"
+    },
+    {
+      "bytes": 7757780,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2021.csv",
+      "sha256": "a6ec008326507560559456b43300f6246098857b20f47731768596209734734d"
+    },
+    {
+      "bytes": 7946200,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2022.csv",
+      "sha256": "befe1d2edae918c6af7d6dd699a20f7edcd69b6bb9834dc2331426e670624dc6"
+    },
+    {
+      "bytes": 7961224,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2023.csv",
+      "sha256": "a3718d815a4bfda01ea5d9dfa82d3358944db16747edf91734e5113c9b8d2d88"
+    },
+    {
+      "bytes": 8053436,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2024.csv",
+      "sha256": "7dc272287488df4e9a0bbff99f81474efdf927616845d11d09f2feab15cdc52a"
+    },
+    {
+      "bytes": 6443448,
+      "path": "ons/ENA_DIARIO_RESERVATORIOS_2025.csv",
+      "sha256": "0c701d400c5d2727400114226cb732be6a5405ecfb9cbec1ebb3165fcce87e2c"
+    },
+    {
+      "bytes": 108155,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2000.csv",
+      "sha256": "b116acdeb216027c6eb1c4d12e60b6cd2bd64bb08219dbf6d32119c3dbcc7972"
+    },
+    {
+      "bytes": 107211,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2001.csv",
+      "sha256": "cd06a2c78d823db87aef0dda17cabb1ee3adccbdb386483c790990eb776b1b09"
+    },
+    {
+      "bytes": 107378,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2002.csv",
+      "sha256": "705e96ef9b9e375d830ddd667303b1c10b31b82f3c9f1b625f701032650a12cd"
+    },
+    {
+      "bytes": 106925,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2003.csv",
+      "sha256": "6d6bb5434981a9d7a8590339406d675ac0da2b79df4f9c498b1102462407e369"
+    },
+    {
+      "bytes": 108295,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2004.csv",
+      "sha256": "90cec87e13a35d560203b730a70878d46ebaf5645ad682b565e262bd35794d2f"
+    },
+    {
+      "bytes": 107715,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2005.csv",
+      "sha256": "79ad346b41eb1a330e602536bfd2237e1d47600ce1e888521227ecf63d34986c"
+    },
+    {
+      "bytes": 107571,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2006.csv",
+      "sha256": "c084f167165d3e691c221fbf566af88a245fc1a1488d4c669954ca30c9f32e3e"
+    },
+    {
+      "bytes": 107421,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2007.csv",
+      "sha256": "79dd05237ddf754f39aa79493318e1102d19a04839175e0f71b03823a6bdcb5b"
+    },
+    {
+      "bytes": 107769,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2008.csv",
+      "sha256": "4bb1db4a9a81c1a59397e65200c32eb7da77ce6fb57c31efcdbc1db4af31dbb2"
+    },
+    {
+      "bytes": 108589,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2009.csv",
+      "sha256": "d95f51eeee040323905bde0f8cda4a371c696e6beef305cbca3490e709d5b874"
+    },
+    {
+      "bytes": 107485,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2010.csv",
+      "sha256": "081bc21c64cc7bf6c316211253dae583fd79016fa9324f7dcc44a4a5c91e58d4"
+    },
+    {
+      "bytes": 108455,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2011.csv",
+      "sha256": "2d58d3cf5c67ed308fe594d7c9abb8c3e7252d9bf812ac9edaa43da1a7c2a709"
+    },
+    {
+      "bytes": 107660,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2012.csv",
+      "sha256": "fb7f2d75583c9a4705def23661c58f037f84ba8450cb64676c9bbb2067529c25"
+    },
+    {
+      "bytes": 107851,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2013.csv",
+      "sha256": "561cc0f65d37fcc7780fac18a55d173168441074c573242413fd66e7c0178eab"
+    },
+    {
+      "bytes": 107463,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2014.csv",
+      "sha256": "7a78764be7ce4f8bcebec24b2a849afc71810ec8b292e42d7258e6f068b9754e"
+    },
+    {
+      "bytes": 107561,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2015.csv",
+      "sha256": "00e2993708b6d749e3bbc3e0d81e73ddc5e2915dba3db19d380a941077f0ad67"
+    },
+    {
+      "bytes": 107657,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2016.csv",
+      "sha256": "8a6d037af0c4befc1e442f14f14cd2effc47471d2adc569f42015ab8fda28604"
+    },
+    {
+      "bytes": 106886,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2017.csv",
+      "sha256": "33f2970e8b2ecbf8ebdb7b490a20e8e4ad55b4e4e67dd054781aaa50f65c7683"
+    },
+    {
+      "bytes": 107256,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2018.csv",
+      "sha256": "cc5664ea8072e17ee23a31b8d92aacc3498cff7cca64c1123730221e5d11c73c"
+    },
+    {
+      "bytes": 107100,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2019.csv",
+      "sha256": "cb8a319f9a6a3456cde256581861d5d73318a2481e474fc1c4b8971fc42823a4"
+    },
+    {
+      "bytes": 107559,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2020.csv",
+      "sha256": "f34b57beb5fd88fe1b9e089c1b4a170cdb59a81a01e94d2116acfc5f0ea2a556"
+    },
+    {
+      "bytes": 107153,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2021.csv",
+      "sha256": "8a7d5de1bbff62ea2a01437c6d8f5576035350abc20f5ccf629fe3b0ff4a3463"
+    },
+    {
+      "bytes": 108218,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2022.csv",
+      "sha256": "9381ded6de912f7f184ccfa97eefad5eb1b1848d757f1657ec8a1ca9bc0109dd"
+    },
+    {
+      "bytes": 106276,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2023.csv",
+      "sha256": "a50e37b7aa5f5b460cb450cb485959fdeedcb2aec21408ef200172c68df07a81"
+    },
+    {
+      "bytes": 106526,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2024.csv",
+      "sha256": "e9689cea5c988cee37a2000763a2625f84d2f814d92eb85395a8d69e35d7d420"
+    },
+    {
+      "bytes": 80278,
+      "path": "ons/ENA_DIARIO_SUBSISTEMA_2025.csv",
+      "sha256": "9a99de0febedc973b163b99b0204bff295e3330ea50e198345825493019f5164"
+    },
+    {
+      "bytes": 6754204,
+      "path": "ons/GERACAO_TERMICA_DESPACHO_2013.parquet",
+      "sha256": "941b57225c7e3c2dee9b1c47ff1e1c02a0397a7ce877948802cfa78c6f5b00d7"
+    },
+    {
+      "bytes": 13303542,
+      "path": "ons/GERACAO_TERMICA_DESPACHO_2014.parquet",
+      "sha256": "53e54cca79bfe2dd6a38b6d1b613d7ce5d5075cc006911dab4e62b21f1a19fa1"
+    },
+    {
+      "bytes": 35740,
+      "path": "ons/RESERVATORIOS.csv",
+      "sha256": "7db6cf7e65c5b4da195722bc940c71fc234293e23135f7710e75a24c43d1186e"
+    },
+    {
+      "bytes": 1129,
+      "path": "ons/dictionary_cvu_weekly.json",
+      "sha256": "4a0d91862ad7e14cbd461e357765a4fc6698b38d5b23d28ba6ead5888238e90f"
+    },
+    {
+      "bytes": 2733,
+      "path": "ons/dictionary_generation_capacity.json",
+      "sha256": "68e823cd62cc06aeb2ccdcc261a53904edc36c9a08b97c75ed1c3e3d21faea17"
+    },
+    {
+      "bytes": 2493,
+      "path": "ons/dictionary_hydrology_daily.json",
+      "sha256": "f1833abc38638b85c754c6916f29bab836758c169f5228f1e06a407aadbbad82"
+    },
+    {
+      "bytes": 568,
+      "path": "ons/dictionary_load_monthly.json",
+      "sha256": "fd0c6c3616242ac6b38f2b97c66dfee21af471854c6a0f42c7368368fc89c630"
+    },
+    {
+      "bytes": 1910,
+      "path": "ons/dictionary_reservoir_ena_daily.json",
+      "sha256": "1be9264852f842305428627d4b269fd359dd10c0862fec7d111c5cad1f0223a8"
+    },
+    {
+      "bytes": 3731,
+      "path": "ons/dictionary_reservoir_static.json",
+      "sha256": "7ef3ddb7cb0a22565ddadca7801760e2842dcfbca9bcf18042e47d18302f689f"
+    },
+    {
+      "bytes": 1166,
+      "path": "ons/dictionary_subsystem_ena_daily.json",
+      "sha256": "9c3f8790dbfb3fd506fb3fda98eff1d01b002bdec608fae784defd8a6d21d2bc"
+    }
+  ],
+  "reservoir_partial_sum_used_as_benchmark_inflow": false,
+  "thermal_capacity_match_fraction": 0.828125,
+  "thermal_capacity_match_threshold": 0.8,
+  "thermal_crosswalk_years": [
+    2013,
+    2014
+  ]
+}

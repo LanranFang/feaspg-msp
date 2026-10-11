@@ -1,0 +1,9 @@
+{
+  "experiment": "post_primary_upper_learning_rate_sensitivity",
+  "status": "complete",
+  "completed_keys": 15,
+  "expected_keys": 15,
+  "n_fit": 2500,
+  "selection": "validation over registered and added candidates",
+  "primary_outputs_untouched": true
+}

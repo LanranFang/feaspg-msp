@@ -1,0 +1,88 @@
+{
+  "repetitions": 200,
+  "calibration_budgets": [
+    128,
+    512,
+    2048,
+    8192,
+    32768,
+    131072
+  ],
+  "evaluation_budgets": [
+    128,
+    512,
+    2048,
+    8192,
+    32768,
+    131072
+  ],
+  "budget_pairs": [
+    [
+      128,
+      32768
+    ],
+    [
+      512,
+      32768
+    ],
+    [
+      2048,
+      32768
+    ],
+    [
+      8192,
+      32768
+    ],
+    [
+      32768,
+      32768
+    ],
+    [
+      131072,
+      128
+    ],
+    [
+      131072,
+      512
+    ],
+    [
+      131072,
+      2048
+    ],
+    [
+      131072,
+      8192
+    ],
+    [
+      131072,
+      32768
+    ],
+    [
+      131072,
+      131072
+    ]
+  ],
+  "alpha": 0.025,
+  "delta": 0.025,
+  "nominal_coverage": 0.95,
+  "random_seed_rule": "SeedSequence([73505, repetition, block]); block 0 calibration, 1 evaluation",
+  "paired_design": "Nested prefixes within repetition; independent complete paths between blocks and repetitions",
+  "comparisons": [
+    "zero",
+    "affine",
+    "pwl"
+  ],
+  "conditioning_feature": "singleton; stagewise independent binary shocks",
+  "band": "Bernoulli Hoeffding moment band, union over six stages; uniform coefficient supremum",
+  "envelope": "Minimum of two predeclared bounds: exact full-support supremum of the paired gap, and summed stage ranges; both plus centering and conversion caps. No evaluation observations or oracle probabilities enter either bound.",
+  "structural_envelope_comparison": "Also report the certificate using only summed stage ranges",
+  "inner_solver": "Exact arbitrary-precision integer DP; continuous PWL optimum by integral cell vertices",
+  "rounding_cap": 1e-08,
+  "policy_fitting_manifest_sha256": "df9f9748adc63e1de7f7fc1cc02e9fc788eb95f3bbac00413d5be3b98a6915fe",
+  "source_sha256": {
+    "model.py": "b6b9bfbbca57493936067727764394084f5e8e54c6fe0ff6c6f1ec0b67d6f5df",
+    "certificate.py": "4447bfa644743ae96312fbfc5d331f6bb683acec30830f333f0615b9a017ce70",
+    "run.py": "5e45612deb433132e3bff2cccaa9dba282e0a0a7dc6aaeafc6ddda73da6959b4",
+    "validation.py": "5acabdfaa2e34d040455dfff059ddd075514dad7405fb008e813ab2b7fc790f8"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "completed_utc": "2026-09-16T03:50:52.448657+00:00",
+  "artifacts_sha256": {
+    "PROTOCOL.json": "dfb5fe75ac64c4f939e0ad1465d7e2ffa7a839ebed692a40dd4fc953e45fe477",
+    "branch_signatures.csv": "d46f2a4e78ef2d9ebb9088ac7a7708a0c97c8f8c62ee971499c64591b46b129e",
+    "finite_difference_followup.csv": "f2f77b5c3f8a1a27622e52003d81fe9ab5163812d091a0a810d77cdc03f21bbd"
+  }
+}
